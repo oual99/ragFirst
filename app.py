@@ -26,29 +26,103 @@ st.set_page_config(
     layout="wide"
 )
 
-# Custom CSS for chat interface
+
+# Custom CSS for chat interface with better contrast
 st.markdown("""
 <style>
+    /* Chat message styling with better contrast */
     .stChatMessage {
-        background-color: #3f4045;
         border-radius: 10px;
         padding: 10px;
         margin: 5px 0;
     }
-    .user-message {
-        background-color: #f9c80e;
-        color: #0d47a1;
+    
+    /* Light mode specific styles */
+    @media (prefers-color-scheme: light) {
+        .stChatMessage[data-testid="user-message"] {
+            background-color: #e3f2fd !important;
+            color: #0d47a1 !important;
+        }
+        
+        .stChatMessage[data-testid="assistant-message"] {
+            background-color: #f5f5f5 !important;
+            color: #212121 !important;
+        }
+        
+        .source-box {
+            background-color: #e8eaf6 !important;
+            color: #1a237e !important;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+            font-size: 0.9em;
+            border: 1px solid #c5cae9;
+        }
+        
+        /* Ensure text in the main area is readable */
+        .main .block-container {
+            color: #212121 !important;
+        }
+        
+        /* Fix sidebar text */
+        .css-1d391kg, [data-testid="stSidebar"] {
+            color: #212121 !important;
+        }
+        
+        /* Fix input text */
+        .stTextInput input {
+            color: #212121 !important;
+        }
     }
-    .assistant-message {
-        background-color: #3f4045;
-        color: #4a148c;
+    
+    /* Dark mode specific styles */
+    @media (prefers-color-scheme: dark) {
+        .stChatMessage[data-testid="user-message"] {
+            background-color: #1e3a5f !important;
+            color: #e3f2fd !important;
+        }
+        
+        .stChatMessage[data-testid="assistant-message"] {
+            background-color: #2e2e2e !important;
+            color: #e0e0e0 !important;
+        }
+        
+        .source-box {
+            background-color: #3f51b5 !important;
+            color: #e8eaf6 !important;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+            font-size: 0.9em;
+            border: 1px solid #5c6bc0;
+        }
     }
-    .source-box {
-        background-color: #6981bd;
+    
+    /* General improvements for both modes */
+    .stMarkdown {
+        color: inherit !important;
+    }
+    
+    /* Better button visibility */
+    .stButton > button {
+        border: 1px solid currentColor;
+    }
+    
+    /* Improve metric visibility */
+    [data-testid="metric-container"] {
+        background-color: rgba(128, 128, 128, 0.1);
         padding: 10px;
         border-radius: 5px;
-        margin: 5px 0;
-        font-size: 0.9em;
+    }
+    
+    /* Fix expander text */
+    .streamlit-expanderHeader {
+        color: inherit !important;
+    }
+    
+    /* Ensure code blocks are readable */
+    .stCodeBlock {
+        background-color: rgba(128, 128, 128, 0.1) !important;
     }
 </style>
 """, unsafe_allow_html=True)
