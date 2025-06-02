@@ -1,0 +1,39 @@
+updated_app_py.py
+
+# Environment variables
+.env
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv_poetry/
+env/
+ENV/
+
+# Data folders (contains user uploads)
+data/documents/*
+data/images/*
+data/conversations/*
+# Keep the folders but not the contents
+!data/documents/.gitkeep
+!data/images/.gitkeep
+!data/conversations/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+*.log
