@@ -10,11 +10,16 @@ load_dotenv()
 
 # Weaviate Configuration
 # Use Streamlit secrets in production
-if "WEAVIATE_URL" in st.secrets:
-    WEAVIATE_URL = st.secrets["WEAVIATE_URL"]
-    WEAVIATE_API_KEY = st.secrets["WEAVIATE_API_KEY"]
-    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
-else:
+try:
+    if "WEAVIATE_URL" in st.secrets:
+        WEAVIATE_URL = st.secrets["WEAVIATE_URL"]
+        WEAVIATE_API_KEY = st.secrets["WEAVIATE_API_KEY"]
+        OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+    else:
+        WEAVIATE_URL = os.getenv("WEAVIATE_URL", "")
+        WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY", "")
+        OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+except:
     WEAVIATE_URL = os.getenv("WEAVIATE_URL", "")
     WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY", "")
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")

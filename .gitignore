@@ -1,4 +1,7 @@
 updated_app_py.py
+*.pdf
+*.docx
+*.tmp
 
 # Environment variables
 .env
