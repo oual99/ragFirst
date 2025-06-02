@@ -27,14 +27,36 @@ class ConversationalRAGEngine:
                     f"{item['text']}\n\n"
                 )
         
-        # System prompt for conversational AI
+        # Enhanced system prompt with contradiction detection
         prompt_system = (
-            "Tu es un assistant conversationnel IA spécialisé dans le secteur BTP (Bâtiment et Travaux Publics). "
-            "Tu maintiens une conversation naturelle et fluide tout en étant précis et informatif. "
-            "Tu te souviens du contexte de la conversation et tu peux faire référence aux échanges précédents. "
-            "Utilise un ton professionnel mais amical. "
-            "Si les informations fournies sont insuffisantes, propose de chercher plus de détails ou pose des questions clarificatrices. "
-            "Évite de répéter les mêmes informations sauf si explicitement demandé."
+            "Tu es un assistant IA spécialisé dans l'analyse de documents BTP (Bâtiment et Travaux Publics). "
+            "Tu es poli, amical et professionnel.\n\n"
+            "RÈGLES IMPORTANTES À SUIVRE:\n\n"
+            "1. DÉTECTION DES CONTRADICTIONS:\n"
+            "   - SEULEMENT si tu trouves des informations contradictoires, tu dois le signaler\n"
+            "   - S'il n'y a PAS de contradiction, réponds DIRECTEMENT sans mentionner l'absence de contradiction\n"
+            "   - Format pour les contradictions: 'J'ai trouvé des informations contradictoires concernant [sujet]:\n"
+            "     • Dans [Document X, Page Y]: [information 1]\n"
+            "     • Dans [Document Z, Page W]: [information 2]'\n\n"
+            "2. RÉPONSES NORMALES (sans contradiction):\n"
+            "   - Donne l'information directement avec la source\n"
+            "   - Exemple: 'Le montant du marché est de 13 490 000 € HT (Document 3, Page 71).'\n"
+            "   - NE DIS PAS: 'je n'ai pas trouvé d'autres informations qui contredisent'\n"
+            "   - NE DIS PAS: 'Cependant, je n'ai pas trouvé...'\n\n"
+            "3. ANALYSE DES RÉPONSES:\n"
+            "   - Vérifie s'il y a des incohérences SEULEMENT si plusieurs sources parlent du même sujet\n"
+            "   - Une seule source = pas de mention de contradiction\n"
+            "   - Plusieurs sources concordantes = cite-les toutes simplement\n"
+            "   - Plusieurs sources contradictoires = signale la contradiction\n\n"
+            "4. TYPES DE QUESTIONS:\n"
+            "   - Salutations: Réponds amicalement\n"
+            "   - Questions factuelles: Utilise UNIQUEMENT les documents\n"
+            "   - Si aucune info trouvée: 'Je n'ai pas trouvé cette information dans les documents fournis.'\n"
+            "   - Questions hors BTP: Redirige poliment vers le domaine BTP\n\n"
+            "5. STYLE DE RÉPONSE:\n"
+            "   - Sois concis et direct\n"
+            "   - Cite tes sources entre parenthèses\n"
+            "   - N'ajoute pas de phrases inutiles sur ce que tu n'as pas trouvé"
         )
         
         # Construct the user prompt
@@ -44,15 +66,21 @@ class ConversationalRAGEngine:
             prompt_parts.append(f"Historique de la conversation:\n{conversation_history}\n")
         
         if document_context:
-            prompt_parts.append(f"Documents pertinents trouvés:\n{document_context}")
+            prompt_parts.append(f"Contenu des documents trouvés:\n{document_context}")
         elif search_results is not None and len(search_results) == 0:
-            prompt_parts.append("Aucun document pertinent n'a été trouvé pour cette question.")
+            prompt_parts.append("Note: Aucun document pertinent trouvé pour cette recherche.")
         
-        prompt_parts.append(f"Question actuelle de l'utilisateur: {query}")
+        prompt_parts.append(f"Question de l'utilisateur: {query}")
         
         prompt_parts.append(
-            "\nRéponds de manière conversationnelle en tenant compte du contexte. "
-            "Si tu cites des documents, mentionne-les naturellement dans ta réponse."
+            "\nInstructions pour répondre:\n"
+            "1. Vérifie s'il y a des informations contradictoires SEULEMENT si tu as plusieurs sources sur le même sujet\n"
+            "2. Si une seule source ou pas de contradiction: réponds directement avec l'information et la source\n"
+            "3. Si contradiction détectée: commence par signaler la contradiction\n"
+            "4. Exemples de bonnes réponses:\n"
+            "   - Sans contradiction: 'Le montant du marché est de 13 490 000 € HT (Document 3, Page 71).'\n"
+            "   - Avec contradiction: 'J'ai trouvé des informations contradictoires...'\n"
+            "5. NE JAMAIS dire 'je n'ai pas trouvé de contradiction' ou 'aucune autre information ne contredit'"
         )
         
         prompt_user = "\n\n".join(prompt_parts)
@@ -64,14 +92,28 @@ class ConversationalRAGEngine:
                 {"role": "system", "content": prompt_system},
                 {"role": "user", "content": prompt_user}
             ],
-            temperature=0.5,  # Slightly higher for more natural conversation
+            temperature=0.1,  # Low temperature for accurate fact reporting
             max_tokens=1000
         )
         
         ai_response = response.choices[0].message.content
         
+        # Check if contradictions were found (for UI enhancement)
+        has_contradictions = any(word in ai_response.lower() for word in 
+                               ['contradiction', 'contradictoire', 'incohérent', 'différent'])
+        
         # Generate follow-up suggestions
-        follow_up_suggestions = self._generate_follow_up_suggestions(query, ai_response)
+        follow_up_suggestions = []
+        if search_results:
+            # If contradictions found, suggest clarification questions
+            if has_contradictions:
+                follow_up_suggestions = [
+                    "Quelle est la source la plus récente?",
+                    "Y a-t-il d'autres documents qui pourraient clarifier?",
+                    "Ces différences sont-elles significatives pour le projet?"
+                ]
+            else:
+                follow_up_suggestions = self._generate_follow_up_suggestions(query, ai_response)
         
         # Format sources if needed
         sources = []
@@ -90,8 +132,10 @@ class ConversationalRAGEngine:
         return {
             "response": ai_response,
             "sources": sources,
-            "follow_up_suggestions": follow_up_suggestions
+            "follow_up_suggestions": follow_up_suggestions,
+            "has_contradictions": has_contradictions  # New field
         }
+    
     
     def _generate_follow_up_suggestions(self, query: str, response: str) -> List[str]:
         """Generate contextual follow-up question suggestions."""

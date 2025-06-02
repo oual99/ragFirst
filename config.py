@@ -29,7 +29,10 @@ COLLECTION_NAME = "RAGESGDocuments"
 
 # Model Configuration
 EMBEDDING_MODEL = "text-embedding-3-large"
-CHAT_MODEL = "gpt-4o-mini"
+# CHAT_MODEL = "gpt-4.1-mini"
+# CHAT_MODEL = "gpt-4o-mini"
+CHAT_MODEL = "gpt-4o"
+
 
 # Path Configuration
 DOCUMENTS_PATH = "data/documents"

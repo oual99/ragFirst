@@ -331,19 +331,11 @@ def reset_vector_database():
 def display_message(message):
     """Display a message in the chat interface with proper formatting."""
     with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+        # Show contradiction warning if applicable
+        if message.get("has_contradictions", False) and message["role"] == "assistant":
+            st.warning("⚠️ Réponse contenant des informations contradictoires")
         
-        # Display sources if available
-        # if "sources" in message and message["sources"]:
-        #     with st.expander("📚 Sources consultées", expanded=False):
-        #         for i, source in enumerate(message["sources"]):
-        #             st.markdown(f"""
-        #             <div class="source-box">
-        #             <b>Source {i+1}</b> - Distance: {source['distance']:.3f}<br>
-        #             📄 Document: {os.path.basename(source['document'])}<br>
-        #             📍 Page {source['page']} | Paragraphe {source['paragraph']}
-        #             </div>
-        #             """, unsafe_allow_html=True)
+        st.markdown(message["content"])
         
         # Display timestamp
         if "timestamp" in message:
@@ -601,6 +593,9 @@ def main():
                             if show_thinking:
                                 thinking_placeholder.info("📋 Utilisation des résultats en cache...")
                             search_results = cached_results
+                            print("\n" + "="*80)
+                            print("📋 USING CACHED RESULTS")
+                            print("="*80)
                         else:
                             if show_thinking:
                                 thinking_placeholder.info("🔍 Recherche dans les documents...")
@@ -616,10 +611,45 @@ def main():
                             if search_results:
                                 cache_search_results(prompt, search_results)
                         
+                        # DEBUG: Print raw search results
+                        # print("\n" + "="*80)
+                        # print(f"🔍 SEARCH QUERY: {prompt}")
+                        # print(f"📊 NUMBER OF RESULTS: {len(search_results) if search_results else 0}")
+                        # print("="*80)
+                        
+                        # if search_results:
+                        #     for i, result in enumerate(search_results):
+                        #         print(f"\n--- RESULT {i+1} ---")
+                        #         print(f"📄 Document: {result.properties.get('source_document', 'N/A')}")
+                        #         print(f"📍 Page: {result.properties.get('page_number', 'N/A')}")
+                        #         print(f"📍 Paragraph: {result.properties.get('paragraph_number', 'N/A')}")
+                        #         print(f"📏 Distance: {result.metadata.distance if hasattr(result.metadata, 'distance') else 'N/A'}")
+                        #         print(f"📝 Text Preview (first 200 chars):")
+                        #         text = result.properties.get('text', '')
+                        #         print(f"   {text[:200]}..." if len(text) > 200 else f"   {text}")
+                        #         print("-" * 40)
+                        # else:
+                        #     print("❌ No results found!")
+                        
+                        # print("="*80 + "\n")
+                        
                         if search_results:
                             formatted_results = st.session_state.search_engine.format_search_results(
                                 search_results
                             )
+                            
+                            # DEBUG: Print formatted results
+                            # print("\n" + "="*80)
+                            # print("📋 FORMATTED RESULTS FOR LLM")
+                            # print("="*80)
+                            # for i, formatted in enumerate(formatted_results):
+                            #     print(f"\n--- FORMATTED RESULT {i+1} ---")
+                            #     print(f"Source: {formatted['source_document']}")
+                            #     print(f"Page: {formatted['page_number']}, Paragraph: {formatted['paragraph_number']}")
+                            #     print(f"Distance: {formatted['distance']:.4f}")
+                            #     print(f"Text: {formatted['text_preview']}")
+                            # print("="*80 + "\n")
+                            
                             # Update current context
                             st.session_state.current_context = formatted_results
                     
@@ -642,6 +672,10 @@ def main():
                     # Clear thinking placeholder
                     thinking_placeholder.empty()
                     
+                    # Check for contradictions and display warning if found
+                    if response_data.get("has_contradictions", False):
+                        st.warning("⚠️ **Informations contradictoires détectées** - Veuillez vérifier les sources citées ci-dessous.")
+                    
                     # Display response
                     st.markdown(response_data["response"])
                     
@@ -649,7 +683,8 @@ def main():
                     assistant_message = {
                         "role": "assistant",
                         "content": response_data["response"],
-                        "timestamp": datetime.now().isoformat()
+                        "timestamp": datetime.now().isoformat(),
+                        "has_contradictions": response_data.get("has_contradictions", False)
                     }
                     
                     if need_search and response_data.get("sources"):
