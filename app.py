@@ -3,6 +3,7 @@ import streamlit as st
 import os
 from pathlib import Path
 import sys
+import re
 import traceback
 from datetime import datetime
 import json
@@ -244,30 +245,62 @@ def initialize_system():
 
 def should_search_documents(query: str, recent_context: list) -> bool:
     """Determine if we need to search documents for this query."""
-    # Keywords that typically require new searches
-    search_keywords = ['recherche', 'trouve', 'montre', 'quel', 'où', 'combien', 
-                      'document', 'page', 'information sur', 'détails sur']
     
-    # Keywords that typically don't require searches
-    no_search_keywords = ['merci', 'ok', 'd\'accord', 'compris', 'claire', 
-                         'explique', 'précise', 'reformule', 'répète']
+    query_lower = query.lower().strip()
     
-    query_lower = query.lower()
-    
-    # Check if it's a follow-up question
-    if any(keyword in query_lower for keyword in no_search_keywords):
+    # Handle very short queries
+    if len(query_lower) < 3:
         return False
     
-    # Check if it explicitly asks for document search
-    if any(keyword in query_lower for keyword in search_keywords):
+    # Direct document references
+    document_patterns = [
+        r'\b(document|fichier|page|pdf|dossier)\b',
+        r'\b(section|chapitre|partie|paragraphe)\b'
+    ]
+    
+    # Question patterns
+    question_patterns = [
+        r'^(quel|quelle|quels|quelles)\b',
+        r'^(où|ou)\b.*\?',
+        r'^(comment|combien|pourquoi|quand|qui|quoi)\b',
+        r'\b(trouve|recherche|cherche|localise)\b',
+        r'\b(montre|affiche|présente|donne)\b.*\b(moi|nous)\b'
+    ]
+    
+    # No-search patterns
+    no_search_patterns = [
+        r'^(merci|ok|d\'accord|compris|parfait)',
+        r'^(bonjour|salut|bonsoir|hello|hi)\b',
+        r'\b(explique|précise|reformule|clarifie)\b',
+        r'^(oui|non|si|peut-être)\b',
+        r'^\?+$',  # Just question marks
+    ]
+    
+    # Check no-search patterns first
+    for pattern in no_search_patterns:
+        if re.search(pattern, query_lower):
+            return False
+    
+    # Check search patterns
+    for pattern in document_patterns + question_patterns:
+        if re.search(pattern, query_lower):
+            return True
+    
+    # Context-aware decision
+    if recent_context:
+        # If it's a very short follow-up, likely doesn't need search
+        if len(query_lower.split()) <= 3:
+            # Check if it's a pronoun reference
+            pronoun_patterns = [r'^(il|elle|ce|ça|cela|celui)', r'\b(le|la|les)\b']
+            if any(re.search(p, query_lower) for p in pronoun_patterns):
+                return False
+    
+    # Check if it's a complete question (ends with ?)
+    if query.strip().endswith('?') and len(query_lower.split()) > 3:
         return True
     
-    # If we have recent context and the query seems related, don't search
-    if recent_context and len(query_lower.split()) < 10:
-        return False
-    
-    # Default to searching for new topics
-    return True
+    # Default: search for queries > 5 words, don't search for shorter ones
+    return len(query_lower.split()) > 4
 
 
 def get_cached_search_results(query: str, cache_duration_minutes: int = 5):
@@ -624,9 +657,9 @@ def main():
                         #         print(f"📍 Page: {result.properties.get('page_number', 'N/A')}")
                         #         print(f"📍 Paragraph: {result.properties.get('paragraph_number', 'N/A')}")
                         #         print(f"📏 Distance: {result.metadata.distance if hasattr(result.metadata, 'distance') else 'N/A'}")
-                        #         print(f"📝 Text Preview (first 200 chars):")
+                        #         print(f"📝 Text Preview (first 300 chars):")
                         #         text = result.properties.get('text', '')
-                        #         print(f"   {text[:200]}..." if len(text) > 200 else f"   {text}")
+                        #         print(f"   {text[:300]}..." if len(text) > 300 else f"   {text}")
                         #         print("-" * 40)
                         # else:
                         #     print("❌ No results found!")
