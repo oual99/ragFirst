@@ -25,7 +25,7 @@ except:
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 # Collection Configuration
-COLLECTION_NAME = "RAGESGDocuments"
+COLLECTION_NAME = "ragbtpdocuments2"
 
 # Model Configuration
 EMBEDDING_MODEL = "text-embedding-3-large"
