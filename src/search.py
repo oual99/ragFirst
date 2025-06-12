@@ -13,76 +13,51 @@ class SearchEngine:
     
     def search_multimodal(self, query: str, collection_name: str, limit: int = 3):
         """Perform vector search on the collection."""
+        print(f"\n{'='*60}")
+        print(f"🔍 SEARCH ENGINE - Starting search")
+        print(f"Query: '{query}'")
+        print(f"Collection: {collection_name}")
+        print(f"Limit: {limit}")
+        print(f"{'='*60}")
+        
+        # Generate embedding
         query_vector = self.embedding_generator.get_embedding(query)
+        print(f"✅ Generated query embedding (dim: {len(query_vector)})")
         
-        collection = self.client.collections.get(collection_name)
-        
-        response = collection.query.near_vector(
-            near_vector=query_vector,
-            limit=limit,
-            return_metadata=wq.MetadataQuery(distance=True),
-            return_properties=[
-                "source_document", "page_number", "paragraph_number", "text"
-            ]
+        # Use the database's search method
+        results = self.client.search(
+            collection_name=collection_name,
+            query_vector=query_vector,
+            limit=limit
         )
+        
+        print(f"✅ Search completed - Found {len(results)} results")
+        
+        # Debug each result - results are already formatted as objects by the database layer
+        for i, obj in enumerate(results):
+            # Access properties directly as they're already objects
+            distance = obj.metadata.distance if hasattr(obj.metadata, 'distance') else 0
+            properties = obj.properties
+            print(f"\n  Result {i+1}:")
+            print(f"    Distance: {distance:.4f}")
+            print(f"    Document: {properties.get('source_document', 'N/A')}")
+            print(f"    Location: Page {properties.get('page_number')}, Para {properties.get('paragraph_number')}")
+            print(f"    Text (50 chars): {properties.get('text', '')[:50]}...")
+        
+        print(f"{'='*60}\n")
         
         # Track search
         self.search_history.append({
             "query": query,
             "timestamp": datetime.now().isoformat(),
-            "result_count": len(response.objects)
+            "result_count": len(results)
         })
         
         # Keep only last 10 searches
         if len(self.search_history) > 10:
             self.search_history = self.search_history[-10:]
         
-        return response.objects
-    
-    def search_with_context(self, 
-                          query: str, 
-                          collection_name: str, 
-                          context_keywords: List[str] = None,
-                          previous_results: List[Dict] = None,
-                          limit: int = 3):
-        """Perform search with additional context from conversation."""
-        # Enhance query with context keywords if provided
-        enhanced_query = query
-        if context_keywords:
-            # Add relevant keywords that aren't already in the query
-            query_lower = query.lower()
-            additional_keywords = [kw for kw in context_keywords 
-                                 if kw.lower() not in query_lower]
-            if additional_keywords:
-                enhanced_query = f"{query} {' '.join(additional_keywords[:3])}"
-        
-        # Perform standard search
-        results = self.search_multimodal(enhanced_query, collection_name, limit)
-        
-        # If we have previous results, try to find related content
-        if previous_results and len(results) < limit:
-            # Get documents from previous results
-            previous_docs = set()
-            previous_pages = {}
-            
-            for prev_result in previous_results:
-                doc = prev_result.get('source_document', '')
-                page = prev_result.get('page_number', 0)
-                previous_docs.add(doc)
-                if doc not in previous_pages:
-                    previous_pages[doc] = []
-                previous_pages[doc].append(page)
-            
-            # Try to find content from same documents or nearby pages
-            additional_results = self._search_related_content(
-                collection_name, 
-                previous_docs, 
-                previous_pages,
-                limit - len(results)
-            )
-            
-            results.extend(additional_results)
-        
+        # Results are already in the correct format
         return results
     
     def _search_related_content(self, 

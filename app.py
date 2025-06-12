@@ -155,20 +155,53 @@ def check_configuration():
     """Check if all required configuration is present."""
     missing_configs = []
     
-    if not config.WEAVIATE_URL:
-        missing_configs.append("WEAVIATE_URL")
-    if not config.WEAVIATE_API_KEY:
-        missing_configs.append("WEAVIATE_API_KEY")
+    # Check vector DB type
+    if not config.VECTOR_DB_TYPE:
+        missing_configs.append("VECTOR_DB_TYPE")
+    
+    # Check database-specific configs
+    if config.VECTOR_DB_TYPE.lower() == "qdrant":
+        if not config.QDRANT_URL:
+            missing_configs.append("QDRANT_URL")
+        if not config.QDRANT_API_KEY:
+            missing_configs.append("QDRANT_API_KEY")
+    elif config.VECTOR_DB_TYPE.lower() == "weaviate":
+        if not config.WEAVIATE_URL:
+            missing_configs.append("WEAVIATE_URL")
+        if not config.WEAVIATE_API_KEY:
+            missing_configs.append("WEAVIATE_API_KEY")
+    
+    # Always need OpenAI
     if not config.OPENAI_API_KEY:
         missing_configs.append("OPENAI_API_KEY")
     
     return missing_configs
 
+def create_vector_database():
+    """Factory function to create the appropriate vector database based on config."""
+    if config.VECTOR_DB_TYPE.lower() == "qdrant":
+        from src.qdrant_database import QdrantDatabase
+        return QdrantDatabase(
+            url=config.QDRANT_URL,
+            api_key=config.QDRANT_API_KEY
+        )
+    elif config.VECTOR_DB_TYPE.lower() == "weaviate":
+        from src.database import WeaviateDatabase
+        return WeaviateDatabase(
+            url=config.WEAVIATE_URL,
+            api_key=config.WEAVIATE_API_KEY,
+            openai_api_key=config.OPENAI_API_KEY
+        )
+    else:
+        raise ValueError(f"Unknown vector database type: {config.VECTOR_DB_TYPE}")
 
 def initialize_system():
     """Initialize all system components."""
     progress_bar = st.progress(0)
     status_text = st.empty()
+    
+    # Get the vector DB name for display
+    db_display_name = config.VECTOR_DB_TYPE.capitalize()
     
     try:
         # Check configuration first
@@ -181,12 +214,12 @@ def initialize_system():
         progress_bar.progress(20)
         
         # Initialize database
-        status_text.text("Connecting to Weaviate...")
+        status_text.text(f"Connecting to {db_display_name}...")
         try:
-            st.session_state.db = WeaviateDatabase()
-            st.success("✓ Connected to Weaviate")
+            st.session_state.db = create_vector_database()
+            st.success(f"✓ Connected to {db_display_name}")
         except Exception as e:
-            st.error(f"Failed to connect to Weaviate: {str(e)}")
+            st.error(f"Failed to connect to {db_display_name}: {str(e)}")
             return False
         progress_bar.progress(40)
         
@@ -203,7 +236,7 @@ def initialize_system():
         # Initialize search engine
         status_text.text("Initializing search engine...")
         st.session_state.search_engine = SearchEngine(
-            st.session_state.db.client,
+            st.session_state.db,  # Pass the whole database object, not just client
             st.session_state.embedding_gen
         )
         st.success("✓ Search engine initialized")
@@ -228,7 +261,7 @@ def initialize_system():
         if not st.session_state.messages:
             st.session_state.messages.append({
                 "role": "assistant",
-                "content": "Bonjour! Je suis votre assistant conversationnel spécialisé dans les documents BTP. Comment puis-je vous aider aujourd'hui?",
+                "content": f"Bonjour! Je suis votre assistant conversationnel spécialisé dans les documents BTP. Je suis connecté à {db_display_name} pour stocker et rechercher vos documents. Comment puis-je vous aider aujourd'hui?",
                 "timestamp": datetime.now().isoformat()
             })
         
@@ -340,8 +373,11 @@ def reset_vector_database():
             if stats["object_count"] == 0:
                 return False, "La base de données est déjà vide. Aucune réinitialisation nécessaire."
             
-            # Delete the collection
-            st.session_state.db.client.collections.delete(config.COLLECTION_NAME)
+            # Delete the collection using the interface method
+            success = st.session_state.db.delete_collection(config.COLLECTION_NAME)
+            
+            if not success:
+                return False, "Erreur lors de la suppression de la collection."
             
             # Recreate the collection
             st.session_state.db.create_collection(config.COLLECTION_NAME)
@@ -356,11 +392,14 @@ def reset_vector_database():
             return True, "Base de données vectorielle réinitialisée avec succès!"
         else:
             # Collection doesn't exist, create it
-            st.session_state.db.create_collection(config.COLLECTION_NAME)
-            return False, "La collection n'existait pas. Une nouvelle collection a été créée."
+            if st.session_state.db:
+                st.session_state.db.create_collection(config.COLLECTION_NAME)
+                return False, "La collection n'existait pas. Une nouvelle collection a été créée."
+            else:
+                return False, "La base de données n'est pas initialisée."
     except Exception as e:
         return False, f"Erreur lors de la réinitialisation: {str(e)}"
-
+    
 def display_message(message):
     """Display a message in the chat interface with proper formatting."""
     with st.chat_message(message["role"]):
@@ -502,76 +541,192 @@ def main():
         # Document upload section
         if st.session_state.initialized:
             st.header("📄 Télécharger des documents")
-            uploaded_file = st.file_uploader("Choisir un fichier PDF", type="pdf")
             
-            if uploaded_file is not None:
-                if st.button("📤 Traiter le document"):
+            # Multiple file uploader
+            uploaded_files = st.file_uploader(
+                "Choisir un ou plusieurs fichiers PDF", 
+                type="pdf",
+                accept_multiple_files=True,
+                help="Vous pouvez sélectionner plusieurs fichiers PDF en maintenant Ctrl (ou Cmd sur Mac)"
+            )
+            
+            if uploaded_files:
+                # Show file count and names with sizes
+                st.info(f"📎 {len(uploaded_files)} fichier(s) sélectionné(s)")
+                total_size = 0
+                for file in uploaded_files:
+                    file_size_mb = file.size / (1024 * 1024)
+                    st.text(f"• {file.name} ({file_size_mb:.1f} MB)")
+                    total_size += file_size_mb
+                st.text(f"📊 Taille totale: {total_size:.1f} MB")
+                
+                if st.button(f"📤 Traiter {len(uploaded_files)} document(s)", type="primary"):
                     os.makedirs(config.DOCUMENTS_PATH, exist_ok=True)
                     os.makedirs(config.IMAGES_PATH, exist_ok=True)
                     
-                    save_path = os.path.join(config.DOCUMENTS_PATH, uploaded_file.name)
+                    # Create containers for progress tracking
+                    main_progress = st.progress(0)
+                    main_status = st.empty()
                     
-                    with open(save_path, "wb") as f:
-                        f.write(uploaded_file.getbuffer())
+                    # Create a container for individual file progress
+                    progress_container = st.container()
                     
-
-
-                    # Create progress bar and status containers
-                    progress_bar = st.progress(0)
-                    status_text = st.empty()
+                    # Initialize progress trackers for each file
+                    file_progress_bars = {}
+                    file_status_texts = {}
+                    file_containers = {}
+                    
+                    with progress_container:
+                        st.markdown("### 📊 Progression détaillée")
+                        for idx, file in enumerate(uploaded_files):
+                            col1, col2 = st.columns([3, 1])
+                            with col1:
+                                file_containers[idx] = st.container()
+                                with file_containers[idx]:
+                                    st.markdown(f"**{file.name}**")
+                                    file_progress_bars[idx] = st.progress(0)
+                                    file_status_texts[idx] = st.empty()
+                            with col2:
+                                # Placeholder for timing info
+                                file_containers[f"{idx}_time"] = st.empty()
+                    
+                    # Track results
+                    processed_files = []
+                    failed_files = []
+                    total_segments = 0
                     
                     try:
-                        # Step 1: Initialize processor
-                        status_text.text("📄 Initialisation du processeur de documents...")
-                        progress_bar.progress(10)
-                        processor = DocumentProcessor(images_output_dir=config.IMAGES_PATH)
-                        
-                        # Step 2: Process PDF
-                        status_text.text("📖 Extraction du contenu du PDF...")
-                        progress_bar.progress(25)
-                        raw_data = processor.process_pdf(save_path)
-                        
-                        # Step 3: Extract text with metadata
-                        status_text.text("📝 Extraction du texte et des métadonnées...")
-                        progress_bar.progress(40)
-                        extracted_data = processor.extract_text_with_metadata(raw_data, save_path)
-                        
-                        # Step 4: Check/Create collection
-                        status_text.text("🗄️ Vérification de la collection...")
-                        progress_bar.progress(50)
-                        if not st.session_state.db.collection_exists(config.COLLECTION_NAME):
-                            st.session_state.db.create_collection(config.COLLECTION_NAME)
-                        
-                        # Step 5: Ingest data with progress
-                        status_text.text(f"💾 Indexation de {len(extracted_data)} segments...")
-                        progress_bar.progress(60)
-                        
-                        # For detailed progress during ingestion, we need to modify the ingest_text_data method
-                        # For now, we'll show the ingestion as a single step
-                        success = st.session_state.db.ingest_text_data(
-                            config.COLLECTION_NAME,
-                            extracted_data,
-                            st.session_state.embedding_gen
-                        )
-                        
-                        if success:
-                            progress_bar.progress(100)
-                            status_text.text("✅ Traitement terminé!")
-                            st.success(f"✓ {len(extracted_data)} segments traités avec succès!")
-                            # st.balloons()
-                        else:
-                            status_text.text("❌ Échec de l'indexation")
-                            st.error("Erreur lors de l'indexation des données")
-                            
-                    except Exception as e:
-                        status_text.text("❌ Erreur lors du traitement")
-                        st.error(f"Erreur: {str(e)}")
-                    finally:
-                        # Clean up progress indicators after a short delay
                         import time
-                        time.sleep(1)
-                        progress_bar.empty()
-                        status_text.empty()
+                        start_time = time.time()
+                        
+                        # Process each file
+                        for idx, uploaded_file in enumerate(uploaded_files):
+                            file_start_time = time.time()
+                            
+                            # Update main progress
+                            main_progress.progress(idx / len(uploaded_files))
+                            main_status.text(f"📄 Traitement du fichier {idx + 1}/{len(uploaded_files)}: {uploaded_file.name}")
+                            
+                            try:
+                                # Step 1: Save file (10%)
+                                file_status_texts[idx].text("💾 Sauvegarde du fichier...")
+                                file_progress_bars[idx].progress(0.1)
+                                
+                                save_path = os.path.join(config.DOCUMENTS_PATH, uploaded_file.name)
+                                with open(save_path, "wb") as f:
+                                    f.write(uploaded_file.getbuffer())
+                                
+                                # Step 2: Initialize processor (20%)
+                                file_status_texts[idx].text("🔧 Initialisation du processeur...")
+                                file_progress_bars[idx].progress(0.2)
+                                processor = DocumentProcessor(images_output_dir=config.IMAGES_PATH)
+                                
+                                # Step 3: Process PDF (40%)
+                                file_status_texts[idx].text("📖 Extraction du contenu PDF...")
+                                file_progress_bars[idx].progress(0.4)
+                                raw_data = processor.process_pdf(save_path)
+                                
+                                # Step 4: Extract text with metadata (50%)
+                                file_status_texts[idx].text("📝 Extraction du texte et métadonnées...")
+                                file_progress_bars[idx].progress(0.5)
+                                extracted_data = processor.extract_text_with_metadata(raw_data, save_path)
+                                
+                                # Step 5: Ensure collection exists (60%)
+                                file_status_texts[idx].text("🗄️ Vérification de la base de données...")
+                                file_progress_bars[idx].progress(0.6)
+                                if not st.session_state.db.collection_exists(config.COLLECTION_NAME):
+                                    st.session_state.db.create_collection(config.COLLECTION_NAME)
+                                
+                                # Step 6: Ingest data with progress callback
+                                file_status_texts[idx].text(f"💾 Indexation de {len(extracted_data)} segments...")
+                                
+                                # Create a callback for ingestion progress
+                                def update_ingestion_progress(progress, message):
+                                    # Map ingestion progress from 60% to 100%
+                                    actual_progress = 0.6 + (progress * 0.4)
+                                    file_progress_bars[idx].progress(actual_progress)
+                                    file_status_texts[idx].text(f"💾 {message}")
+                                
+                                # Use the progress-enabled ingestion if available
+                                if hasattr(st.session_state.db, 'ingest_text_data_with_progress'):
+                                    success = st.session_state.db.ingest_text_data_with_progress(
+                                        config.COLLECTION_NAME,
+                                        extracted_data,
+                                        st.session_state.embedding_gen,
+                                        progress_callback=update_ingestion_progress
+                                    )
+                                else:
+                                    # Fallback to regular ingestion
+                                    file_progress_bars[idx].progress(0.8)
+                                    success = st.session_state.db.ingest_text_data(
+                                        config.COLLECTION_NAME,
+                                        extracted_data,
+                                        st.session_state.embedding_gen
+                                    )
+                                    file_progress_bars[idx].progress(1.0)
+                                
+                                # Calculate processing time
+                                file_end_time = time.time()
+                                processing_time = file_end_time - file_start_time
+                                
+                                if success:
+                                    file_progress_bars[idx].progress(1.0)
+                                    file_status_texts[idx].text(f"✅ Terminé - {len(extracted_data)} segments")
+                                    file_containers[f"{idx}_time"].success(f"⏱️ {processing_time:.1f}s")
+                                    
+                                    processed_files.append({
+                                        "name": uploaded_file.name,
+                                        "segments": len(extracted_data),
+                                        "time": processing_time
+                                    })
+                                    total_segments += len(extracted_data)
+                                else:
+                                    file_status_texts[idx].text("❌ Échec de l'indexation")
+                                    file_containers[f"{idx}_time"].error(f"⏱️ {processing_time:.1f}s")
+                                    failed_files.append({
+                                        "name": uploaded_file.name,
+                                        "error": "Échec de l'indexation"
+                                    })
+                                    
+                            except Exception as e:
+                                file_progress_bars[idx].progress(1.0)
+                                file_status_texts[idx].text(f"❌ Erreur: {str(e)[:50]}...")
+                                file_containers[f"{idx}_time"].error("Échec")
+                                failed_files.append({
+                                    "name": uploaded_file.name,
+                                    "error": str(e)
+                                })
+                        
+                        # Update final main progress
+                        main_progress.progress(1.0)
+                        total_time = time.time() - start_time
+                        main_status.text(f"✅ Traitement terminé en {total_time:.1f} secondes!")
+                        
+                        # Show results summary
+                        st.markdown("---")
+                        st.markdown("### 📈 Résumé du traitement")
+                        
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("Documents traités", f"{len(processed_files)}/{len(uploaded_files)}")
+                        with col2:
+                            st.metric("Segments indexés", total_segments)
+                        with col3:
+                            st.metric("Temps total", f"{total_time:.1f}s")
+                        
+                        if processed_files:
+                            avg_time = sum(f['time'] for f in processed_files) / len(processed_files)
+                            st.success(f"✓ Temps moyen par document: {avg_time:.1f}s")
+                        
+                        if failed_files:
+                            with st.expander("❌ Erreurs détaillées", expanded=True):
+                                for file_info in failed_files:
+                                    st.error(f"**{file_info['name']}**: {file_info['error']}")
+                        
+                    except Exception as e:
+                        main_status.text("❌ Erreur générale lors du traitement")
+                        st.error(f"Erreur: {str(e)}")
+            
         
         # Conversation settings
         st.markdown("---")

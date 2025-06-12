@@ -10,19 +10,30 @@ load_dotenv()
 
 # Weaviate Configuration
 # Use Streamlit secrets in production
+
+
 try:
     if "WEAVIATE_URL" in st.secrets:
         WEAVIATE_URL = st.secrets["WEAVIATE_URL"]
         WEAVIATE_API_KEY = st.secrets["WEAVIATE_API_KEY"]
         OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+        QDRANT_URL = st.secrets.get("QDRANT_URL", "")
+        QDRANT_API_KEY = st.secrets.get("QDRANT_API_KEY", "")
     else:
         WEAVIATE_URL = os.getenv("WEAVIATE_URL", "")
         WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY", "")
         OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+        QDRANT_URL = os.getenv("QDRANT_URL", "")
+        QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "")
 except:
     WEAVIATE_URL = os.getenv("WEAVIATE_URL", "")
     WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY", "")
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+    QDRANT_URL = os.getenv("QDRANT_URL", "")
+    QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "")
+    
+# Vector Database Selection
+VECTOR_DB_TYPE = os.getenv("VECTOR_DB_TYPE", "qdrant")  # "qdrant" or "weaviate"
 
 # Collection Configuration
 COLLECTION_NAME = "ragbtpdocuments2"

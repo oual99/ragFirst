@@ -7,6 +7,8 @@ from .search import SearchEngine
 from .rag_engine import RAGEngine
 from .conversational_rag_engine import ConversationalRAGEngine
 from .conversation_manager import ConversationManager
+from .vector_db_interface import VectorDBInterface
+from .qdrant_database import QdrantDatabase
 
 __all__ = [
     'DocumentProcessor',
