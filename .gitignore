@@ -20,6 +20,7 @@ ENV/
 
 # Data folders (contains user uploads)
 data/documents/*
+docs_test/
 data/images/*
 data/conversations/*
 # Keep the folders but not the contents

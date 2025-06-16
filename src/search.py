@@ -11,6 +11,112 @@ class SearchEngine:
         self.embedding_generator = embedding_generator
         self.search_history = []  # Track recent searches for context
     
+    def rerank_results(self, query: str, search_results: List, top_k: int = 3) -> List:
+        """
+        Rerank search results using GPT-4 to select the most relevant ones.
+        
+        Args:
+            query: The user's query
+            search_results: List of search results to rerank
+            top_k: Number of top results to return
+            
+        Returns:
+            List of reranked results (top_k most relevant)
+        """
+        if not search_results or len(search_results) <= top_k:
+            return search_results
+        
+        # Prepare context for reranking
+        candidates = []
+        for i, result in enumerate(search_results):
+            candidates.append({
+                "index": i,
+                "document": result.properties.get('source_document', 'Unknown'),
+                "page": result.properties.get('page_number', 0),
+                "text": result.properties.get('text', '')[:500],  # First 500 chars
+                "full_result": result  # Keep the full result for later
+            })
+        
+        # Create reranking prompt
+        rerank_prompt = f"""Tu es un expert en analyse de pertinence pour des documents BTP.
+
+    Question de l'utilisateur: "{query}"
+
+    Voici {len(candidates)} extraits de documents. Analyse leur pertinence par rapport à la question et sélectionne les {top_k} PLUS PERTINENTS.
+
+    Critères de sélection:
+    1. Pertinence directe avec la question
+    2. Complétude de l'information
+    3. Précision technique
+    4. Contexte approprié
+
+    Documents candidats:
+    """
+        
+        for i, candidate in enumerate(candidates):
+            rerank_prompt += f"\n[Candidat {i+1}]\nDocument: {candidate['document']}, Page {candidate['page']}\nExtrait: {candidate['text']}\n"
+        
+        rerank_prompt += f"""
+    Réponds UNIQUEMENT avec un JSON contenant:
+    - "selected": liste des numéros des {top_k} candidats les plus pertinents (ex: [3, 1, 5])
+    - "reasoning": brève explication de ton choix
+
+    Format: {{"selected": [X, Y, Z], "reasoning": "..."}}"""
+        
+        try:
+            # Import OpenAI client
+            from openai import OpenAI
+            import config
+            import json
+            
+            client = OpenAI(api_key=config.OPENAI_API_KEY)
+            
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",  # Use mini for reranking to save costs
+                messages=[
+                    {"role": "system", "content": "Tu es un expert en analyse de pertinence. Réponds uniquement en JSON valide."},
+                    {"role": "user", "content": rerank_prompt}
+                ],
+                temperature=0.1,
+                max_tokens=500
+            )
+            
+            # Parse response
+            response_text = response.choices[0].message.content.strip()
+            # Extract JSON even if there's extra text
+            import re
+            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+            if json_match:
+                rerank_data = json.loads(json_match.group())
+                selected_indices = rerank_data.get("selected", [])
+                
+                # Get the selected results in order
+                reranked_results = []
+                for idx in selected_indices[:top_k]:
+                    if 1 <= idx <= len(candidates):
+                        reranked_results.append(candidates[idx-1]["full_result"])
+                
+                # If we didn't get enough results, fill with top similarity results
+                if len(reranked_results) < top_k:
+                    for i in range(min(top_k, len(search_results))):
+                        if search_results[i] not in reranked_results:
+                            reranked_results.append(search_results[i])
+                        if len(reranked_results) >= top_k:
+                            break
+                
+                print(f"\n🎯 Reranking: {len(search_results)} → {len(reranked_results)} results")
+                print(f"Reasoning: {rerank_data.get('reasoning', 'N/A')}")
+                
+                return reranked_results
+                
+        except Exception as e:
+            print(f"❌ Reranking failed: {str(e)}")
+            # Fallback to original results
+            return search_results[:top_k]
+        
+        # Fallback: return top results by similarity
+        return search_results[:top_k]
+
     def search_multimodal(self, query: str, collection_name: str, limit: int = 3):
         """Perform vector search on the collection."""
         print(f"\n{'='*60}")

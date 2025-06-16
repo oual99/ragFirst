@@ -1,48 +1,60 @@
-"""Document processing module for PDF extraction."""
+# src/document_processor.py 
+"""Enhanced document processing module with unified PDF extraction."""
 import os
 from typing import List, Dict
-from unstructured.partition.pdf import partition_pdf
-from unstructured.documents.elements import NarrativeText
+from .unified_document_processor import UnifiedDocumentProcessor
+from .simple_chunker import SimpleChunker
 
 
 class DocumentProcessor:
-    def __init__(self, images_output_dir: str = "./data/images/"):
-        self.images_output_dir = images_output_dir
-        os.makedirs(self.images_output_dir, exist_ok=True)
+    def __init__(self, openai_api_key: str = None):
+        """
+        Initialize the enhanced document processor.
+        
+        Args:
+            openai_api_key: OpenAI API key for vision processing
+        """
+        import config
+        self.openai_api_key = openai_api_key or config.OPENAI_API_KEY
+        self.unified_processor = UnifiedDocumentProcessor(self.openai_api_key)
+        self.chunker = SimpleChunker(chunk_size=500, overlap_size=100)
     
-    def process_pdf(self, document_path: str) -> List:
-        """Process a PDF document and extract its contents."""
-        return partition_pdf(
-            filename=document_path,
-            extract_images_in_pdf=True,
-            extract_image_block_to_payload=False,
-            extract_image_block_output_dir=self.images_output_dir
+    def process_pdf(self, document_path: str, progress_callback=None) -> Dict:
+        """
+        Process a PDF document using the unified processor.
+        
+        Args:
+            document_path: Path to PDF file
+            progress_callback: Optional callback for progress updates
+            
+        Returns:
+            Dict with processing results
+        """
+        return self.unified_processor.process_document(
+            pdf_path=document_path,
+            progress_callback=progress_callback,
+            describe_images=True
         )
     
     def extract_text_with_metadata(self, 
-                                   processed_document: List, 
+                                   processed_document: Dict, 
                                    source_document: str) -> List[Dict]:
-        """Extract text with metadata from processed document."""
-        text_data = []
-        paragraph_counters = {}
+        """
+        Extract text chunks with metadata from processed document.
         
-        for element in processed_document:
-            if isinstance(element, NarrativeText):
-                page_number = element.metadata.page_number
-                
-                if page_number not in paragraph_counters:
-                    paragraph_counters[page_number] = 1
-                else:
-                    paragraph_counters[page_number] += 1
-                
-                paragraph_number = paragraph_counters[page_number]
-                
-                text_content = element.text
-                text_data.append({
-                    "source_document": source_document,
-                    "page_number": page_number,
-                    "paragraph_number": paragraph_number,
-                    "text": text_content
-                })
+        Args:
+            processed_document: Output from process_pdf
+            source_document: Source document path
+            
+        Returns:
+            List of text chunks ready for indexing
+        """
+        # Use the simple chunker to process results
+        chunks = self.chunker.process_document_results(processed_document)
         
-        return text_data
+        # Ensure source document name is consistent
+        doc_name = os.path.basename(source_document)
+        for chunk in chunks:
+            chunk['source_document'] = doc_name
+        
+        return chunks

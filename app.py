@@ -616,34 +616,43 @@ def main():
                                 with open(save_path, "wb") as f:
                                     f.write(uploaded_file.getbuffer())
                                 
-                                # Step 2: Initialize processor (20%)
-                                file_status_texts[idx].text("🔧 Initialisation du processeur...")
+                                # Step 2: Initialize NEW processor (20%)
+                                file_status_texts[idx].text("🔧 Initialisation du processeur unifié...")
                                 file_progress_bars[idx].progress(0.2)
-                                processor = DocumentProcessor(images_output_dir=config.IMAGES_PATH)
                                 
-                                # Step 3: Process PDF (40%)
-                                file_status_texts[idx].text("📖 Extraction du contenu PDF...")
-                                file_progress_bars[idx].progress(0.4)
-                                raw_data = processor.process_pdf(save_path)
+                                # Use the NEW enhanced document processor
+                                from src.document_processor import DocumentProcessor
+                                processor = DocumentProcessor(openai_api_key=config.OPENAI_API_KEY)
                                 
-                                # Step 4: Extract text with metadata (50%)
-                                file_status_texts[idx].text("📝 Extraction du texte et métadonnées...")
-                                file_progress_bars[idx].progress(0.5)
-                                extracted_data = processor.extract_text_with_metadata(raw_data, save_path)
+                                # Step 3: Process PDF with NEW unified processor
+                                def update_processing_progress(progress, message):
+                                    # Map processing progress from 20% to 80%
+                                    actual_progress = 0.2 + (progress * 0.6)
+                                    file_progress_bars[idx].progress(actual_progress)
+                                    file_status_texts[idx].text(f"📖 {message}")
                                 
-                                # Step 5: Ensure collection exists (60%)
+                                file_status_texts[idx].text("📖 Analyse du document...")
+                                processed_doc = processor.process_pdf(save_path, progress_callback=update_processing_progress)
+                                
+                                # Step 4: Extract chunks with NEW chunking system
+                                file_status_texts[idx].text("📝 Extraction des chunks optimisés...")
+                                file_progress_bars[idx].progress(0.85)
+                                
+                                extracted_data = processor.extract_text_with_metadata(processed_doc, save_path)
+                                
+                                # Step 5: Ensure collection exists (90%)
                                 file_status_texts[idx].text("🗄️ Vérification de la base de données...")
-                                file_progress_bars[idx].progress(0.6)
+                                file_progress_bars[idx].progress(0.9)
                                 if not st.session_state.db.collection_exists(config.COLLECTION_NAME):
                                     st.session_state.db.create_collection(config.COLLECTION_NAME)
                                 
                                 # Step 6: Ingest data with progress callback
-                                file_status_texts[idx].text(f"💾 Indexation de {len(extracted_data)} segments...")
+                                file_status_texts[idx].text(f"💾 Indexation de {len(extracted_data)} chunks...")
                                 
                                 # Create a callback for ingestion progress
                                 def update_ingestion_progress(progress, message):
-                                    # Map ingestion progress from 60% to 100%
-                                    actual_progress = 0.6 + (progress * 0.4)
+                                    # Map ingestion progress from 90% to 100%
+                                    actual_progress = 0.9 + (progress * 0.1)
                                     file_progress_bars[idx].progress(actual_progress)
                                     file_status_texts[idx].text(f"💾 {message}")
                                 
@@ -657,7 +666,7 @@ def main():
                                     )
                                 else:
                                     # Fallback to regular ingestion
-                                    file_progress_bars[idx].progress(0.8)
+                                    file_progress_bars[idx].progress(0.95)
                                     success = st.session_state.db.ingest_text_data(
                                         config.COLLECTION_NAME,
                                         extracted_data,
@@ -671,12 +680,27 @@ def main():
                                 
                                 if success:
                                     file_progress_bars[idx].progress(1.0)
-                                    file_status_texts[idx].text(f"✅ Terminé - {len(extracted_data)} segments")
+                                    
+                                    # Get document summary from processed_doc
+                                    doc_summary = processed_doc.get("summary", {})
+                                    
+                                    # Enhanced status text with page type information
+                                    file_status_texts[idx].text(
+                                        f"✅ Terminé - {len(extracted_data)} chunks, "
+                                        f"{doc_summary.get('total_pages', 0)} pages "
+                                        f"({doc_summary.get('scanned_pages', 0)} scannées, "
+                                        f"{doc_summary.get('native_pages', 0)} natives)"
+                                    )
                                     file_containers[f"{idx}_time"].success(f"⏱️ {processing_time:.1f}s")
                                     
                                     processed_files.append({
                                         "name": uploaded_file.name,
-                                        "segments": len(extracted_data),
+                                        "chunks": len(extracted_data),
+                                        "pages": doc_summary.get('total_pages', 0),
+                                        "scanned_pages": doc_summary.get('scanned_pages', 0),
+                                        "native_pages": doc_summary.get('native_pages', 0),
+                                        "images": doc_summary.get('total_images', 0),
+                                        "tables": doc_summary.get('total_tables', 0),
                                         "time": processing_time
                                     })
                                     total_segments += len(extracted_data)
@@ -702,7 +726,7 @@ def main():
                         total_time = time.time() - start_time
                         main_status.text(f"✅ Traitement terminé en {total_time:.1f} secondes!")
                         
-                        # Show results summary
+                        # Show enhanced results summary
                         st.markdown("---")
                         st.markdown("### 📈 Résumé du traitement")
                         
@@ -710,13 +734,39 @@ def main():
                         with col1:
                             st.metric("Documents traités", f"{len(processed_files)}/{len(uploaded_files)}")
                         with col2:
-                            st.metric("Segments indexés", total_segments)
+                            st.metric("Chunks indexés", total_segments)
                         with col3:
                             st.metric("Temps total", f"{total_time:.1f}s")
                         
                         if processed_files:
+                            # Calculate totals
+                            total_pages = sum(f['pages'] for f in processed_files)
+                            total_scanned = sum(f['scanned_pages'] for f in processed_files)
+                            total_native = sum(f['native_pages'] for f in processed_files)
+                            total_images = sum(f.get('images', 0) for f in processed_files)
+                            total_tables = sum(f.get('tables', 0) for f in processed_files)
+                            
+                            # Show detailed breakdown
+                            st.info(
+                                f"📊 **Analyse détaillée:**\n"
+                                f"- Pages totales: {total_pages} ({total_scanned} scannées, {total_native} natives)\n"
+                                f"- Images trouvées: {total_images}\n"
+                                f"- Tableaux trouvés: {total_tables}"
+                            )
+                            
                             avg_time = sum(f['time'] for f in processed_files) / len(processed_files)
                             st.success(f"✓ Temps moyen par document: {avg_time:.1f}s")
+                            
+                            # Show per-document details in expander
+                            with st.expander("📋 Détails par document", expanded=False):
+                                for doc in processed_files:
+                                    st.text(
+                                        f"📄 {doc['name']}\n"
+                                        f"   • {doc['chunks']} chunks créés\n"
+                                        f"   • {doc['pages']} pages ({doc['scanned_pages']} scannées, {doc['native_pages']} natives)\n"
+                                        f"   • {doc.get('images', 0)} images, {doc.get('tables', 0)} tableaux\n"
+                                        f"   • Temps: {doc['time']:.1f}s"
+                                    )
                         
                         if failed_files:
                             with st.expander("❌ Erreurs détaillées", expanded=True):
@@ -726,13 +776,50 @@ def main():
                     except Exception as e:
                         main_status.text("❌ Erreur générale lors du traitement")
                         st.error(f"Erreur: {str(e)}")
+                        if st.button("Voir les détails de l'erreur"):
+                            st.code(traceback.format_exc())
             
         
         # Conversation settings
         st.markdown("---")
         st.header("⚙️ Paramètres de conversation")
-        
-        search_limit = st.slider("Nombre de résultats", 1, 10, 3)
+
+        search_limit = st.slider(
+            "Nombre de résultats à rechercher", 
+            min_value=3,
+            max_value=20,
+            value=10 if 'use_reranking' in st.session_state and st.session_state.use_reranking else 3,
+            help="Nombre de résultats à extraire de la base de données"
+        )
+
+        use_reranking = st.checkbox(
+            "🎯 Utiliser le reranking intelligent", 
+            value=False,
+            key="use_reranking",
+            help="Active un tri intelligent des résultats par GPT-4 pour une meilleure précision. Recherche 10 résultats puis sélectionne les 3 meilleurs."
+        )
+
+        # Show dynamic explanation
+        if use_reranking:
+            st.info(
+                f"🎯 Mode précis activé:\n"
+                f"• Recherche étendue: {search_limit} résultats\n"
+                f"• Sélection intelligente des 3 meilleurs\n"
+                f"• Temps supplémentaire: ~2-3 secondes"
+            )
+            # Force search_limit to at least 10 when reranking
+            if search_limit < 10:
+                search_limit = 10
+                st.warning("Limite augmentée à 10 pour le reranking")
+        else:
+            st.info(
+                f"🚀 Mode rapide activé:\n"
+                f"• Recherche directe: {search_limit} résultats\n"
+                f"• Pas de reranking"
+            )
+
+        # Final number of results after reranking
+        final_result_count = 3 if use_reranking else search_limit
         # auto_search = st.checkbox("Recherche automatique intelligente", value=True)
         # show_thinking = st.checkbox("Afficher le processus de réflexion", value=False)
         auto_search = True # Always enable auto search for this demo
@@ -781,64 +868,49 @@ def main():
                             if show_thinking:
                                 thinking_placeholder.info("📋 Utilisation des résultats en cache...")
                             search_results = cached_results
-                            print("\n" + "="*80)
-                            print("📋 USING CACHED RESULTS")
-                            print("="*80)
                         else:
                             if show_thinking:
                                 thinking_placeholder.info("🔍 Recherche dans les documents...")
                             
-                            # Perform search
+                            # Perform search - get more results if reranking is enabled
+                            initial_limit = search_limit  # This will be 10+ if reranking is on
+                            
                             search_results = st.session_state.search_engine.search_multimodal(
                                 prompt, 
                                 config.COLLECTION_NAME, 
-                                limit=search_limit
+                                limit=initial_limit
                             )
                             
-                            # Cache results
+                            # Apply reranking if enabled and we have results
+                            if use_reranking and search_results and len(search_results) > 3:
+                                if show_thinking:
+                                    thinking_placeholder.info(
+                                        f"🎯 Sélection intelligente des résultats... "
+                                        f"({len(search_results)} → 3 meilleurs)"
+                                    )
+                                
+                                # Rerank results
+                                search_results = st.session_state.search_engine.rerank_results(
+                                    query=prompt,
+                                    search_results=search_results,
+                                    top_k=3
+                                )
+                                
+                                if show_thinking:
+                                    thinking_placeholder.info(
+                                        f"✅ Reranking terminé - "
+                                        f"{len(search_results)} résultats sélectionnés"
+                                    )
+                            
+                            # Cache results (whether reranked or not)
                             if search_results:
                                 cache_search_results(prompt, search_results)
                         
-                        # DEBUG: Print raw search results
-                        # print("\n" + "="*80)
-                        # print(f"🔍 SEARCH QUERY: {prompt}")
-                        # print(f"📊 NUMBER OF RESULTS: {len(search_results) if search_results else 0}")
-                        # print("="*80)
-                        
-                        # if search_results:
-                        #     for i, result in enumerate(search_results):
-                        #         print(f"\n--- RESULT {i+1} ---")
-                        #         print(f"📄 Document: {result.properties.get('source_document', 'N/A')}")
-                        #         print(f"📍 Page: {result.properties.get('page_number', 'N/A')}")
-                        #         print(f"📍 Paragraph: {result.properties.get('paragraph_number', 'N/A')}")
-                        #         print(f"📏 Distance: {result.metadata.distance if hasattr(result.metadata, 'distance') else 'N/A'}")
-                        #         print(f"📝 Text Preview (first 300 chars):")
-                        #         text = result.properties.get('text', '')
-                        #         print(f"   {text[:300]}..." if len(text) > 300 else f"   {text}")
-                        #         print("-" * 40)
-                        # else:
-                        #     print("❌ No results found!")
-                        
-                        # print("="*80 + "\n")
-                        
+                        # Rest of the search processing continues as before...
                         if search_results:
                             formatted_results = st.session_state.search_engine.format_search_results(
                                 search_results
                             )
-                            
-                            # DEBUG: Print formatted results
-                            # print("\n" + "="*80)
-                            # print("📋 FORMATTED RESULTS FOR LLM")
-                            # print("="*80)
-                            # for i, formatted in enumerate(formatted_results):
-                            #     print(f"\n--- FORMATTED RESULT {i+1} ---")
-                            #     print(f"Source: {formatted['source_document']}")
-                            #     print(f"Page: {formatted['page_number']}, Paragraph: {formatted['paragraph_number']}")
-                            #     print(f"Distance: {formatted['distance']:.4f}")
-                            #     print(f"Text: {formatted['text_preview']}")
-                            # print("="*80 + "\n")
-                            
-                            # Update current context
                             st.session_state.current_context = formatted_results
                     
                     # Get conversation history
@@ -866,6 +938,10 @@ def main():
                     
                     # Display response
                     st.markdown(response_data["response"])
+                    if need_search and search_results:
+                        # Add a small indicator of search mode used
+                        mode_indicator = "🎯 Mode précis" if use_reranking else "🚀 Mode rapide"
+                        st.caption(f"{mode_indicator} - {len(search_results)} sources utilisées")
                     
                     # Add assistant message to history
                     assistant_message = {
