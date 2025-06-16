@@ -7,6 +7,12 @@ import re
 import traceback
 from datetime import datetime
 import json
+import warnings
+import logging
+
+# Suppress PyMuPDF warnings globally
+logging.getLogger("fitz").setLevel(logging.ERROR)
+warnings.filterwarnings("ignore")
 
 # Add the project root to Python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -626,10 +632,18 @@ def main():
                                 
                                 # Step 3: Process PDF with NEW unified processor
                                 def update_processing_progress(progress, message):
+                                    # Ensure progress is within valid range
+                                    progress = max(0.0, min(1.0, progress))
                                     # Map processing progress from 20% to 80%
                                     actual_progress = 0.2 + (progress * 0.6)
-                                    file_progress_bars[idx].progress(actual_progress)
-                                    file_status_texts[idx].text(f"📖 {message}")
+                                    actual_progress = max(0.0, min(1.0, actual_progress))  # Double safety
+                                    
+                                    try:
+                                        file_progress_bars[idx].progress(actual_progress)
+                                        file_status_texts[idx].text(f"📖 {message}")
+                                    except Exception as e:
+                                        # Silently handle progress bar errors
+                                        pass
                                 
                                 file_status_texts[idx].text("📖 Analyse du document...")
                                 processed_doc = processor.process_pdf(save_path, progress_callback=update_processing_progress)

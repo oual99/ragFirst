@@ -125,30 +125,51 @@ class WeaviateDatabase(VectorDBInterface):
         
         return formatted_results
     
-    def ingest_text_data(self, collection_name: str, text_data: List[Dict], embedding_generator, progress_callback=None):
-        """Ingest text data into Weaviate collection."""
+    def ingest_text_data(self, collection_name: str, text_data: List[Dict], 
+                        embedding_generator, progress_callback=None):
+        """Ingest text data into Weaviate collection with batch embeddings."""
         collection = self.client.collections.get(collection_name)
         
         total_items = len(text_data)
         
+        # Extract all texts for batch embedding
+        texts = [item['text'] for item in text_data]
+        
+        # Generate embeddings in batch
+        if progress_callback:
+            progress_callback(0.3, f"Génération des embeddings pour {len(texts)} textes...")
+        
+        embeddings = embedding_generator.get_embeddings(texts)
+        
+        if progress_callback:
+            progress_callback(0.6, "Embeddings générés, indexation en cours...")
+        
+        # Batch insert into Weaviate
         with collection.batch.dynamic() as batch:
-            for i, text in enumerate(tqdm(text_data, desc="Ingesting text data")):
-                vector = embedding_generator.get_embedding(text['text'])
+            for i, (text_item, embedding) in enumerate(zip(text_data, embeddings)):
                 text_obj = {
-                    "source_document": text['source_document'],
-                    "page_number": text['page_number'],
-                    "paragraph_number": text['paragraph_number'],
-                    "text": text['text'],
+                    "source_document": text_item['source_document'],
+                    "page_number": text_item['page_number'],
+                    "paragraph_number": text_item.get('paragraph_number', text_item.get('chunk_index', i)),
+                    "text": text_item['text'],
                 }
+                
+                # Add any additional metadata
+                for key, value in text_item.items():
+                    if key not in text_obj and key not in ['text']:
+                        text_obj[key] = value
+                
                 batch.add_object(
                     properties=text_obj,
-                    uuid=generate_uuid5(f"{text['source_document']}_{text['page_number']}_{text['paragraph_number']}"),
-                    vector=vector
+                    uuid=generate_uuid5(
+                        f"{text_item['source_document']}_{text_item['page_number']}_{text_item.get('paragraph_number', i)}"
+                    ),
+                    vector=embedding
                 )
                 
-                if progress_callback:
-                    progress = (i + 1) / total_items
-                    progress_callback(progress, f"Traitement {i + 1}/{total_items}...")
+                if progress_callback and i % 10 == 0:
+                    progress = 0.6 + (0.4 * (i / total_items))
+                    progress_callback(progress, f"Indexation {i+1}/{total_items}...")
         
         if len(collection.batch.failed_objects) > 0:
             print(f"Failed to import {len(collection.batch.failed_objects)} objects")

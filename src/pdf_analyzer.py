@@ -4,6 +4,7 @@ from typing import Dict, List, Tuple, Any
 import numpy as np
 from PIL import Image
 import io
+from contextlib import redirect_stderr
 
 class PDFAnalyzer:
     def __init__(self, min_text_threshold: int = 50):

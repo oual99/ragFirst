@@ -6,6 +6,9 @@ from PIL import Image
 import io
 from openai import OpenAI
 import fitz  # PyMuPDF for image extraction
+import warnings
+import logging
+from contextlib import redirect_stderr
 
 class NativePDFProcessor:
     def __init__(self, api_key: str = None):
@@ -86,7 +89,7 @@ class NativePDFProcessor:
                             extracted_tables.append(table_data)
                 
                 result["tables"] = extracted_tables
-            
+        
             # Rest of the method remains the same...
             # Process with PyMuPDF for images
             doc = fitz.open(pdf_path)
