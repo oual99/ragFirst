@@ -279,15 +279,21 @@ class NativePDFProcessor:
         images = []
         
         try:
-            # Method 1: Try to get images using get_images()
-            image_list = page.get_images(full=True)
+            # Get only the images that are actually displayed on this page
+            img_instances = page.get_image_info()
             
-            for img_index, img in enumerate(image_list):
+            if not img_instances:
+                return images
+                
+            # Process each image instance on the page
+            for img_index, img_info in enumerate(img_instances):
                 try:
                     # Get the XREF of the image
-                    xref = img[0]
+                    xref = img_info.get("xref")
+                    if not xref:
+                        continue
                     
-                    # Extract the image
+                    # Extract the image using the xref
                     base_image = page.parent.extract_image(xref)
                     if not base_image:
                         continue
@@ -298,26 +304,13 @@ class NativePDFProcessor:
                     # Convert to PIL Image
                     pil_image = Image.open(io.BytesIO(image_bytes))
                     
-                    # Get image position on page - fixed method call
-                    img_instances = page.get_image_info()
-                    
-                    # Find the instance that matches our xref
-                    bbox = None
-                    for inst in img_instances:
-                        if inst.get("xref") == xref:
-                            bbox = inst["bbox"]
-                            break
-                    
+                    # Get the bounding box from img_info
+                    bbox = img_info.get("bbox")
                     if bbox:
                         x0, y0, x1, y1 = bbox
                     else:
-                        # Try to find any bbox for this image
-                        if img_instances:
-                            bbox = img_instances[img_index]["bbox"] if img_index < len(img_instances) else img_instances[0]["bbox"]
-                            x0, y0, x1, y1 = bbox
-                        else:
-                            # Fallback
-                            x0, y0, x1, y1 = 0, 0, 100, 100
+                        # Fallback if no bbox
+                        x0, y0, x1, y1 = 0, 0, 100, 100
                     
                     images.append({
                         'image_index': img_index,
@@ -332,42 +325,35 @@ class NativePDFProcessor:
                     })
                     
                 except Exception as e:
-                    # Only print error if it's not the expected one
-                    if "get_image_info() got an unexpected keyword argument" not in str(e):
-                        print(f"Error with method 1 for image {img_index}: {str(e)}")
-                    continue
-            
-            # Method 2: If no images found, try alternative approach
-            if not images:
-                img_list = page.get_image_info()
-                
-                for img_index, img_info in enumerate(img_list):
+                    print(f"Error extracting image {img_index} on page {page_number}: {str(e)}")
+                    # Try alternative extraction method for this specific image
                     try:
-                        bbox = img_info["bbox"]
-                        mat = fitz.Matrix(2, 2)
-                        rect = fitz.Rect(bbox)
-                        pix = page.get_pixmap(matrix=mat, clip=rect)
-                        
-                        img_data = pix.tobytes("png")
-                        pil_image = Image.open(io.BytesIO(img_data))
-                        
-                        images.append({
-                            'image_index': img_index,
-                            'image': pil_image,
-                            'x0': bbox[0],
-                            'y0': bbox[1],
-                            'x1': bbox[2],
-                            'y1': bbox[3],
-                            'width': pil_image.width,
-                            'height': pil_image.height,
-                            'method': 'pixmap_extraction'
-                        })
-                        
-                    except Exception as e:
+                        bbox = img_info.get("bbox")
+                        if bbox:
+                            mat = fitz.Matrix(2, 2)
+                            rect = fitz.Rect(bbox)
+                            pix = page.get_pixmap(matrix=mat, clip=rect)
+                            
+                            img_data = pix.tobytes("png")
+                            pil_image = Image.open(io.BytesIO(img_data))
+                            
+                            images.append({
+                                'image_index': img_index,
+                                'image': pil_image,
+                                'x0': bbox[0],
+                                'y0': bbox[1],
+                                'x1': bbox[2],
+                                'y1': bbox[3],
+                                'width': pil_image.width,
+                                'height': pil_image.height,
+                                'method': 'pixmap_extraction'
+                            })
+                    except Exception as e2:
+                        print(f"Alternative extraction also failed: {str(e2)}")
                         continue
                         
         except Exception as e:
-            print(f"General error in image extraction: {str(e)}")
+            print(f"General error in image extraction for page {page_number}: {str(e)}")
         
         return images
     
@@ -428,22 +414,34 @@ class NativePDFProcessor:
                 img_data['image'].save(buffered, format="PNG")
                 img_base64 = base64.b64encode(buffered.getvalue()).decode('utf-8')
                 
-                # Check image size to determine if it's likely a logo
+                # Check image size to determine if it's likely a logo/icon
                 width = img_data['width']
                 height = img_data['height']
                 aspect_ratio = width / height if height > 0 else 1
                 
-                # Likely a logo if small or has typical logo dimensions
+                # Detect if it's a small icon/UI element
+                is_small_icon = (width < 100 and height < 100)
                 is_likely_logo = (width < 300 and height < 300) or (aspect_ratio > 2.5 or aspect_ratio < 0.4)
                 
                 # Different prompts based on image type
-                if is_likely_logo:
-                    prompt = """Décris brièvement ce logo ou cette image. 
-                    Sois factuel et concis. 
-                    Si du texte est visible, transcris-le exactement.
-                    Maximum 2-3 phrases.
+                if is_small_icon:
+                    # For very small icons, provide generic description
+                    img_data['description'] = "Petite icône"
+                    img_data['image_type'] = 'icon'
+                    continue  # Skip API call for tiny icons
                     
-                    Exemple: "Logo avec une maison stylisée en jaune et bleu, texte 'AB PROGRAMME' en dessous." """
+                elif is_likely_logo:
+                    prompt = """Décris cette image qui provient d'un document professionnel. 
+                    C'est probablement un logo, une icône ou un élément graphique.
+                    Si tu ne peux pas la décrire, dis simplement ce que tu vois (forme, couleur, type d'élément).
+                    Sois factuel et concis. Maximum 2-3 phrases.
+                    
+                    Exemples de bonnes réponses:
+                    - "Logo circulaire bleu avec du texte blanc"
+                    - "Icône représentant une bulle de dialogue"
+                    - "Élément graphique décoratif en forme de flèche"
+                    
+                    NE DIS PAS que tu ne peux pas voir l'image. Décris ce que tu observes."""
                 else:
                     prompt = """Décris cette image/diagramme d'un document BTP en français. 
                     Sois précis et technique. 
@@ -468,17 +466,26 @@ class NativePDFProcessor:
                         }
                     ],
                     max_tokens=500 if not is_likely_logo else 150,
-                    temperature=0.1
+                    temperature=0.3  # Slightly higher temp for more descriptive responses
                 )
                 
                 description = response.choices[0].message.content
+                
+                # Fallback for refused descriptions
+                if "je ne peux pas" in description.lower() or "cannot" in description.lower():
+                    # Provide a generic description based on image properties
+                    if is_likely_logo:
+                        description = "Élément graphique ou logo"
+                    else:
+                        description = f"Image ({width}x{height} pixels)"
                 
                 # Add image type to the data
                 img_data['description'] = description
                 img_data['image_type'] = 'logo' if is_likely_logo else 'image'
                 
             except Exception as e:
-                img_data['description'] = f"Erreur lors de la description: {str(e)}"
+                # Fallback description on error
+                img_data['description'] = f"Élément graphique ({img_data.get('width', 'N/A')}x{img_data.get('height', 'N/A')} pixels)"
                 img_data['image_type'] = 'unknown'
         
         return images
@@ -513,6 +520,8 @@ class NativePDFProcessor:
         for img in images:
             if img.get('image_type') == 'logo':
                 content = f"[LOGO: {img.get('description', 'Logo sans description')}]"
+            elif img.get('image_type') == 'icon':
+                content = f"[ICÔNE: {img.get('description', 'Icône sans description')}]"
             else:
                 content = f"[IMAGE: {img.get('description', 'Image sans description')}]"
             

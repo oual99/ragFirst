@@ -155,6 +155,8 @@ if 'current_context' not in st.session_state:
     st.session_state.current_context = []
 if 'conversation_id' not in st.session_state:
     st.session_state.conversation_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+if 'processed_documents' not in st.session_state:
+    st.session_state.processed_documents = {}
 
 
 def check_configuration():
@@ -695,6 +697,12 @@ def main():
                                 if success:
                                     file_progress_bars[idx].progress(1.0)
                                     
+                                    # Store the numbered PDF path
+                                    if hasattr(processed_doc, 'get') and processed_doc.get('numbered_pdf_path'):
+                                        if uploaded_file.name not in st.session_state.processed_documents:
+                                            st.session_state.processed_documents[uploaded_file.name] = {}
+                                        st.session_state.processed_documents[uploaded_file.name]['numbered_pdf'] = processed_doc['numbered_pdf_path']
+                                    
                                     # Get document summary from processed_doc
                                     doc_summary = processed_doc.get("summary", {})
                                     
@@ -793,7 +801,27 @@ def main():
                         if st.button("Voir les détails de l'erreur"):
                             st.code(traceback.format_exc())
             
-        
+        # Document download section
+        if st.session_state.initialized and st.session_state.processed_documents:
+            st.markdown("---")
+            st.header("📥 Télécharger les PDFs numérotés")
+            
+            for doc_name, doc_info in st.session_state.processed_documents.items():
+                if 'numbered_pdf' in doc_info and os.path.exists(doc_info['numbered_pdf']):
+                    with open(doc_info['numbered_pdf'], 'rb') as pdf_file:
+                        pdf_bytes = pdf_file.read()
+                        
+                    col1, col2 = st.columns([3, 1])
+                    with col1:
+                        st.text(f"📄 {doc_name}")
+                    with col2:
+                        st.download_button(
+                            label="📥",
+                            data=pdf_bytes,
+                            file_name=f"{Path(doc_name).stem}_numerote.pdf",
+                            mime="application/pdf",
+                            key=f"download_{doc_name}"
+                        )
         # Conversation settings
         st.markdown("---")
         st.header("⚙️ Paramètres de conversation")
@@ -1012,6 +1040,7 @@ def main():
 
 if __name__ == "__main__":
     os.makedirs("data/documents", exist_ok=True)
+    os.makedirs("data/documents/numbered", exist_ok=True)  # Add this
     os.makedirs("data/images", exist_ok=True)
     os.makedirs("data/conversations", exist_ok=True)
     

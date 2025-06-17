@@ -4,6 +4,7 @@ import os
 from typing import List, Dict
 from .unified_document_processor import UnifiedDocumentProcessor
 from .simple_chunker import SimpleChunker
+from .pdf_page_numberer import PDFPageNumberer
 
 
 class DocumentProcessor:
@@ -18,6 +19,7 @@ class DocumentProcessor:
         self.openai_api_key = openai_api_key or config.OPENAI_API_KEY
         self.unified_processor = UnifiedDocumentProcessor(self.openai_api_key)
         self.chunker = SimpleChunker(chunk_size=500, overlap_size=100)
+        self.page_numberer = PDFPageNumberer()  # Add this
     
     def process_pdf(self, document_path: str, progress_callback=None) -> Dict:
         """
@@ -30,11 +32,21 @@ class DocumentProcessor:
         Returns:
             Dict with processing results
         """
-        return self.unified_processor.process_document(
-            pdf_path=document_path,
+        # First, create numbered version
+        numbered_pdf_path = self.page_numberer.add_page_numbers(document_path)
+        
+        # Process the numbered version
+        results = self.unified_processor.process_document(
+            pdf_path=numbered_pdf_path,  # Use numbered version
             progress_callback=progress_callback,
             describe_images=True
         )
+        
+        # Add the numbered PDF path to results
+        results["numbered_pdf_path"] = numbered_pdf_path
+        results["original_pdf_path"] = document_path
+        
+        return results
     
     def extract_text_with_metadata(self, 
                                    processed_document: Dict, 

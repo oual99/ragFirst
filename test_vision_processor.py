@@ -97,4 +97,4 @@ def test_vision_processing(pdf_path: str, test_page: int = None):
 
 if __name__ == "__main__":
     # Test with your PDF
-    test_vision_processing("docs_test/2.1.Acte_d_Engagement_signé_01_10_2018.pdf", test_page=1)
+    test_vision_processing("docs_test/Fiche Synthese RT2012 - 102lgts Av Verdun ISSY LES MLX - CODIBAT du 100918.pdf", test_page=1)

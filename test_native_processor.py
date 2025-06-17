@@ -50,6 +50,7 @@ def test_native_processing(pdf_path: str, test_page: int = None):
         print(f"Processing native page {page_num}")
         print(f"{'='*60}")
         
+        print(page_info)
         start_time = time.time()
         
         # Suppress warnings during page processing
@@ -123,4 +124,4 @@ def test_native_processing(pdf_path: str, test_page: int = None):
 
 if __name__ == "__main__":
     # Test with your PDF - adjust the path as needed
-    test_native_processing("docs_test/SOH - 131 VERDUN - Rapport revue HQE Phase PRO V2.pdf", test_page=4)
+    test_native_processing("docs_test/Fiche Synthese RT2012 - 102lgts Av Verdun ISSY LES MLX - CODIBAT du 100918.pdf", test_page=3)
