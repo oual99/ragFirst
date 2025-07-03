@@ -58,7 +58,7 @@ class SearchEngine:
         
         rerank_prompt += f"""
     Réponds UNIQUEMENT avec un JSON contenant:
-    - "selected": liste des numéros des {top_k} candidats les plus pertinents (ex: [3, 1, 5])
+    - "selected": liste des numéros des {top_k} candidats les plus pertinents (ex: [3, 1, 5, 9])
     - "reasoning": brève explication de ton choix
 
     Format: {{"selected": [X, Y, Z], "reasoning": "..."}}"""
@@ -78,7 +78,7 @@ class SearchEngine:
                     {"role": "user", "content": rerank_prompt}
                 ],
                 temperature=0.1,
-                max_tokens=500
+                max_tokens=1000
             )
             
             # Parse response

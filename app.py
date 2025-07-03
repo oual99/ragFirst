@@ -309,18 +309,18 @@ def should_search_documents(query: str, recent_context: list) -> bool:
     ]
     
     # No-search patterns
-    no_search_patterns = [
-        r'^(merci|ok|d\'accord|compris|parfait)',
-        r'^(bonjour|salut|bonsoir|hello|hi)\b',
-        r'\b(explique|précise|reformule|clarifie)\b',
-        r'^(oui|non|si|peut-être)\b',
-        r'^\?+$',  # Just question marks
-    ]
+    # no_search_patterns = [
+    #     r'^(merci|ok|d\'accord|compris|parfait)',
+    #     r'^(bonjour|salut|bonsoir|hello|hi)\b',
+    #     r'\b(explique|précise|reformule|clarifie)\b',
+    #     r'^(oui|non|si|peut-être)\b',
+    #     r'^\?+$',  # Just question marks
+    # ]
     
-    # Check no-search patterns first
-    for pattern in no_search_patterns:
-        if re.search(pattern, query_lower):
-            return False
+    # # Check no-search patterns first
+    # for pattern in no_search_patterns:
+    #     if re.search(pattern, query_lower):
+    #         return False
     
     # Check search patterns
     for pattern in document_patterns + question_patterns:
@@ -963,39 +963,57 @@ def main():
                     if show_thinking:
                         thinking_placeholder.info("💭 Génération de la réponse...")
                     
-                    # Generate response
-                    response_data = st.session_state.rag_engine.generate_conversational_response(
+                    # Generate response with streaming
+                    response_placeholder = st.empty()
+                    accumulated_response = ""
+                    response_metadata = None
+
+                    # Stream the response
+                    for chunk in st.session_state.rag_engine.generate_conversational_response_stream(
                         query=prompt,
                         search_results=formatted_results if need_search else st.session_state.current_context,
                         conversation_history=conversation_history,
                         include_sources=need_search
-                    )
-                    
+                    ):
+                        if chunk["type"] == "content":
+                            # Accumulate and display
+                            accumulated_response += chunk["content"]
+                            response_placeholder.markdown(accumulated_response)
+                        
+                        elif chunk["type"] == "metadata":
+                            response_metadata = chunk
+                            # Use full response for follow-up suggestions
+                            if search_results and not chunk.get("has_contradictions", False):
+                                # Generate follow-up suggestions in background
+                                try:
+                                    follow_up_suggestions = st.session_state.rag_engine._generate_follow_up_suggestions(
+                                        prompt, chunk.get("full_response", accumulated_response)
+                                    )
+                                    response_metadata["follow_up_suggestions"] = follow_up_suggestions
+                                except:
+                                    pass
+
                     # Clear thinking placeholder
                     thinking_placeholder.empty()
-                    
+
                     # Check for contradictions and display warning if found
-                    if response_data.get("has_contradictions", False):
+                    if response_metadata and response_metadata.get("has_contradictions", False):
                         st.warning("⚠️ **Informations contradictoires détectées** - Veuillez vérifier les sources citées ci-dessous.")
-                    
-                    # Display response
-                    st.markdown(response_data["response"])
-                    if need_search and search_results:
-                        # Add a small indicator of search mode used
-                        mode_indicator = "🎯 Mode précis" if use_reranking else "🚀 Mode rapide"
-                        st.caption(f"{mode_indicator} - {len(search_results)} sources utilisées")
-                    
+
+                    # Final display in case there were any final formatting issues
+                    response_placeholder.markdown(accumulated_response)
+
                     # Add assistant message to history
                     assistant_message = {
                         "role": "assistant",
-                        "content": response_data["response"],
+                        "content": accumulated_response,
                         "timestamp": datetime.now().isoformat(),
-                        "has_contradictions": response_data.get("has_contradictions", False)
+                        "has_contradictions": response_metadata.get("has_contradictions", False) if response_metadata else False
                     }
-                    
-                    if need_search and response_data.get("sources"):
-                        assistant_message["sources"] = response_data["sources"]
-                    
+
+                    if need_search and response_metadata and response_metadata.get("sources"):
+                        assistant_message["sources"] = response_metadata["sources"]
+
                     st.session_state.messages.append(assistant_message)
                     
                     # # Display sources if available
@@ -1011,10 +1029,10 @@ def main():
                     #             """, unsafe_allow_html=True)
                     
                     # Suggest follow-up questions
-                    if response_data.get("follow_up_suggestions"):
+                    if response_metadata.get("follow_up_suggestions"):
                         st.markdown("**💡 Questions suggérées:**")
-                        cols = st.columns(len(response_data["follow_up_suggestions"]))
-                        for i, suggestion in enumerate(response_data["follow_up_suggestions"]):
+                        cols = st.columns(len(response_metadata["follow_up_suggestions"]))
+                        for i, suggestion in enumerate(response_metadata["follow_up_suggestions"]):
                             with cols[i]:
                                 if st.button(suggestion, key=f"suggestion_{i}"):
                                     st.session_state.prompt_input = suggestion

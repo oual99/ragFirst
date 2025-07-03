@@ -270,3 +270,184 @@ class ConversationalRAGEngine:
         except:
             # Return truncated version if summarization fails
             return conversation_text[:max_length] + "..."
+    
+    
+    
+    # In src/conversational_rag_engine.py, add these methods to the ConversationalRAGEngine class
+    def _get_system_prompt(self) -> str:
+        """Get the system prompt for the assistant."""
+        return (
+            "Tu es un assistant IA spécialisé dans l'analyse de documents BTP (Bâtiment et Travaux Publics). "
+            "Tu es poli, amical et professionnel.\n\n"
+            "RÈGLES IMPORTANTES À SUIVRE:\n\n"
+            "1. CITATIONS DES SOURCES:\n"
+            "   - TOUJOURS citer les sources en utilisant le nom EXACT du document\n"
+            "   - Format: (NomDuDocument.pdf, Page X)\n"
+            "   - NE PAS utiliser 'Document 1' ou 'Source 1' - utilise le VRAI nom du fichier\n"
+            "   - Si tu cites plusieurs fois le même document, répète son nom complet\n\n"
+            "2. DÉTECTION DES CONTRADICTIONS:\n"
+            "   - SEULEMENT si tu trouves des informations contradictoires, tu dois le signaler\n"
+            "   - S'il n'y a PAS de contradiction, réponds DIRECTEMENT sans mentionner l'absence de contradiction\n"
+            "   - Format pour les contradictions: 'J'ai trouvé des informations contradictoires concernant [sujet]:\n"
+            "     • Dans NomDocument1.pdf, Page Y: [information 1]\n"
+            "     • Dans NomDocument2.pdf, Page W: [information 2]'\n\n"
+            "3. RÉPONSES NORMALES (sans contradiction):\n"
+            "   - Donne l'information directement avec la source complète\n"
+            "   - Exemple: 'Le montant du marché est de 13 490 000 € HT (CCAP_Travaux.pdf, Page 71).'\n"
+            "   - NE DIS PAS: 'je n'ai pas trouvé d'autres informations qui contredisent'\n"
+            "   - NE DIS PAS: 'Cependant, je n'ai pas trouvé...'\n\n"
+            "4. ANALYSE DES RÉPONSES:\n"
+            "   - Vérifie s'il y a des incohérences SEULEMENT si plusieurs sources parlent du même sujet\n"
+            "   - Une seule source = pas de mention de contradiction\n"
+            "   - Plusieurs sources concordantes = cite-les toutes simplement\n"
+            "   - Plusieurs sources contradictoires = signale la contradiction\n\n"
+            "5. TYPES DE QUESTIONS:\n"
+            "   - Salutations: Réponds amicalement\n"
+            "   - Questions factuelles: Utilise UNIQUEMENT les documents\n"
+            "   - Si aucune info trouvée: 'Je n'ai pas trouvé cette information dans les documents fournis.'\n"
+            "   - Questions hors BTP: Redirige poliment vers le domaine BTP\n\n"
+            "6. STYLE DE RÉPONSE:\n"
+            "   - Sois concis et direct\n"
+            "   - Cite tes sources avec le nom complet du document\n"
+            "   - N'ajoute pas de phrases inutiles sur ce que tu n'as pas trouvé"
+        )
+
+    def _build_user_prompt(self, query: str, conversation_history: str, 
+                        document_context: str, source_mapping: Dict) -> str:
+        """Build the user prompt for the LLM."""
+        prompt_parts = []
+        
+        if conversation_history:
+            prompt_parts.append(f"Historique de la conversation:\n{conversation_history}\n")
+        
+        if document_context:
+            prompt_parts.append(f"Contenu des documents trouvés:\n{document_context}")
+            
+            # Add source mapping information
+            prompt_parts.append("\nMAPPING DES SOURCES (utilise ces noms dans tes citations):")
+            for source_ref, info in source_mapping.items():
+                prompt_parts.append(f"{source_ref} = {info['full_name']} (Page {info['page']})")
+                
+        elif document_context is not None:
+            prompt_parts.append("Note: Aucun document pertinent trouvé pour cette recherche.")
+        
+        prompt_parts.append(f"\nQuestion de l'utilisateur: {query}")
+        
+        prompt_parts.append(
+            "\nInstructions pour répondre:\n"
+            "1. Utilise TOUJOURS le nom complet du document dans tes citations (pas 'Source 1' ou 'Document 1')\n"
+            "2. Vérifie s'il y a des informations contradictoires SEULEMENT si tu as plusieurs sources sur le même sujet\n"
+            "3. Si une seule source ou pas de contradiction: réponds directement avec l'information et la source\n"
+            "4. Si contradiction détectée: commence par signaler la contradiction\n"
+            "5. Exemples de bonnes citations:\n"
+            "   - CORRECT: 'charge de 1000 KN/m² (01_Gros-Oeuvre_VSS.pdf, Page 9)'\n"
+            "   - INCORRECT: 'charge de 1000 KN/m² (Document 1, Page 9)'\n"
+            "   - INCORRECT: 'charge de 1000 KN/m² (Source 1, Page 9)'"
+        )
+        
+        return "\n\n".join(prompt_parts)
+
+    def _format_sources(self, search_results: List[Dict]) -> List[Dict]:
+        """Format sources for metadata."""
+        sources = []
+        if search_results:
+            for item in search_results:
+                source = {
+                    "type": "text",
+                    "distance": item.get('distance', 0),
+                    "document": item['source_document'],
+                    "page": item['page_number'],
+                    "paragraph": item.get('paragraph_number', item.get('chunk_index', ''))
+                }
+                sources.append(source)
+            sources.sort(key=lambda x: x['distance'])
+        return sources
+
+    def generate_conversational_response_stream(self, 
+                                            query: str, 
+                                            search_results: List[Dict],
+                                            conversation_history: str = "",
+                                            include_sources: bool = True):
+        """Generate a streaming conversational response."""
+        
+        # Prepare context
+        document_context = ""
+        source_mapping = {}
+        
+        if search_results:
+            for i, item in enumerate(search_results):
+                doc_name = item['source_document']
+                clean_doc_name = doc_name.replace('.pdf', '').replace('.PDF', '')
+                
+                document_context += (
+                    f"[Source {i+1}] {doc_name} "
+                    f"(Page {item['page_number']}, Chunk {item.get('paragraph_number', item.get('chunk_index', ''))}): "
+                    f"{item['text']}\n\n"
+                )
+                
+                source_mapping[f"Source {i+1}"] = {
+                    "full_name": doc_name,
+                    "clean_name": clean_doc_name,
+                    "page": item['page_number'],
+                    "chunk": item.get('paragraph_number', item.get('chunk_index', ''))
+                }
+        
+        # Get prompts
+        prompt_system = self._get_system_prompt()
+        prompt_user = self._build_user_prompt(query, conversation_history, document_context, source_mapping)
+        
+        # Create streaming response
+        stream = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": prompt_system},
+                {"role": "user", "content": prompt_user}
+            ],
+            temperature=0.1,
+            max_tokens=1000,
+            stream=True
+        )
+        
+        # Yield chunks with metadata
+        full_response = ""
+        for chunk in stream:
+            if chunk.choices[0].delta.content is not None:
+                content = chunk.choices[0].delta.content
+                full_response += content
+                
+                # Fix source references on the fly
+                for source_ref, info in source_mapping.items():
+                    content = content.replace(f"({source_ref},", f"({info['full_name']},")
+                    content = content.replace(f"[{source_ref}]", f"[{info['full_name']}]")
+                    content = content.replace(f"{source_ref} ", f"{info['full_name']} ")
+                
+                yield {
+                    "type": "content",
+                    "content": content
+                }
+        
+        # After streaming completes, yield metadata
+        has_contradictions = any(word in full_response.lower() for word in 
+                            ['contradiction', 'contradictoire', 'incohérent', 'différent'])
+        
+        # Generate follow-up suggestions
+        follow_up_suggestions = []
+        if search_results:
+            if has_contradictions:
+                follow_up_suggestions = [
+                    "Quelle est la source la plus récente?",
+                    "Y a-t-il d'autres documents qui pourraient clarifier?",
+                    "Ces différences sont-elles significatives pour le projet?"
+                ]
+            else:
+                # For streaming, skip follow-up generation to avoid delay
+                follow_up_suggestions = []
+        
+        # Yield final metadata
+        yield {
+            "type": "metadata",
+            "has_contradictions": has_contradictions,
+            "follow_up_suggestions": follow_up_suggestions,
+            "sources": self._format_sources(search_results) if include_sources else [],
+            "full_response": full_response
+        }

@@ -18,7 +18,7 @@ class DocumentProcessor:
         import config
         self.openai_api_key = openai_api_key or config.OPENAI_API_KEY
         self.unified_processor = UnifiedDocumentProcessor(self.openai_api_key)
-        self.chunker = SimpleChunker(chunk_size=500, overlap_size=100)
+        self.chunker = SimpleChunker(chunk_size=1200, overlap_size=250)
         self.page_numberer = PDFPageNumberer()  # Add this
     
     def process_pdf(self, document_path: str, progress_callback=None) -> Dict:
