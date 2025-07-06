@@ -183,7 +183,7 @@ class SimpleChunker:
             chunk['paragraph_number'] = chunk['chunk_index'] + 1
         
         # Save chunks to file
-        self._save_chunks_to_file(chunks)
+        # self._save_chunks_to_file(chunks)
         
         return chunks
     
@@ -248,7 +248,7 @@ class SimpleChunker:
             chunk['chunk_index'] = i
         
         # Save chunks to file
-        self._save_chunks_to_file(all_chunks)
+        # self._save_chunks_to_file(all_chunks)
         
         return all_chunks
     
@@ -292,7 +292,7 @@ class SimpleChunker:
         )
         
         # Save chunks to file
-        self._save_chunks_to_file(chunks)
+        # self._save_chunks_to_file(chunks)
         
         return chunks
     

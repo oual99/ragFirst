@@ -11,7 +11,7 @@ class SearchEngine:
         self.embedding_generator = embedding_generator
         self.search_history = []  # Track recent searches for context
     
-    def rerank_results(self, query: str, search_results: List, top_k: int = 3) -> List:
+    def rerank_results(self, query: str, search_results: List, top_k: int = 6) -> List:
         """
         Rerank search results using GPT-4 to select the most relevant ones.
         
@@ -26,39 +26,55 @@ class SearchEngine:
         if not search_results or len(search_results) <= top_k:
             return search_results
         
-        # Prepare context for reranking
+        # Helper: grab a window around the first query-term hit
+        def extract_snippet(text: str, terms: List[str],
+                            window: int = 250, max_len: int = 700) -> str:
+            lower = text.lower()
+            for t in terms:
+                pos = lower.find(t.lower())
+                if pos != -1:
+                    start = max(0, pos - window)
+                    return text[start:start + max_len]
+            return text[:max_len]
+        
+        # Build candidates with query-focused snippets
+        query_terms = [t for t in query.split() if len(t) > 2]
         candidates = []
         for i, result in enumerate(search_results):
+            full_text = result.properties.get('text', '')
+            snippet = extract_snippet(full_text, query_terms)
             candidates.append({
                 "index": i,
                 "document": result.properties.get('source_document', 'Unknown'),
                 "page": result.properties.get('page_number', 0),
-                "text": result.properties.get('text', '')[:500],  # First 500 chars
+                # "text": result.properties.get('text', '')[:500],  # First 500 
+                "text": snippet,  # First 500 chars of the snippet
                 "full_result": result  # Keep the full result for later
             })
         
         # Create reranking prompt
         rerank_prompt = f"""Tu es un expert en analyse de pertinence pour des documents BTP.
 
-    Question de l'utilisateur: "{query}"
+        Question de l'utilisateur: "{query}"
 
-    Voici {len(candidates)} extraits de documents. Analyse leur pertinence par rapport à la question et sélectionne les {top_k} PLUS PERTINENTS.
+        Voici {len(candidates)} extraits de documents. Analyse leur pertinence par rapport à la question et sélectionne les {top_k} PLUS PERTINENTS.
 
-    Critères de sélection:
-    1. Pertinence directe avec la question
-    2. Complétude de l'information
-    3. Précision technique
-    4. Contexte approprié
+        Critères de sélection:
+        1. Pertinence directe avec la question
+        2. Complétude de l'information
+        3. Précision technique
+        4. Contexte approprié
+        5. Diversité : si plusieurs extraits du même document apportent la même information, privilégie ceux issus d’autres documents
 
-    Documents candidats:
-    """
+        Documents candidats:
+        """
         
         for i, candidate in enumerate(candidates):
             rerank_prompt += f"\n[Candidat {i+1}]\nDocument: {candidate['document']}, Page {candidate['page']}\nExtrait: {candidate['text']}\n"
         
         rerank_prompt += f"""
     Réponds UNIQUEMENT avec un JSON contenant:
-    - "selected": liste des numéros des {top_k} candidats les plus pertinents (ex: [3, 1, 5, 9])
+    - "selected": liste des numéros des {top_k} candidats les plus pertinents (ex: [3, 1, 5, 9, 15])
     - "reasoning": brève explication de ton choix
 
     Format: {{"selected": [X, Y, Z], "reasoning": "..."}}"""
@@ -72,7 +88,8 @@ class SearchEngine:
             client = OpenAI(api_key=config.OPENAI_API_KEY)
             
             response = client.chat.completions.create(
-                model="gpt-4o-mini",  # Use mini for reranking to save costs
+                # model="gpt-4o-mini",  # Use mini for reranking to save costs
+                model="gpt-4o",
                 messages=[
                     {"role": "system", "content": "Tu es un expert en analyse de pertinence. Réponds uniquement en JSON valide."},
                     {"role": "user", "content": rerank_prompt}
@@ -106,6 +123,7 @@ class SearchEngine:
                 
                 print(f"\n🎯 Reranking: {len(search_results)} → {len(reranked_results)} results")
                 print(f"Reasoning: {rerank_data.get('reasoning', 'N/A')}")
+                print(f"Selected indices: {selected_indices[:top_k]}")
                 
                 return reranked_results
                 
@@ -116,14 +134,21 @@ class SearchEngine:
         
         # Fallback: return top results by similarity
         return search_results[:top_k]
+    
+
+
 
     def search_multimodal(self, query: str, collection_name: str, limit: int = 3):
-        """Perform vector search on the collection."""
+        """Perform vector search on the collection with deduplication."""
         print(f"\n{'='*60}")
         print(f"🔍 SEARCH ENGINE - Starting search")
         print(f"Query: '{query}'")
         print(f"Collection: {collection_name}")
-        print(f"Limit: {limit}")
+        print(f"Requested limit: {limit}")
+        
+        # Over-fetch to account for duplicates
+        search_limit = limit * 4
+        print(f"Searching for: {search_limit} results (over-fetching for deduplication)")
         print(f"{'='*60}")
         
         # Generate embedding
@@ -134,21 +159,46 @@ class SearchEngine:
         results = self.client.search(
             collection_name=collection_name,
             query_vector=query_vector,
-            limit=limit
+            limit=search_limit
         )
         
         print(f"✅ Search completed - Found {len(results)} results")
         
-        # Debug each result - results are already formatted as objects by the database layer
-        for i, obj in enumerate(results):
-            # Access properties directly as they're already objects
+        # Deduplicate based on first 1000 characters of text
+        unique_results = []
+        seen_texts = set()
+        duplicates_removed = 0
+        
+        for obj in results:
+            text_content = obj.properties.get('text', '')
+            text_key = text_content[:1000]
+            
+            if text_key not in seen_texts:
+                seen_texts.add(text_key)
+                unique_results.append(obj)
+            else:
+                duplicates_removed += 1
+        
+        final_results = unique_results[:limit+5]
+        
+        print(f"🔄 Deduplication completed:")
+        print(f"   - Removed {duplicates_removed} duplicates")
+        print(f"   - {len(unique_results)} unique results found")
+        print(f"   - Returning {len(final_results)} results")
+        
+        for i, obj in enumerate(final_results):
             distance = obj.metadata.distance if hasattr(obj.metadata, 'distance') else 0
-            properties = obj.properties
+            props = obj.properties
+            document = props.get('source_document', 'N/A')
+            page = props.get('page_number', 'N/A')
+            para = props.get('paragraph_number', 'N/A')
+            text = props.get('text', '')[:300]
+
             print(f"\n  Result {i+1}:")
             print(f"    Distance: {distance:.4f}")
-            print(f"    Document: {properties.get('source_document', 'N/A')}")
-            print(f"    Location: Page {properties.get('page_number')}, Para {properties.get('paragraph_number')}")
-            print(f"    Text (50 chars): {properties.get('text', '')[:50]}...")
+            print(f"    Document: {document}")
+            print(f"    Location: Page {page}, Para {para}")
+            print(f"    Text (300 chars): {text}...")
         
         print(f"{'='*60}\n")
         
@@ -156,7 +206,9 @@ class SearchEngine:
         self.search_history.append({
             "query": query,
             "timestamp": datetime.now().isoformat(),
-            "result_count": len(results)
+            "raw_result_count": len(results),
+            "duplicates_removed": duplicates_removed,
+            "final_result_count": len(final_results)
         })
         
         # Keep only last 10 searches
@@ -164,7 +216,7 @@ class SearchEngine:
             self.search_history = self.search_history[-10:]
         
         # Results are already in the correct format
-        return results
+        return final_results
     
     def _search_related_content(self, 
                                collection_name: str,

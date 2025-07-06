@@ -285,6 +285,7 @@ class ConversationalRAGEngine:
             "   - Format: (NomDuDocument.pdf, Page X)\n"
             "   - NE PAS utiliser 'Document 1' ou 'Source 1' - utilise le VRAI nom du fichier\n"
             "   - Si tu cites plusieurs fois le même document, répète son nom complet\n\n"
+            "   - Si l'information existe dans deux documents differents, citer les deux sources\n\n"
             "2. DÉTECTION DES CONTRADICTIONS:\n"
             "   - SEULEMENT si tu trouves des informations contradictoires, tu dois le signaler\n"
             "   - S'il n'y a PAS de contradiction, réponds DIRECTEMENT sans mentionner l'absence de contradiction\n"
@@ -341,6 +342,7 @@ class ConversationalRAGEngine:
             "4. Si contradiction détectée: commence par signaler la contradiction\n"
             "5. Exemples de bonnes citations:\n"
             "   - CORRECT: 'charge de 1000 KN/m² (01_Gros-Oeuvre_VSS.pdf, Page 9)'\n"
+            "   - CORRECT: 'charge de 1000 KN/m² (01_Gros-Oeuvre_VSS.pdf, Page 9), (05_CCP_11.pdf, Page 25) '\n"
             "   - INCORRECT: 'charge de 1000 KN/m² (Document 1, Page 9)'\n"
             "   - INCORRECT: 'charge de 1000 KN/m² (Source 1, Page 9)'"
         )
@@ -404,7 +406,7 @@ class ConversationalRAGEngine:
                 {"role": "user", "content": prompt_user}
             ],
             temperature=0.1,
-            max_tokens=1000,
+            max_tokens=2000,
             stream=True
         )
         

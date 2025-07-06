@@ -828,17 +828,17 @@ def main():
 
         search_limit = st.slider(
             "Nombre de résultats à rechercher", 
-            min_value=3,
+            min_value=5,
             max_value=20,
-            value=10 if 'use_reranking' in st.session_state and st.session_state.use_reranking else 3,
+            value=20 if 'use_reranking' in st.session_state and st.session_state.use_reranking else 5,
             help="Nombre de résultats à extraire de la base de données"
         )
 
         use_reranking = st.checkbox(
             "🎯 Utiliser le reranking intelligent", 
-            value=False,
+            value=True,
             key="use_reranking",
-            help="Active un tri intelligent des résultats par GPT-4 pour une meilleure précision. Recherche 10 résultats puis sélectionne les 3 meilleurs."
+            help="Active un tri intelligent des résultats par GPT-4 pour une meilleure précision. Recherche 10 résultats puis sélectionne les 5 meilleurs."
         )
 
         # Show dynamic explanation
@@ -846,7 +846,7 @@ def main():
             st.info(
                 f"🎯 Mode précis activé:\n"
                 f"• Recherche étendue: {search_limit} résultats\n"
-                f"• Sélection intelligente des 3 meilleurs\n"
+                f"• Sélection intelligente des 5 meilleurs\n"
                 f"• Temps supplémentaire: ~2-3 secondes"
             )
             # Force search_limit to at least 10 when reranking
@@ -861,7 +861,7 @@ def main():
             )
 
         # Final number of results after reranking
-        final_result_count = 3 if use_reranking else search_limit
+        final_result_count = 5 if use_reranking else search_limit
         # auto_search = st.checkbox("Recherche automatique intelligente", value=True)
         # show_thinking = st.checkbox("Afficher le processus de réflexion", value=False)
         auto_search = True # Always enable auto search for this demo
@@ -924,18 +924,18 @@ def main():
                             )
                             
                             # Apply reranking if enabled and we have results
-                            if use_reranking and search_results and len(search_results) > 3:
+                            if use_reranking and search_results and len(search_results) > 6:
                                 if show_thinking:
                                     thinking_placeholder.info(
                                         f"🎯 Sélection intelligente des résultats... "
-                                        f"({len(search_results)} → 3 meilleurs)"
+                                        f"({len(search_results)} → 5 meilleurs)"
                                     )
                                 
                                 # Rerank results
                                 search_results = st.session_state.search_engine.rerank_results(
                                     query=prompt,
                                     search_results=search_results,
-                                    top_k=3
+                                    top_k=7
                                 )
                                 
                                 if show_thinking:
@@ -997,8 +997,8 @@ def main():
                     thinking_placeholder.empty()
 
                     # Check for contradictions and display warning if found
-                    if response_metadata and response_metadata.get("has_contradictions", False):
-                        st.warning("⚠️ **Informations contradictoires détectées** - Veuillez vérifier les sources citées ci-dessous.")
+                    # if response_metadata and response_metadata.get("has_contradictions", False):
+                    #     st.warning("⚠️ **Informations contradictoires détectées** - Veuillez vérifier les sources citées ci-dessous.")
 
                     # Final display in case there were any final formatting issues
                     response_placeholder.markdown(accumulated_response)
@@ -1016,19 +1016,7 @@ def main():
 
                     st.session_state.messages.append(assistant_message)
                     
-                    # # Display sources if available
-                    # if need_search and response_data.get("sources"):
-                    #     with st.expander("📚 Sources consultées", expanded=False):
-                    #         for i, source in enumerate(response_data["sources"]):
-                    #             st.markdown(f"""
-                    #             <div class="source-box">
-                    #             <b>Source {i+1}</b> - Distance: {source['distance']:.3f}<br>
-                    #             📄 Document: {os.path.basename(source['document'])}<br>
-                    #             📍 Page {source['page']} | Paragraphe {source['paragraph']}
-                    #             </div>
-                    #             """, unsafe_allow_html=True)
                     
-                    # Suggest follow-up questions
                     if response_metadata.get("follow_up_suggestions"):
                         st.markdown("**💡 Questions suggérées:**")
                         cols = st.columns(len(response_metadata["follow_up_suggestions"]))

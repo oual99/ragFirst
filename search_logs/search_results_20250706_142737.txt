@@ -1,0 +1,64 @@
+Query: qu'est ce que je dois comme prestation au sol?
+Collection: ragbtpdocuments2
+Timestamp: 20250706_142737
+Raw Results: 40
+Duplicates Removed: 35
+Final Results: 5
+
+Result 1:
+  Distance: 0.5720
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 9
+  Text (300 chars): P-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  LOGEMENTS 
+3.1.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et...
+
+Result 2:
+  Distance: 0.5737
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 11
+  Text (300 chars): P-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.1.4  JOINT DE FINITION 
+L’entreprise devra un joint pompe de finition de couleur similaire ou proche du revêtement de sol 
+entre les plinthes et le revêtement ...
+
+Result 3:
+  Distance: 0.5868
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 8, Para 8
+  Text (300 chars):  sur l’ensemble de son cycle de vie.  
+ Etiquette sanitaire (classe A et A+) : s’il entre dans le champ d’application de l’arrêté du 19 avril 2011 
+relatif à l’étiquetage des produits de construction ou de revêtement de mur ou de sol et des peintures et 
+vernis sur leurs émissions de polluants volat...
+
+Result 4:
+  Distance: 0.5873
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 2
+  Text (300 chars):  8 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE .................................................................................................. 8 
+2.3.4  DOCUMENTS D’EXECUTION .........................................................................................................................
+
+Result 5:
+  Distance: 0.5896
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 28
+  Text (300 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONST...
+

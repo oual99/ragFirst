@@ -1,0 +1,234 @@
+Query: qu'est ce que je dois comme prestation au sol?
+Collection: ragbtpdocuments2
+Timestamp: 20250706_143233
+Raw Results: 60
+Duplicates Removed: 39
+Final Results: 20
+
+Result 1:
+  Distance: 0.5720
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 9
+  Text (300 chars): P-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  LOGEMENTS 
+3.1.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et...
+
+Result 2:
+  Distance: 0.5737
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 11
+  Text (300 chars): P-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.1.4  JOINT DE FINITION 
+L’entreprise devra un joint pompe de finition de couleur similaire ou proche du revêtement de sol 
+entre les plinthes et le revêtement ...
+
+Result 3:
+  Distance: 0.5868
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 8, Para 8
+  Text (300 chars):  sur l’ensemble de son cycle de vie.  
+ Etiquette sanitaire (classe A et A+) : s’il entre dans le champ d’application de l’arrêté du 19 avril 2011 
+relatif à l’étiquetage des produits de construction ou de revêtement de mur ou de sol et des peintures et 
+vernis sur leurs émissions de polluants volat...
+
+Result 4:
+  Distance: 0.5873
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 2
+  Text (300 chars):  8 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE .................................................................................................. 8 
+2.3.4  DOCUMENTS D’EXECUTION .........................................................................................................................
+
+Result 5:
+  Distance: 0.5896
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 28
+  Text (300 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONST...
+
+Result 6:
+  Distance: 0.6032
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 12, Para 12
+  Text (300 chars):  pour différents matériaux de construction en termes d'épaisseur et de performance acoustique.]
+ 
+ 
+3.2.2  RAGREAGE 
+Suivant nécessité si la surface de la dalle ou de la chape n’était pas conforme. 
+Préparation du sol : reconnaissance du support (porosité et humidité). 
+Préparation du support (netto...
+
+Result 7:
+  Distance: 0.6128
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 13, Para 13
+  Text (300 chars): , 
+placée en haut des escaliers à une distance de 0,50 m de la première marche. 
+ 
+La couleur choisie contrastera avec la couleur du sol. 
+ 
+Localisation :  
+o  Tous niveaux sur l’ensemble des escaliers des bâtiments 
+ 
+Document établi par CODIBAT  page 13/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page...
+
+Result 8:
+  Distance: 0.6153
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 10, Para 10
+  Text (300 chars): avis technique de l’enduit de ragréage devra être transmis avant toute exécution pour validation par 
+la Maîtrise d’Œuvre et le Bureau de Contrôle. 
+ 
+Localisation 
+o  Toutes pièces destinées à recevoir un revêtement de sol souple 
+ 
+3.1.3  REVETEMENTS PVC 
+3.1.3.1  PIECES SECHES 
+Fourniture et pose...
+
+Result 9:
+  Distance: 0.6269
+  Document: CCTP-09-Carrelage-Faience.pdf
+  Location: Page 10, Para 10
+  Text (300 chars):  ≥ 18 dB** : Le carrelage doit respecter la même exigence acoustique.
+   - **Parquet ΔLw ≥ 18 dB** : Le parquet doit aussi réduire le bruit de 18 décibels ou plus.
+   - **Chape Th-A ΔLw ≥ 19 dB** : Une chape avec une spécification "Th-A" doit offrir une réduction acoustique de 19 décibels ou plus.
+
+...
+
+Result 10:
+  Distance: 0.6278
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 15
+  Text (300 chars):  lui sera notifié.  
+S'il négligeait de faire la réparation dans le délai fixé, l'avarie serait réparée d'office à ses frais.  
+Aucune réparation de fortune ne sera tolérée et l'appareil complet sera échangé sous garantie et la 
+garantie sera prolongée, pour cet appareil, d'une durée égale à celle d...
+
+Result 11:
+  Distance: 0.6295
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 5, Para 5
+  Text (300 chars):  prescriptions techniques - Cahier 3634-V2 (Novembre 2012) 
+-  Revêtements de sol textiles en dalles plombantes amovibles utilisées dans le bâtiment - Cahier des 
+Prescriptions Techniques de mise en œuvre (Cahiers CSTB 2193 octobre 1987) 
+-  Revêtements de sol - Notice sur le classement UPEC et clas...
+
+Result 12:
+  Distance: 0.6297
+  Document: CCTP-11-Peint-Revet mur.pdf
+  Location: Page 20, Para 16
+  Text (300 chars):  Réalisation de la signalisation réglementaire des places « handicapés », avec logos au sol   
+o  Réalisation de la signalisation des places pour véhicules électriques, avec logos au sol et mural  
+[ICÔNE: Petite icône]
+ 
+o  De la limite entre les cheminements véhicules et piétons 
+o  Des cheminemen...
+
+Result 13:
+  Distance: 0.6298
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 1, Para 1
+  Text (300 chars): Construction d’un ensemble de logements, restaurant seniors et crèche 
+   
+92130 ISSY LES MOULINEAUX 
+     
+[LOGO: Logo avec un cercle gris et bleu en haut à gauche, accompagné du texte "Seine Ouest" en noir et "HABITAT" en blanc sur un fond vert. Une courbe bleue traverse le bas du logo.]
+         ...
+
+Result 14:
+  Distance: 0.6326
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 7, Para 7
+  Text (300 chars): ex) 
+ou  d’un  Pass  innovation  (voir  http://evaluation.cstb.fr/).  A  défaut,  les  matériaux,  produits  ou 
+équipement doivent justifier de caractéristiques de performance équivalentes. La justification de 
+l’équivalence est à fournir par le fabricant concerné. Les matériaux, produits ou équipe...
+
+Result 15:
+  Distance: 0.6398
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 3, Para 3
+  Text (300 chars):  en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+En fonction de la classification UPEC des locaux du CSTB et de la nature du support l’Entreprise devra utili...
+
+Result 16:
+  Distance: 0.6486
+  Document: CCTP-09-Carrelage-Faience.pdf
+  Location: Page 9, Para 9
+  Text (300 chars):  CODIBAT  page 9/14 
+CCTP-09-Carrelage-Faience.pdf - Page 9/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Habillage du tablier de baignoire y compris trappe et du socle du r...
+
+Result 17:
+  Distance: 0.6497
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 6, Para 6
+  Text (300 chars):  joints sera tel qu'une règle de 2 mètres posée au droit des joints ne fasse pas apparaître 
+de différence supérieure à 2mm. Les alignements seront toujours perpendiculaires ou parallèles aux 
+façades des pièces. 
+ 
+2.1.2  ENTAILLES, PERCEMENTS, RACCORDS, DECOUPES 
+Les  entailles,  percements,  coup...
+
+Result 18:
+  Distance: 0.6505
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 4, Para 4
+  Text (300 chars):  Partie 1-1 : 
+Cahier des clauses techniques (Indice de classement : P62-203-1-1) 
+-  NF DTU 53.2 P1-2 (avril 2007) : Travaux de bâtiment - Revêtements de sols PVC collés - Partie 1-2 : 
+Critères généraux de choix des matériaux (CGM) (Indice de classement : P62-203-1-2) 
+-  NF DTU 53.2 P2 (avril 200...
+
+Result 19:
+  Distance: 0.6537
+  Document: CCTP-09-Carrelage-Faience.pdf
+  Location: Page 11, Para 11
+  Text (300 chars): . 
+Fourniture et pose collée carrelage grès cérame porcelainé de chez FIANDRE ou équivalent 
+Dimensions 30x30cm. 
+Classement UPEC : U4-P4-E3-C2 PC10 / R10 
+ 
+Teinte claire au choix de l’architecte dans la gamme compris plinthes à gorges assorties. 
+Intégration du siphon de sol fourni par le corps d’...
+
+Result 20:
+  Distance: 0.6627
+  Document: CCTP-09-Carrelage-Faience.pdf
+  Location: Page 2, Para 8
+  Text (300 chars): relage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  MURS LOGEMENTS 
+3.1.1  SYSTEME DE PROTECTION  SOUS CARRELAGE (SPEC) 
+Mise en œuvre d’un système de protection à l’eau sous carrelage (SPE...
+

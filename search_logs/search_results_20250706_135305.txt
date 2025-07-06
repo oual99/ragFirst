@@ -1,0 +1,633 @@
+Query: qu'est ce que je dois comme prestation au sol?
+Collection: ragbtpdocuments2
+Timestamp: 20250706_135305
+Found 20 results
+
+Result 1:
+  Distance: 0.5720
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 9
+  Text (10000 chars): P-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  LOGEMENTS 
+3.1.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image montre un diagramme composé de quatre sections empilées verticalement, chacune étant un rectangle de couleur bleue avec du texte en blanc. Voici la description de chaque section de haut en bas :
+
+1. **Combinations** : La première section en haut est étiquetée "Combinations". Elle est la plus petite des quatre sections.
+
+2. **Doublages intérieurs des façades** : La deuxième section est légèrement plus grande que la première et porte l'étiquette "Doublages intérieurs des façades".
+
+3. **Planchers entre logements** : La troisième section est de taille similaire à la deuxième et est étiquetée "Planchers entre logements".
+
+4. **Revêtements de sol** : La quatrième et dernière section est la plus grande. Elle est étiquetée "Revêtements de sol".
+
+Chaque section semble représenter un élément ou une catégorie liée à la construction ou au bâtiment, probablement dans le contexte de l'isolation ou de l'aménagement intérieur. Les sections sont uniformément colorées, et le texte est centré dans chaque rectangle.] [IMAGE: L'image montre un tableau technique utilisé dans le domaine du bâtiment et des travaux publics (BTP). Ce tableau est divisé en plusieurs sections, chacune contenant des informations spécifiques :
+
+1. **En-tête :** 
+   - "1.4" est indiqué, probablement une référence à une section ou un critère spécifique dans un document plus large.
+
+2. **Première section :**
+   - "ITI Th-A" et "ITI Th-A 80+" sont mentionnés, ce qui pourrait faire référence à des indices ou classifications thermiques ou acoustiques.
+
+3. **Deuxième section :**
+   - "Béton ≥ 20 cm" indique une épaisseur minimale de béton requise, probablement pour des raisons structurelles ou d'isolation.
+
+4. **Troisième section :** 
+   - Plusieurs types de revêtements de sol sont listés avec des valeurs de réduction sonore (ΔLw) :
+     - "Chape ΔLw ≥ 18 dB"
+     - "Sol souple ΔLw ≥ 18 dB"
+     - "Carrelage ΔLw ≥ 18 dB"
+     - "Parquet ΔLw ≥ 18 dB"
+     - "Chape Th-A ΔLw ≥ 19 dB"
+
+Chaque élément est lié à une performance acoustique minimale, exprimée en décibels (dB), indiquant l'atténuation du bruit de choc. Cela suggère des exigences pour des performances acoustiques dans la construction ou la rénovation de bâtiments.]
+ 
+ 
+3.1.2  RAGREAGE 
+Suivant nécessité si la surface de la dalle ou de la chape n’était pas conforme. 
+Préparation du sol : reconnaissance du support (porosité et humidité). 
+Préparation du support (nettoyage, traitement éventuel des fissures, et humidification éventuelle). 
+Application du primaire (suivant indication de l’avis technique). 
+Application de l’enduit de ragréage P3. 
+L’avis technique de l’enduit de ragréage devra être transmis avant toute exécution pour validation par 
+la Maîtrise d’Œuvre et le Bureau de Contrôle. 
+ 
+Localisation 
+o  Toutes pièces destinées à recevoir un revêtement de sol souple 
+ 
+3.1.3  REVETEMENTS PVC 
+3.1.3.1  PIECES SECHES 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoustique imprimé en lés soudés 2 m 
+de large, du type TRANSIT 2S2 de chez GERFLOR ou équivalent : 
+o  Multi couche armaturée sur sous couche mousse 
+o  Traitement GERNET ULTRA 
+o  Résistance à l’abrasion : Groupe T 
+o  Classement UPEC : U2 P2 E2/3 C2  s 
+Document établi par CODIBAT  page 10/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 10/17 SEINE OUEST HABIT...
+
+Result 2:
+  Distance: 0.5737
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 11
+  Text (10000 chars): P-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.1.4  JOINT DE FINITION 
+L’entreprise devra un joint pompe de finition de couleur similaire ou proche du revêtement de sol 
+entre les plinthes et le revêtement de sol. 
+ 
+3.2  PARTIES COMMUNES 
+3.2.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image montre un diagramme composé de quatre sections empilées verticalement, chacune étant un rectangle bleu avec du texte blanc. Les sections sont alignées les unes au-dessus des autres, formant une colonne. Voici la description de chaque section de haut en bas :
+
+1. **Combinations** : La première section en haut est étiquetée "Combinations". Elle est de taille égale aux autres sections.
+
+2. **Doublages intérieurs des façades** : La deuxième section est étiquetée "Doublages intérieurs des façades". Elle est également de la même taille que les autres sections.
+
+3. **Planchers entre logements** : La troisième section porte l'étiquette "Planchers entre logements". Elle suit le même format que les autres.
+
+4. **Revêtements de sol** : La dernière section, située en bas, est étiquetée "Revêtements de sol". Elle est identique en taille et en style aux autres sections.
+
+Chaque section semble représenter un élément ou un aspect différent lié au domaine de la construction, potentiellement utilisé pour organiser ou catégoriser des informations dans un document BTP.] [IMAGE: Ce document semble être un tableau technique lié à la construction, probablement concernant l'isolation acoustique ou thermique. Voici une description détaillée :
+
+1. **En-tête** : La section est numérotée "1.4", indiquant probablement une sous-section d'un document plus large.
+
+2. **Lignes de texte** :
+   - **ITI Th-A** : Cela pourrait faire référence à un type d'isolation thermique intérieure (ITI) avec une spécification "Th-A".
+   - **ITI Th-A 80+** : Une version améliorée ou spécifique de l'ITI Th-A, peut-être avec des caractéristiques supplémentaires ou une épaisseur accrue.
+   - **Béton ≥ 20 cm** : Indique que la structure en béton doit avoir une épaisseur minimale de 20 centimètres.
+
+3. **Spécifications acoustiques** :
+   - **Chape ΔLw ≥ 18 dB** : La chape doit avoir une réduction de niveau sonore (ΔLw) d'au moins 18 décibels.
+   - **Sol souple ΔLw ≥ 18 dB** : Les sols souples doivent également atteindre une réduction de 18 décibels.
+   - **Carrelage ΔLw ≥ 18 dB** : Le carrelage doit respecter la même exigence acoustique.
+   - **Parquet ΔLw ≥ 18 dB** : Le parquet doit aussi offrir une réduction sonore de 18 décibels.
+   - **Chape Th-A ΔLw ≥ 19 dB** : Une chape spécifique, probablement liée à l'isolation thermique-acoustique, doit atteindre une réduction de 19 décibels.
+
+Ce tableau semble donc lister des exigences minimales pour différents matériaux de construction en termes d'épaisseur et de performance acoustique.]
+ 
+ 
+3.2.2  RAGREAGE 
+Suivant nécessité si la surface de la dalle ou de la chape n’était pas conforme. 
+Préparation du sol : reconnaissance du support (porosité et humidité). 
+Préparation du support (nettoyage, traitement éventuel des fissures, et humidification éventuelle). 
+Application du primaire (suivant indication de l’avis technique). 
+Application de l’enduit de ragréage P3. 
+L’avis technique de l’enduit de ragréage devra être transmis avant toute exécution pour validation par 
+la Maîtrise d’Œuvre et le Bureau de Contrôle. 
+ 
+Localisation :  
+o  D’une manière générale, l’ensemble des surfaces devant recevoir un revêtement de sol souple 
+décrit ci-après 
+ 
+3.2.3  REVETEMENTS DE SOLS DES CIRCULATIONS 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoust...
+
+Result 3:
+  Distance: 0.5868
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 8, Para 8
+  Text (10000 chars):  sur l’ensemble de son cycle de vie.  
+ Etiquette sanitaire (classe A et A+) : s’il entre dans le champ d’application de l’arrêté du 19 avril 2011 
+relatif à l’étiquetage des produits de construction ou de revêtement de mur ou de sol et des peintures et 
+vernis sur leurs émissions de polluants volatils, le produit est classé A ou A+ au sens de cet arrêté.  
+ Gestion durable des forêts (PEFC, FSC) : dans le cas où le produit ou mobilier est composé de bois, il 
+dispose d’une preuve attestant la gestion durable des forêts dont le bois est issu. Les marques de 
+certification forestière attestant que les approvisionnements sont issus de forêts gérées durablement 
+(forêts éco certifiées) constituent des modes de preuve (exemple PEFC, FSC). 
+Respect de la règlementation sur les biocides : dans le cas de produits contenant des biocides, le 
+respect de la règlementation européenne concernant la mise sur le marché de ces produits est exigé 
+(directive 98/8/CE). 
+ 
+2.3.2  ETUDE DU DOSSIER 
+L'entreprise est réputée s'être engagée dans son Marché en toute connaissance de cause. En 
+particulier, lui sont parfaitement connus le terrain et ses sujétions propres, les contraintes relatives 
+aux constructions voisines, les modalités d'accès par la voirie, les possibilités et difficultés de 
+circulation et de stationnement, les sujétions des règlements administratifs en vigueur se rapportant 
+à la sécurité sur le domaine public. 
+Elle ne pourra jamais arguer que des erreurs ou omissions puissent la dispenser d'exécuter tous les 
+travaux de sa profession ou fassent l'objet d'une demande de suppléments sur ses prix. 
+ 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE 
+Les revêtements de sols devront être au minimum de classement UPEC et glissance (XP P 05-010) 
+suivants: 
+o  Circulations et escaliers revêtus de sols souples (≥25 logements): U3 -P2-E1-C0  s
+o  Pièces sèches : U2 -P2-E1-C0  s
+o  SdB, SdE, WC : U2 -P2-E2-C1 PN6 / R10  s
+o  Cuisines : U3-P3-E2-C2 PC10 / R10 
+ 
+Lw supérieur ou égal à 20 dB. 
+Document établi par CODIBAT  page 8/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 8/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Les procès-verbaux de classement UPEC seront à transmettre. 
+ 
+2.3.4  DOCUMENTS D’EXECUTION 
+Avant exécution des travaux, l’entreprise devra transmettre un dossier d’exécution complet de ses 
+ouvrages pour validation par la maîtrise d’œuvre et le bureau de contrôle. 
+Ce dossier comprendra notamment :  
+o  Les  fiches  techniques,  les  avis  techniques  en  cours  de  validité,  les  procès-verbaux  de 
+classement feu et acoustique, en cours de validité de tous les composants 
+o  Des plans de repérage de chaque niveau, des différents complexes mis en œuvre, avec 
+légende complète 
+Document établi par CODIBAT  page 9/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 9/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  LOGEMENTS 
+3.1.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image montre un diagramme composé de quatre sections empilées verticalement, chacune étant un rectangle de couleur bleue avec du texte...
+
+Result 4:
+  Distance: 0.5873
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 2, Para 2
+  Text (10000 chars):  8 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE .................................................................................................. 8 
+2.3.4  DOCUMENTS D’EXECUTION ...................................................................................................................................... 9 
+3.  DESCRIPTION DES TRAVAUX ......................................................................................................... 10 
+3.1  LOGEMENTS ........................................................................................................................................................... 10 
+3.1.1  NF HABITAT HQE ...................................................................................................................................................... 10 
+3.1.2  RAGREAGE ................................................................................................................................................................ 10 
+3.1.3  REVETEMENTS PVC .................................................................................................................................................. 10 
+3.1.4  JOINT DE FINITION................................................................................................................................................... 12 
+3.2  PARTIES COMMUNES............................................................................................................................................. 12 
+3.2.1  NF HABITAT HQE ...................................................................................................................................................... 12 
+3.2.2  RAGREAGE ................................................................................................................................................................ 12 
+3.2.3  REVETEMENTS DE SOLS DES CIRCULATIONS ......................................................................................................... 12 
+3.2.4  BARRES DE SEUIL ..................................................................................................................................................... 13 
+3.2.5  BANDES ET DALLES PODOTACTILES ....................................................................................................................... 13 
+3.2.6  TAPIS D’ENTREE ........................................................................................................................................................ 14 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE ........................................................... 15 
+4.1  GENERALITES .......................................................................................................................................................... 15 
+4.2  CONTROLES ............................................................................................................................................................ 15 
+4.3  ESSAIS ...................................................................................................................................................................... 15 
+4.3.1  ESSAIS ACOUSTIQUES ............................................................................................................................................. 16 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS .......................................................................................................................... 16 
+4.3.3  SANCTIONS .............................................................................................................................................................. 16 
+4.4  GARANTIE ................................................................................................................................................................ 16 
+4.5  DOSSIER DES OUVRAGES EXECUTES ................................................................................................................... 17 
+Document établi par CODIBAT  page 2/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 2/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+ 
+1.  PRESCRIPTIONS PARTICULIERES 
+ 
+Ce chapitre est complémentaire aux chapitres spécifiques à chaque corps d’état, étant entendu que l’ensemble 
+forme un tout indissociable, complémentaire l’un de l’autre. 
+1.1  PRESENTATION DU PROJET 
+L’opération a pour objet l'exécution complète et parfaite des travaux de tous les corps d'état nécessaires à la 
+construction d’un ensemble immobilier de 102 logements, d’une crèche et d’un restaurant club sénior. 
+ 
+L'entreprise s’engage à respecter l’ensemble des dispositions et exigences du dossier, et notamment : 
+-  Certification NF HABITAT HQE 
+-  Label RT 2012-10% 
+-  Besoin bioclimatique Bbio est inférieur ou égal au Bbio max 
+La consommation conventionnelle d'énergie primaire Cep ≤ Cep max avec 
+Cep max = 50 x Mctype x (Mcgéo + Mcalt + Mcsurf + McGES) 
+-  Production d’ECS par PAC assurant un apport de 30% d’EnR 
+-  La perméabilité à l'air Q4  max est de 0,60 m³/(h.m²)  pa-surf
+-  Respect des exigences pour permettre la certification NF Habitat HQE niveau d’entrée 
+-  Charte chantier à faibles nuisances 
+Par ailleurs, il est rappelé que le maître d’ouvrage a demandé une performance supérieure en matière 
+thermique à la labellisation recherchée, ce qui explique les dispositions techniques demandées. 
+De même, le maître d’ouvrage a demandé des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+En fonction de la classification UPEC des locaux du CSTB et de la nature du support l’Entreprise devra utiliser les 
+méthodologies de mise en œuvre qu’implique le classement E.  
+  E1 : joints traités à froid ou soudés à chaud sur support bois   
+  E2 : joints traités à froid ou soudés à chaud sur support béton   
+  E3 : joints traités à froid ou soudés à chaud + remontée en plinthes ou étanchéité en rives.   
+En pratique on retiendra : joints traités en locaux E1, et joints soudés à chaud en parties communes et locaux 
+d’autres classements. 
+ 
+1.2.1  TRAVAUX EN LOGEMENTS  
+-  Ragréage des sols 
+-  Fourniture et pose de rev...
+
+Result 5:
+  Distance: 0.5896
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 30
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 6:
+  Distance: 0.5896
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 28
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 7:
+  Distance: 0.5897
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 48
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 8:
+  Distance: 0.5898
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 26
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 9:
+  Distance: 0.5898
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 45
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 10:
+  Distance: 0.5898
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 19
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 11:
+  Distance: 0.5899
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 16
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 12:
+  Distance: 0.5899
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 27
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 13:
+  Distance: 0.5899
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 23
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 14:
+  Distance: 0.5899
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 25
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 15:
+  Distance: 0.5899
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 33
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 16:
+  Distance: 0.5899
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 55
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 17:
+  Distance: 0.5899
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 38
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 18:
+  Distance: 0.5900
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 22
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 19:
+  Distance: 0.5900
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 24
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
+Result 20:
+  Distance: 0.5900
+  Document: CCTP-10-Revêt de sols soupl.pdf
+  Location: Page 16, Para 44
+  Text (10000 chars): responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17...
+
