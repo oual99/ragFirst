@@ -94,7 +94,7 @@ class SearchEngine:
                     {"role": "system", "content": "Tu es un expert en analyse de pertinence. Réponds uniquement en JSON valide."},
                     {"role": "user", "content": rerank_prompt}
                 ],
-                temperature=0.1,
+                temperature=0.0,
                 max_tokens=1000
             )
             
@@ -161,6 +161,8 @@ class SearchEngine:
             query_vector=query_vector,
             limit=search_limit
         )
+        results.sort(key=lambda r: (r.properties.get('source_document', ''), r.properties.get('page_number', 0)))
+
         
         print(f"✅ Search completed - Found {len(results)} results")
         
@@ -179,12 +181,12 @@ class SearchEngine:
             else:
                 duplicates_removed += 1
         
-        final_results = unique_results[:limit+5]
+        final_results = unique_results
         
-        print(f"🔄 Deduplication completed:")
-        print(f"   - Removed {duplicates_removed} duplicates")
-        print(f"   - {len(unique_results)} unique results found")
-        print(f"   - Returning {len(final_results)} results")
+        # print(f"🔄 Deduplication completed:")
+        # print(f"   - Removed {duplicates_removed} duplicates")
+        # print(f"   - {len(unique_results)} unique results found")
+        # print(f"   - Returning {len(final_results)} results")
         
         for i, obj in enumerate(final_results):
             distance = obj.metadata.distance if hasattr(obj.metadata, 'distance') else 0
@@ -194,13 +196,13 @@ class SearchEngine:
             para = props.get('paragraph_number', 'N/A')
             text = props.get('text', '')[:300]
 
-            print(f"\n  Result {i+1}:")
-            print(f"    Distance: {distance:.4f}")
+        #     print(f"\n  Result {i+1}:")
+        #     print(f"    Distance: {distance:.4f}")
             print(f"    Document: {document}")
             print(f"    Location: Page {page}, Para {para}")
-            print(f"    Text (300 chars): {text}...")
+        #     print(f"    Text (300 chars): {text}...")
         
-        print(f"{'='*60}\n")
+        # print(f"{'='*60}\n")
         
         # Track search
         self.search_history.append({

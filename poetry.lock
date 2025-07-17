@@ -3672,6 +3672,24 @@ fastembed = ["fastembed (==0.6.1)"]
 fastembed-gpu = ["fastembed-gpu (==0.6.1)"]
 
 [[package]]
+name = "rank-bm25"
+version = "0.2.2"
+description = "Various BM25 algorithms for document ranking"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "rank_bm25-0.2.2-py3-none-any.whl", hash = "sha256:7bd4a95571adadfc271746fa146a4bcfd89c0cf731e49c3d1ad863290adbe8ae"},
+    {file = "rank_bm25-0.2.2.tar.gz", hash = "sha256:096ccef76f8188563419aaf384a02f0ea459503fdf77901378d4fd9d87e5e51d"},
+]
+
+[package.dependencies]
+numpy = "*"
+
+[package.extras]
+dev = ["pytest"]
+
+[[package]]
 name = "rapidfuzz"
 version = "3.13.0"
 description = "rapid fuzzy string matching"
@@ -5278,4 +5296,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "53b2e0e640068a0c486912503f4f2c3f083019c7ea50d044bb210c9ebd18e1a8"
+content-hash = "4229cbc52ddfddc515b0c7291fd1fd7297ef8af6dd6ca3fb9051c4394483bc81"

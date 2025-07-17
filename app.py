@@ -922,20 +922,23 @@ def main():
                                 config.COLLECTION_NAME, 
                                 limit=initial_limit
                             )
-                            
+                            top_k = 20
                             # Apply reranking if enabled and we have results
-                            if use_reranking and search_results and len(search_results) > 6:
+                            print("use_reranking:", use_reranking, "search_results:", len(search_results))
+                            if use_reranking and search_results and len(search_results) > 10:
+                                print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXReranking enabled, initial results:", len(search_results))
                                 if show_thinking:
+                                    print("ZZZZZZZZZZZZZZZZZZZ show_thinking", show_thinking)
                                     thinking_placeholder.info(
                                         f"🎯 Sélection intelligente des résultats... "
-                                        f"({len(search_results)} → 5 meilleurs)"
+                                        f"({len(search_results)} → {top_k} meilleurs)"
                                     )
                                 
                                 # Rerank results
                                 search_results = st.session_state.search_engine.rerank_results(
                                     query=prompt,
                                     search_results=search_results,
-                                    top_k=7
+                                    top_k=top_k
                                 )
                                 
                                 if show_thinking:
@@ -963,35 +966,17 @@ def main():
                     if show_thinking:
                         thinking_placeholder.info("💭 Génération de la réponse...")
                     
-                    # Generate response with streaming
-                    response_placeholder = st.empty()
-                    accumulated_response = ""
-                    response_metadata = None
-
-                    # Stream the response
-                    for chunk in st.session_state.rag_engine.generate_conversational_response_stream(
+                    # Get complete response
+                    response_data = st.session_state.rag_engine.generate_conversational_response_stream(
                         query=prompt,
                         search_results=formatted_results if need_search else st.session_state.current_context,
                         conversation_history=conversation_history,
                         include_sources=need_search
-                    ):
-                        if chunk["type"] == "content":
-                            # Accumulate and display
-                            accumulated_response += chunk["content"]
-                            response_placeholder.markdown(accumulated_response)
-                        
-                        elif chunk["type"] == "metadata":
-                            response_metadata = chunk
-                            # Use full response for follow-up suggestions
-                            if search_results and not chunk.get("has_contradictions", False):
-                                # Generate follow-up suggestions in background
-                                try:
-                                    follow_up_suggestions = st.session_state.rag_engine._generate_follow_up_suggestions(
-                                        prompt, chunk.get("full_response", accumulated_response)
-                                    )
-                                    response_metadata["follow_up_suggestions"] = follow_up_suggestions
-                                except:
-                                    pass
+                    )
+
+                    # Display the complete response
+                    st.markdown(response_data["content"])
+                    response_metadata = response_data
 
                     # Clear thinking placeholder
                     thinking_placeholder.empty()
@@ -1001,12 +986,12 @@ def main():
                     #     st.warning("⚠️ **Informations contradictoires détectées** - Veuillez vérifier les sources citées ci-dessous.")
 
                     # Final display in case there were any final formatting issues
-                    response_placeholder.markdown(accumulated_response)
+                    # response_placeholder.markdown(accumulated_response)
 
                     # Add assistant message to history
                     assistant_message = {
                         "role": "assistant",
-                        "content": accumulated_response,
+                        "content": response_data["content"],
                         "timestamp": datetime.now().isoformat(),
                         "has_contradictions": response_metadata.get("has_contradictions", False) if response_metadata else False
                     }
@@ -1017,14 +1002,14 @@ def main():
                     st.session_state.messages.append(assistant_message)
                     
                     
-                    if response_metadata.get("follow_up_suggestions"):
-                        st.markdown("**💡 Questions suggérées:**")
-                        cols = st.columns(len(response_metadata["follow_up_suggestions"]))
-                        for i, suggestion in enumerate(response_metadata["follow_up_suggestions"]):
-                            with cols[i]:
-                                if st.button(suggestion, key=f"suggestion_{i}"):
-                                    st.session_state.prompt_input = suggestion
-                                    st.rerun()
+                    # if response_metadata.get("follow_up_suggestions"):
+                    #     st.markdown("**💡 Questions suggérées:**")
+                    #     cols = st.columns(len(response_metadata["follow_up_suggestions"]))
+                    #     for i, suggestion in enumerate(response_metadata["follow_up_suggestions"]):
+                    #         with cols[i]:
+                    #             if st.button(suggestion, key=f"suggestion_{i}"):
+                    #                 st.session_state.prompt_input = suggestion
+                    #                 st.rerun()
                     
                 except Exception as e:
                     thinking_placeholder.empty()

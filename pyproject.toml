@@ -25,6 +25,7 @@ dependencies = [
     "fitz (>=0.0.1.dev2,<0.0.2)",
     "pymupdf (==1.23.8)",
     "tiktoken (>=0.9.0,<0.10.0)",
+    "rank-bm25 (>=0.2.2,<0.3.0)",
 ]
 
 [tool.poetry]

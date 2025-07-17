@@ -34,7 +34,8 @@ class ConversationManager:
             if len(content) > 300:
                 content = content[:297] + "..."
             
-            formatted_msg = f"[{timestamp}] {role}: {content}"
+            # formatted_msg = f"[{timestamp}] {role}: {content}"
+            formatted_msg = f"{role}: {content}"
             
             # Check if adding this message would exceed limit
             if total_chars + len(formatted_msg) > max_chars:
