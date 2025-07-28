@@ -1,4 +1,5 @@
 """Streamlit conversational bot application for RAG system."""
+from src.bm25_utils import build_and_persist_bm25
 import streamlit as st
 import os
 from pathlib import Path
@@ -527,6 +528,10 @@ def main():
                 # Show warning
                 with st.spinner("Réinitialisation en cours..."):
                     success, message = reset_vector_database()
+                    from src.bm25_utils import delete_user_bm25_index
+                    # 2) Remove BM25 index file
+                    delete_user_bm25_index(config.CURRENT_USER_ID)
+
                     
                 if success:
                     st.success(message)
@@ -655,6 +660,9 @@ def main():
                                 file_progress_bars[idx].progress(0.85)
                                 
                                 extracted_data = processor.extract_text_with_metadata(processed_doc, save_path)
+                                
+                                # build & save BM25 for this user
+                                bm25 = build_and_persist_bm25(config.CURRENT_USER_ID, extracted_data)
                                 
                                 # Step 5: Ensure collection exists (90%)
                                 file_status_texts[idx].text("🗄️ Vérification de la base de données...")
@@ -866,7 +874,12 @@ def main():
         # show_thinking = st.checkbox("Afficher le processus de réflexion", value=False)
         auto_search = True # Always enable auto search for this demo
         show_thinking = True # Always show thinking process for this demo
-    
+
+        retrieval_mode = st.sidebar.radio(
+            "Retrieval method",
+            ("Embeddings only", "BM25 only", "Hybrid"),
+            index=2,  # default to Hybrid
+        )
     # Main chat interface
     if not st.session_state.initialized:
         st.info("👈 Veuillez initialiser le système pour commencer.")
@@ -917,11 +930,22 @@ def main():
                             # Perform search - get more results if reranking is enabled
                             initial_limit = search_limit  # This will be 10+ if reranking is on
                             
+                            # search_results = st.session_state.search_engine.search_multimodal(
+                            #     prompt, 
+                            #     config.COLLECTION_NAME, 
+                            #     limit=initial_limit
+                            # )
+                            
                             search_results = st.session_state.search_engine.search_multimodal(
-                                prompt, 
-                                config.COLLECTION_NAME, 
-                                limit=initial_limit
+                                prompt,
+                                config.COLLECTION_NAME,
+                                limit=initial_limit,
+                                mode=retrieval_mode,
+                                user_id=config.CURRENT_USER_ID
                             )
+                            
+                            
+                            
                             top_k = 20
                             # Apply reranking if enabled and we have results
                             print("use_reranking:", use_reranking, "search_results:", len(search_results))

@@ -68,5 +68,7 @@ class DocumentProcessor:
         doc_name = os.path.basename(source_document)
         for chunk in chunks:
             chunk['source_document'] = doc_name
-        
+        print("################## DEBUG: Extracted chunks ##################")
+        print("Extracted chunks:", chunks[0:2])  # Print first two chunks for debugging
+        print("#############################################################")
         return chunks

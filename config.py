@@ -44,6 +44,7 @@ EMBEDDING_MODEL = "text-embedding-3-large"
 # CHAT_MODEL = "gpt-4o-mini"
 CHAT_MODEL = "gpt-4o"
 
+CURRENT_USER_ID = "default_user"
 
 # Path Configuration
 DOCUMENTS_PATH = "data/documents"

@@ -1,0 +1,1190 @@
+Chunk 1 (BM25):
+IFICATIONS PARTICULIERES ........................................................................................................................... 8 
+2.3.1  ETUDE DU DOSSIER ................................................................................................................................................... 8 
+2.3.2  CLASSEMENT UPEC .................................................................................................................................................... 8 
+2.3.3  DOCUMENTS D’EXECUTION ...................................................................................................................................... 8 
+3.  DESCRIPTION DES TRAVAUX ........................................................................................................... 9 
+3.1  MURS LOGEMENTS .................................................................................................................................................. 9 
+3.1.1  SYSTEME DE PROTECTION  SOUS CARRELAGE (SPEC) ............................................................................................ 9 
+3.1.2  FAÏENCES .................................................................................................................................................................... 9 
+3.2  PARTIES COMMUNES............................................................................................................................................. 10 
+3.2.1  NF HABITAT HQE ...................................................................................................................................................... 10 
+3.2.2  CHAPE ACOUSTIQUE ............................................................................................................................................... 10 
+3.2.3  SOL DES SAS, HALLS ET CIRCULATIONS A RDC, LOGE .......................................................................................... 11 
+3.2.4  PROFIL D’ARRET ....................................................................................................................................................... 11 
+3.2.5  LOCAL OM ................................................................................................................................................................ 11 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE ........................................................... 12 
+4.1  GENERALITES .......................................................................................................................................................... 12 
+4.2  CONTROLES ............................................................................................................................................................ 12 
+4.3  ESSAIS ...................................................................................................................................................................... 12 
+4.3.1  ESSAIS ACOUSTIQUES ............................................................................................................................................. 13 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS .......................................................................................................................... 13 
+4.3.3  SANCTIONS .............................................................................................................................................................. 13 
+4.4  GARANTIE ................................................................................................................................................................ 13 
+4.5  DOSSIER DES OUVRAGES EXECUTES ................................................................................................................... 14 
+ 
+Document établi par CODIBAT  page 2/14 
+CCTP-09-Carrelage-Faience.pdf - Page 2/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+1.  PRESCRIPTIONS PARTICULIERES 
+ 
+Ce chapitre est complémentaire aux chapitres spécifiques à chaque corps d’état, étant entendu que l’ensemble 
+forme un tout indissociable, complémentaire l’un de l’autre. 
+1.1  PRESENTATION DU PROJET 
+L’opération a pour objet l'exécution complète et parfaite des travaux de tous les corps d'état nécessaires à la 
+construction d’un ensemble immobilier de 102 logements, d’une crèche et d’un restaurant club sénior. 
+ 
+L'entreprise s’engage à respecter l’ensemble des dispositions et exigences du dossier, et notamment : 
+-  Certification NF HABITAT HQE 
+-  Label RT 2012-10% 
+-  Besoin bioclimatique Bbio est inférieur ou égal au Bbio max 
+La consommation conventionnelle d'énergie primaire Cep ≤ Cep max avec 
+Cep max = 50 x Mctype x (Mcgéo + Mcalt + Mcsurf + McGES) 
+-  Production d’ECS par PAC assurant un apport de 30% d’EnR 
+-  La perméabilité à l'air Q4  max est de 0,60 m³/(h.m²)  pa-surf
+-  Respect des exigences pour permettre la certification NF Habitat HQE niveau d’entrée 
+-  Charte chantier à faibles nuisances 
+Par ailleurs, il est rappelé que le maître d’ouvrage a demandé une performance supérieure en matière 
+thermique à la labellisation recherchée, ce qui explique les dispositions techniques demandées. 
+De même, le maître d’ouvrage a demandé des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+1.2.1  TRAVAUX EN LOGEMENTS 
+  Etanchéité sous faïences et carrelage dans les salles de bain et salle d’eau 
+  Faïences murales au droit des douches et baignoires, toute hauteur, dans les cuisines (60cm) 
+  Faïences murales identiques au droit des lavabos  
+  Carrelage au sol, avec plinthes assorties dans les salles de bain et salle d’eau, WC et cuisines fermées 
+ 
+1.2.2  TRAVAUX EN PARTIES COMMUNES 
+  Sol des halls, y compris ascenseurs, circulations et paliers escalier à RdC, loge : carrelage grès cérame 
+  Compris plinthes assorties 
+Document établi par CODIBAT  page 3/14 
+CCTP-09-Carrelage-F
+
+Chunk 2 (BM25):
+SUPPORTS ............................................................................................................................. 12 
+3.1.1  PREPARATION DES SUPPORTS EN BETON ............................................................................................................. 12 
+3.1.2  PREPARATION DES SUPPORTS EN PLATRE ............................................................................................................ 12 
+3.1.3  PREPARATION DES OUVRAGES BOIS ...................................................................................................................... 13 
+3.1.4  PREPARATION DES OUVRAGES METALLIQUES ...................................................................................................... 13 
+3.2  TRAVAUX EN LOGEMENTS ET LOGE .................................................................................................................... 13 
+3.2.1  PLAFONDS ET MURS ................................................................................................................................................ 13 
+3.2.2  OUVRAGES DE MENUISERIES .................................................................................................................................. 13 
+3.2.3  JOINTS ACRYLIQUE .................................................................................................................................................. 14 
+3.2.4  PARTIES METALLIQUES ............................................................................................................................................ 14 
+3.3  PARTIES COMMUNES............................................................................................................................................. 15 
+3.3.1  HALLS, SAS ET CIRCULATIONS A REZ DE CHAUSSEE ............................................................................................. 15 
+3.3.2  CIRCULATIONS PALIERES ........................................................................................................................................ 16 
+3.3.3  CAGES D’ESCALIERS ................................................................................................................................................. 17 
+3.3.4  LOCAUX COMMUNS ET TECHNIQUES .................................................................................................................... 18 
+3.3.5  CIRCULATIONS, SAS AU SOUS-SOL ........................................................................................................................ 19 
+3.3.6  PARKING : PEINTURE DE SOL – SIGNALETIQUE HORIZONTALE INTERIEURE ...................................................... 19 
+3.3.7  SIGNALETIQUE ......................................................................................................................................................... 20 
+3.4  NETTOYAGE ET PROTECTION ............................................................................................................................... 22 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE ........................................................... 23 
+4.1  GENERALITES .......................................................................................................................................................... 23 
+4.2  CONTROLES ............................................................................................................................................................ 23 
+4.3  ESSAIS ...................................................................................................................................................................... 23 
+Document établi par CODIBAT  page 2/25 
+CCTP-11-Peint-Revet mur.pdf - Page 2/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.3.1  ESSAIS ACOUSTIQUES ............................................................................................................................................. 24 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS .......................................................................................................................... 24 
+4.3.3  SANCTIONS .............................................................................................................................................................. 24 
+4.4  GARANTIE ................................................................................................................................................................ 24 
+4.5  DOSSIER DES OUVRAGES EXECUTES ................................................................................................................... 25 
+Document établi par CODIBAT  page 3/25 
+CCTP-11-Peint-Revet mur.pdf - Page 3/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+ 
+1.  PRESCRIPTIONS PARTICULIERES 
+ 
+Ce chapitre est complémentaire aux chapitres spécifiques à chaque corps d’état, étant entendu que l’ensemble 
+forme un tout indissociable, complémentaire l’un de l’autre. 
+1.1  PRESENTATION DU PROJET 
+L’opération a pour objet l'exécution complète et parfaite des travaux de tous les corps d'état nécessaires à la 
+construction d’un ensemble immobilier de 102 logements, d’une crèche et d’un restaurant club sénior. 
+ 
+L'entreprise s’engage à respecter l’ensemble des dispositions et exigences du dossier, et notamment : 
+-  Certification NF HABITAT HQE 
+-  Label RT 2012-10% 
+-  Besoin bioclimatique Bbio est inférieur ou égal au Bbio max 
+La consommation conventionnelle d'énergie primaire Cep ≤ Cep max avec 
+Cep max = 50 x Mctype x (Mcgéo + Mcalt + Mcsurf + McGES) 
+-  Production d’ECS par PAC assurant un apport de 30% d’EnR 
+-  La perméabilité à l'air Q4  max est de 0,60 m³/(h.m²)  pa-surf
+-  Respect des exigences pour permettre la certification NF Habitat HQE niveau d’entrée 
+-  Charte chantier à faibles nuisances 
+Par ailleurs, il est rappelé que le maître d’ouvrage a demandé une performance supérieure en matière 
+thermique à la labellisation recherchée, ce qui explique les dispositions techniques demandées. 
+De même, le maître d’ouvrage a demandé des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONS
+
+Chunk 3 (BM25):
+................................................................................... 8 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE .................................................................................................. 8 
+2.3.4  DOCUMENTS D’EXECUTION ...................................................................................................................................... 9 
+3.  DESCRIPTION DES TRAVAUX ......................................................................................................... 10 
+3.1  LOGEMENTS ........................................................................................................................................................... 10 
+3.1.1  NF HABITAT HQE ...................................................................................................................................................... 10 
+3.1.2  RAGREAGE ................................................................................................................................................................ 10 
+3.1.3  REVETEMENTS PVC .................................................................................................................................................. 10 
+3.1.4  JOINT DE FINITION................................................................................................................................................... 12 
+3.2  PARTIES COMMUNES............................................................................................................................................. 12 
+3.2.1  NF HABITAT HQE ...................................................................................................................................................... 12 
+3.2.2  RAGREAGE ................................................................................................................................................................ 12 
+3.2.3  REVETEMENTS DE SOLS DES CIRCULATIONS ......................................................................................................... 12 
+3.2.4  BARRES DE SEUIL ..................................................................................................................................................... 13 
+3.2.5  BANDES ET DALLES PODOTACTILES ....................................................................................................................... 13 
+3.2.6  TAPIS D’ENTREE ........................................................................................................................................................ 14 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE ........................................................... 15 
+4.1  GENERALITES .......................................................................................................................................................... 15 
+4.2  CONTROLES ............................................................................................................................................................ 15 
+4.3  ESSAIS ...................................................................................................................................................................... 15 
+4.3.1  ESSAIS ACOUSTIQUES ............................................................................................................................................. 16 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS .......................................................................................................................... 16 
+4.3.3  SANCTIONS .............................................................................................................................................................. 16 
+4.4  GARANTIE ................................................................................................................................................................ 16 
+4.5  DOSSIER DES OUVRAGES EXECUTES ................................................................................................................... 17 
+Document établi par CODIBAT  page 2/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 2/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+ 
+1.  PRESCRIPTIONS PARTICULIERES 
+ 
+Ce chapitre est complémentaire aux chapitres spécifiques à chaque corps d’état, étant entendu que l’ensemble 
+forme un tout indissociable, complémentaire l’un de l’autre. 
+1.1  PRESENTATION DU PROJET 
+L’opération a pour objet l'exécution complète et parfaite des travaux de tous les corps d'état nécessaires à la 
+construction d’un ensemble immobilier de 102 logements, d’une crèche et d’un restaurant club sénior. 
+ 
+L'entreprise s’engage à respecter l’ensemble des dispositions et exigences du dossier, et notamment : 
+-  Certification NF HABITAT HQE 
+-  Label RT 2012-10% 
+-  Besoin bioclimatique Bbio est inférieur ou égal au Bbio max 
+La consommation conventionnelle d'énergie primaire Cep ≤ Cep max avec 
+Cep max = 50 x Mctype x (Mcgéo + Mcalt + Mcsurf + McGES) 
+-  Production d’ECS par PAC assurant un apport de 30% d’EnR 
+-  La perméabilité à l'air Q4  max est de 0,60 m³/(h.m²)  pa-surf
+-  Respect des exigences pour permettre la certification NF Habitat HQE niveau d’entrée 
+-  Charte chantier à faibles nuisances 
+Par ailleurs, il est rappelé que le maître d’ouvrage a demandé une performance supérieure en matière 
+thermique à la labellisation recherchée, ce qui explique les dispositions techniques demandées. 
+De même, le maître d’ouvrage a demandé des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+En fonction de la classification UPEC des locaux du CSTB et de la nature du support l’Entreprise devra utiliser les 
+méthodologies de mise en œuvre qu’implique le classement E.  
+  E1 : joints traités à froid ou soudés à chaud sur support bois   
+  E2 : joints traités à froid ou soudés à chaud sur support béton   
+  E3 : joints traités à froid ou soudés à chaud + remontée en plinthes ou étanchéité en rives.   
+En pratique on retiendra : joints traités en locaux E1, et joints soudés à chaud en parties communes et locaux 
+d’autres classements. 
+ 
+1.2.1  TRAVAUX EN LOGEMENTS  
+-  Ragréage des sols 
+-  Fourniture et
+
+Chunk 4 (BM25):
+La consommation conventionnelle d'énergie primaire Cep ≤ Cep max avec 
+Cep max = 50 x Mctype x (Mcgéo + Mcalt + Mcsurf + McGES) 
+-  Production d’ECS par PAC assurant un apport de 30% d’EnR 
+-  La perméabilité à l'air Q4  max est de 0,60 m³/(h.m²)  pa-surf
+-  Respect des exigences pour permettre la certification NF Habitat HQE niveau d’entrée 
+-  Charte chantier à faibles nuisances 
+Par ailleurs, il est rappelé que le maître d’ouvrage a demandé une performance supérieure en matière 
+thermique à la labellisation recherchée, ce qui explique les dispositions techniques demandées. 
+De même, le maître d’ouvrage a demandé des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+1.2.1  TRAVAUX EN LOGEMENTS ET LOGE 
+-  Plafonds :  
+  Pièces humides : 2 couches de peinture lessivable acrylique aspect satiné 
+  Pièces sèches : 2 couches de peinture lessivable acrylique aspect satiné 
+-  Murs 
+  Pièces humides : 2 couches de peinture lessivable acrylique aspect satiné 
+  Pièces sèches : 2 couches de peinture lessivable acrylique aspect satiné 
+-  Revêtements muraux et peinture en plafonds au droit des placards à l’identique des pièces dans 
+lesquelles ils se situent 
+-  Ouvrages de menuiseries intérieures : plinthes et trappes de visite des gaines techniques : 2 couches 
+de peinture lessivable acrylique aspect satiné 
+-  Parties métalliques : 2 couches de peinture lessivable acrylique aspect satiné 
+ 
+1.2.2  TRAVAUX EN PARTIES COMMUNES 
+-  Hall : 
+  Murs : peinture brillante 
+-  Circulations palières du rez-de-chaussée et des étages : 
+  Plafonds : peinture lessivable acrylique aspect mat 
+  Murs : peinture lessivable acrylique aspect brillant 
+  Parties métalliques : peinture lessivable acrylique aspect brillant 
+Document établi par CODIBAT  page 4/25 
+CCTP-11-Peint-Revet mur.pdf - Page 4/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+  Ouvrages de menuiseries intérieures : peinture lessivable acrylique brillant 
+-  Cages d’escalier : 
+  Plafonds, paillasse: enduit type BAGAR 
+  Fût d’escalier : peinture acrylique lessivable aspect satiné  
+  Murs : enduit type BAGAR 
+  Parties  métalliques :  garde-corps  et  mains  courantes :  peinture  lessivable  acrylique 
+brillant 
+  Peinture anti-poussières sur marches et contremarches, contremarches contrastantes 
+sur la première et dernière contremarche 
+Sol parking : sol peinture et marquage 
+-  Locaux communs et techniques : 
+  Murs et plafonds: 2 couches de peinture lessivable vinylique 
+  Huisseries métalliques : 2 couches peinture lessivable acrylique, aspect brillant 
+  Portes : peinture lessivable acrylique brillant 
+  Sols : peinture polyuréthane 
+ 
+1.2.3  SIGNALETIQUE 
+Panneaux de sécurité et consignes avec plans plastifiés sur cadre alu, avec localisation des issues de 
+secours, les extincteurs et les consignes de sécurité, selon la réglementation incendie. 
+Une signalisation permet d’identifier les différents bâtiments et les différents cheminements possibles : au 
+minimum à l’entrée du site, au niveau du parc de stationnement et chaque fois qu’un choix d’itinéraire est 
+donne a l’usager. 
+ 
+-  Signalisation intérieure : 
+Numérotation des boîtes aux lettres avec des plaques adhésives gravées. 
+Indication des locaux techniques et communs avec des plaques de type pictogramme. 
+Consignes de tri dans le local Ordures Ménagères avec des plaques de type pictogramme. 
+Porte coupe-feu des paliers d’étage avec étiquettes adhésives « Portes CF à maintenir fermée ».
+
+Chunk 5 (BM25):
+site 
+d’AFOCERT (Association Française des Organismes de Certification des Produits de Construction), 
+www.afocert.fr, renseigne sur les certifications de produits de construction existantes en France 
+-  Des produits intégrés à un procédé de construction innovant bénéficiant d’un Avis Technique ou d’un 
+Document Technique d’Application (DTA), ou d’une Appréciation Technique d’expérimentation (ATex) 
+ou  d’un  Pass  innovation  (voir  http://evaluation.cstb.fr/).  A  défaut,  les  matériaux,  produits  ou 
+équipement doivent justifier de caractéristiques de performance équivalentes. La justification de 
+l’équivalence est à fournir par le fabricant concerné. Les matériaux, produits ou équipements doivent 
+bénéficier d’un certificat de conformité et/ou avis technique à jour (leur validité peut être vérifiée sur 
+la liste des produits certifiés/évalués mise à disposition du public par l’organisme concerné). 
+ 
+Les entreprises devront être en mesure de proposer au Maître d’ouvrage, des produits disposant de 
+Fiches de Déclaration Environnementales et Sanitaires (FDES) conformes à la norme NF P01-010 ou de 
+Profils Environnementaux de Produits (PEP) conformes aux normes ISO 14025 et ISO 14040. 
+ 
+NF Habitat : l’entreprise veillera à ce que les produits de construction et de revêtements intérieurs soient à 
+minima étiquetés A, au sens de l’arrêté du 19 avril 2011 (QAI 1.2.2. 
+ 
+La durabilité naturelle ou conférée du bois (normes NF EN 350-2 et NF EN 351-1) est adaptée à la classe 
+d’emploi (déterminée dans la norme NF EN 335) (NF Habitat QAI 1.2.7). 
+ 
+En cas de traitement des produits bois, ce dernier est réalisé par un produit biocide en phase aqueuse 
+conforme à la directive 98/8/CE et le bois traité est labellisé CTB-B+ (ou équivalent) ; ou le bois est traité en 
+usine avec un produit labellisé CTB-P+ ou équivalent (NF Habitat QAI 1.2.9). 
+ 
+NF Habitat HQE, la totalité des produits qui entrent dans le champ d’application du décret n°2011-321 du 
+23 mars 2011 sont étiquetés A+ au sens de l’arrêté du 19 avril 2011 (NF Habitat QAI 1.2.3). 
+ 
+Les peintures ainsi que les produits pour rebouchages et enduits devront être choisis en fonction de 
+l'exposition des surfaces : extérieure et intérieure, exposition en atmosphère agressive, etc., les peintures 
+pour extérieur notamment devront résister aux intempéries.   
+Les peintures ainsi que les produits pour rebouchages et les enduits devront être compatibles avec le 
+subjectile à recouvrir et compatibles entre eux. 
+Les peintures des pièces humides devront être du type anti cryptogamique. 
+Les travaux ne devront être exécutés que sur des subjectiles parfaitement secs. 
+Avant l'application de toute couche, la surface qui la reçoit devra être débarrassée des souillures, 
+poussières, tâches de graisse, etc. 
+Les peintures et vernis devront, avant et en cours d'emploi, être maintenus en parfaite homogénéité par 
+brassage et éventuellement par tamisage. 
+L'application des peintures sera faite à la brosse ou au rouleau, l'application par pulvérisation ou tout 
+autre procédé mécanique devra faire l'objet d'un accord préalable de l'Architecte. 
+Document établi par CODIBAT  page 9/25 
+CCTP-11-Peint-Revet mur.pdf - Page 9/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Outre les opérations normalement prévues, la surface de chaque couche sera légèrement poncée avant 
+l'application de la couche suivante. 
+Le film définitif d'une peinture lisse devra présenter un aspect uniforme sans grain, ni trait. 
+Le ton définitif devra être tout à fait régulier et conforme à celui de la surface témoin. 
+Les reprises seront soignées. 
+L'application des peintures ne devra donner lieu à aucune surépaisseur anormale dans les feuillures des 
+menuiseries. 
+ 
+2.2  SPECIFICATIONS PARTICULIERES 
+2.2.1  ETUDE DU DOSSIER 
+L'entreprise est réputée s'être engagée dans son Marché en toute connaissance de cause. En particulier, 
+lui sont parfaitement conn
+
+Chunk 6 (BM25):
+HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Outre les opérations normalement prévues, la surface de chaque couche sera légèrement poncée avant 
+l'application de la couche suivante. 
+Le film définitif d'une peinture lisse devra présenter un aspect uniforme sans grain, ni trait. 
+Le ton définitif devra être tout à fait régulier et conforme à celui de la surface témoin. 
+Les reprises seront soignées. 
+L'application des peintures ne devra donner lieu à aucune surépaisseur anormale dans les feuillures des 
+menuiseries. 
+ 
+2.2  SPECIFICATIONS PARTICULIERES 
+2.2.1  ETUDE DU DOSSIER 
+L'entreprise est réputée s'être engagée dans son Marché en toute connaissance de cause. En particulier, 
+lui sont parfaitement connus le terrain et ses sujétions propres, les contraintes relatives aux constructions 
+voisines, les modalités d'accès par la voirie, les possibilités et difficultés de circulation et de stationnement, 
+les sujétions des règlements administratifs en vigueur se rapportant à la sécurité sur le domaine public. 
+Elle ne pourra jamais arguer que des erreurs ou omissions puissent la dispenser d'exécuter tous les 
+travaux de sa profession ou fassent l'objet d'une demande de suppléments sur ses prix. 
+ 
+2.2.2  DOCUMENTS D’EXECUTION 
+Avant exécution des travaux, l’entreprise devra transmettre un dossier d’exécution complet de ses 
+ouvrages pour validation par la maîtrise d’œuvre et le bureau de contrôle. 
+Ce dossier comprendra notamment :  
+o  Les  fiches  techniques,  les  avis  techniques  en  cours  de  validité,  les  procès-verbaux  de 
+classement feu et acoustique, en cours de validité de tous les composants 
+o  Des plans de repérage de chaque niveau, des différents complexes mis en œuvre, avec 
+légende complète 
+L'entreprise devra se référer aux spécifications précisées de l’étude thermique réalisée par le Corps d’état 
+« Chauffage et Ventilation », pour l'étude et la réalisation de ses ouvrages. 
+ 
+2.2.3  CONTROLE ET RECEPTION DES TRAVAUX 
+2.2.3.1  CONTROLE EN COURS DE TRAVAUX 
+Le Maître d'Œuvre se réserve le droit d'effectuer ou de faire effectuer des opérations de contrôle sur la 
+nature et la qualité des matériaux stockés ou mis en œuvre. 
+Ces contrôles seront effectués suivant prescriptions du D.T.U. n° 59.1 " Cahier des Clauses Spéciales - art. 
+5.3". 
+Ils porteront notamment sur : 
+o  Les matériaux stockés et la livraison 
+o  Les travaux en cours 
+o  La nature des produits par un laboratoire agréé par le Maître d'Œuvre et l'Entrepreneur 
+ 
+2.2.3.2  RECEPTION DES TRAVAUX 
+Les vérifications effectuées devront permettre de constater que : 
+L'aspect des différents films est analogue à celui des surfaces témoins fixes. 
+Le brillant des surfaces peintes en peinture émail est du même ordre que celui des surfaces témoins 
+correspondantes. 
+Document établi par CODIBAT  page 10/25 
+CCTP-11-Peint-Revet mur.pdf - Page 10/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Tant que ces conditions ne seront pas satisfaites, l'Entrepreneur devra procéder à ses frais aux réfections 
+nécessaires.  
+La réception ne pourra être prononcée qu'après nettoyage complet du chantier. 
+En outre, le peintre devra vérifier et s'assurer après achèvement de ses travaux du bon fonctionnement 
+de toutes les parties mobiles : paumelles, pivots, gâches, pênes, etc. Toutes les portes déposées seront 
+reposées en prenant soin de ne pas les intervertir ou endommager. 
+ 
+2.2.3.3  GARANTIE 
+Pendant la période de garantie, les peintures qui auront éprouvé une altération provenant de malfaçons 
+ou de la mauvaise qualité de la matière employée, seront refaites d'une ou plusieurs couches, aux frais du 
+présent Corps d’état. 
+Document établi par CODIBAT  page 11/25 
+CCTP-11-Peint-Revet mur.pdf - Page 11/25 SEINE OUEST HABIT
+
+Chunk 7 (BM25):
+avarie serait causée par une négligence, un défaut d'entretien 
+(sous réserve que l'entreprise ait donné à la Maîtrise d'Ouvrage, un guide d'usage et d'entretien précis), 
+d'utilisation irrationnelle ou défectueuse et de cas de force majeure, ni aux détériorations causées par des 
+tiers (dans ce cas, l'entreprise devra apporter la preuve de son absence de responsabilité). 
+ 
+Document établi par CODIBAT  page 13/14 
+CCTP-09-Carrelage-Faience.pdf - Page 13/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO et 
+Moe l’ensemble des exemplaires et CD du DOE. 
+Document établi par CODIBAT  page 14/14 
+CCTP-09-Carrelage-Faience.pdf - Page 14/14
+
+Chunk 8 (BM25):
+ainsi que des dommages et intérêts qui pourraient 
+être réclamés par suite de ces accidents.  
+S'il survient, pendant le délai de garantie, une avarie dont la réparation incombe à l'entrepreneur, un 
+procès-verbal circonstancié sera dressé et lui sera notifié.  
+S'il négligeait de faire la réparation dans le délai fixé, l'avarie serait réparée d'office à ses frais.  
+Aucune réparation de fortune ne sera tolérée et l'appareil complet sera échangé sous garantie et la 
+garantie sera prolongée, pour cet appareil, d'une durée égale à celle d'origine.  
+Les garanties pour le matériel fourni par l'entrepreneur sont celles fixées par les normes en vigueur et 
+par les conditions syndicales de vente des constructeurs.  
+La garantie ne s'applique pas au cas où l'avarie serait causée par une négligence, un défaut d'entretien 
+(sous réserve que l'entreprise ait donné à la Maîtrise d'Ouvrage, un guide d'usage et d'entretien précis), 
+d'utilisation irrationnelle ou défectueuse et de cas de force majeure, ni aux détériorations causées par 
+des tiers (dans ce cas, l'entreprise devra apporter la preuve de son absence de responsabilité). 
+ 
+Document établi par CODIBAT  page 24/25 
+CCTP-11-Peint-Revet mur.pdf - Page 24/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO et 
+Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 25/25 
+CCTP-11-Peint-Revet mur.pdf - Page 25/25
+
+Chunk 9 (BM25):
+par les conditions syndicales de vente des constructeurs.  
+La garantie ne s'applique pas au cas où l'avarie serait causée par une négligence, un défaut d'entretien 
+(sous réserve que l'entreprise ait donné à la Maîtrise d'Ouvrage, un guide d'usage et d'entretien 
+précis), d'utilisation irrationnelle ou défectueuse et de cas de force majeure, ni aux détériorations 
+causées par des tiers (dans ce cas, l'entreprise devra apporter la preuve de son absence de 
+responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conformité avec les normes et règlements en vigueur. 
+ 
+4.5  DOSSIER DES OUVRAGES EXECUTES 
+Conformément au CCTP 00 « Note Liminaire », l’entreprise devra lors de la réception remettre au MO 
+et Moe l’ensemble des exemplaires et CD du DOE. 
+ 
+Document établi par CODIBAT  page 17/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 17/17
+
+Chunk 10 (BM25):
+ation (ATex) 
+ou  d’un  Pass  innovation  (voir  http://evaluation.cstb.fr/).  A  défaut,  les  matériaux,  produits  ou 
+équipement doivent justifier de caractéristiques de performance équivalentes. La justification de 
+l’équivalence est à fournir par le fabricant concerné. Les matériaux, produits ou équipements doivent 
+bénéficier d’un certificat de conformité et/ou avis technique à jour (leur validité peut être vérifiée sur 
+la liste des produits certifiés/évalués mise à disposition du public par l’organisme concerné). 
+ 
+Les entreprises devront être en mesure de proposer au Maître d’ouvrage, des produits disposant de 
+Fiches de Déclaration Environnementales et Sanitaires (FDES) conformes à la norme NF P01-010 ou de 
+Profils Environnementaux de Produits (PEP) conformes aux normes ISO 14025 et ISO 14040. 
+NF Habitat : l’entreprise veillera à ce que les produits de construction et de revêtements intérieurs soient à 
+minima étiquetés A, au sens de l’arrêté du 19 avril 2011. 
+La durabilité naturelle ou conférée du bois (normes NF EN 350-2 et NF EN 351-1) est adaptée à la classe 
+d’emploi (déterminée dans la norme NF EN 335). 
+En cas de traitement des produits bois, ce dernier est réalisé par un produit biocide en phase aqueuse 
+conforme à la directive 98/8/CE et le bois traité est labellisé CTB-B+ (ou équivalent) ; ou le bois est traité en 
+usine avec un produit labellisé CTB-P+ ou équivalent. 
+NF Habitat HQE, la totalité des produits qui entrent dans le champ d’application du décret n°2011-321 du 
+23 mars 2011 sont étiquetés A+ au sens de l’arrêté du 19 avril 2011. 
+ 
+2.2.2  COLLES 
+Les colles devront faire l’objet d’avis technique justifiant l’adaptation au domaine d’emploi proposé et la 
+mise en œuvre des revêtements collés sera conforme au CPT du CSTB. 
+ 
+Document établi par CODIBAT  page 7/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 7/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+2.2.3  PERCEMENTS ET RESERVATIONS DANS LE BETON 
+-  Ces ouvrages seront réalisés par l'entreprise de « Gros Œuvre » à l'aide des plans et indications fournis 
+par le présent Corps d’état 
+-  Ces documents devront être préalablement soumis pour approbation à la maîtrise d'œuvre dans les 
+délais suffisants 
+-  Ces documents, dûment approuvés, devront parvenir à l'entreprise de Gros-œuvre au moins un mois 
+avant tout début d'exécution 
+ 
+2.3  SPECIFICATIONS PARTICULERES 
+2.3.1.1  CHOIX DES MATERIAUX 
+Aptitude à l’usage (ATEC, ATE, DTU, fiches techniques…) : les produits doivent relever de Règles 
+professionnelles ou d’avis technique (ATEC) ou d’agréments techniques européens (ATE) ou de Pass’ 
+Innovation Feu vert ou de normes, ou de certifications.  
+Déclaration impacts environnementaux (FDES) : s’il s’agit d’un produit de construction ou de 
+décoration, le produit fait l’objet d’une déclaration de ses impacts environnementaux établie selon la 
+norme NF P01-010 :2004/NF EN 15804 : 2012 et NF EN 15804/CN, sur l’ensemble de son cycle de vie.  
+ Etiquette sanitaire (classe A et A+) : s’il entre dans le champ d’application de l’arrêté du 19 avril 2011 
+relatif à l’étiquetage des produits de construction ou de revêtement de mur ou de sol et des peintures et 
+vernis sur leurs émissions de polluants volatils, le produit est classé A ou A+ au sens de cet arrêté.  
+ Gestion durable des forêts (PEFC, FSC) : dans le cas où le produit ou mobilier est composé de bois, il 
+dispose d’une preuve attestant la gestion durable des forêts dont le bois est issu. Les marques de 
+certification forestière attestant que les approvisionnements sont issus de forêts gérées durablement 
+(forêts éco certifiées) constituent des modes de preuve (exemple PEFC, FSC). 
+Respect de la règlementation sur les biocides : dans le cas de produits contenant des biocides, le 
+respect de la règ
+
+Chunk 11 (BM25):
+é des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+En fonction de la classification UPEC des locaux du CSTB et de la nature du support l’Entreprise devra utiliser les 
+méthodologies de mise en œuvre qu’implique le classement E.  
+  E1 : joints traités à froid ou soudés à chaud sur support bois   
+  E2 : joints traités à froid ou soudés à chaud sur support béton   
+  E3 : joints traités à froid ou soudés à chaud + remontée en plinthes ou étanchéité en rives.   
+En pratique on retiendra : joints traités en locaux E1, et joints soudés à chaud en parties communes et locaux 
+d’autres classements. 
+ 
+1.2.1  TRAVAUX EN LOGEMENTS  
+-  Ragréage des sols 
+-  Fourniture et pose de revêtement linoléum en lés dans l’ensemble des pièces sèches et humides des 
+logements 
+ 
+1.2.2  TRAVAUX EN PARTIES COMMUNES 
+-  Ragréage des sols 
+-  Revêtements de sols type PVC en lès thermo-soudés des circulations palières des étages 
+-  Bandes podotactiles sur chaque marche et dalles podotactiles sur paliers d’étages compris les 
+escaliers au sous-sol 
+Document établi par CODIBAT  page 3/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 3/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+2.  SPECIFICATIONS TECHNIQUES 
+2.1  SPECIFICATIONS GENERALES – TEXTES REGLEMENTAIRES 
+Dans son marché, l’Entrepreneur devra tenir compte que les ouvrages de Revêtements de sols souples, 
+seront conformes aux règles de l’Art.  
+Ils seront obligatoirement soumis aux règlements locaux de la ville et de toutes les collectivités 
+intervenants sur le territoire, au respect des lois, décrets, normes françaises, normes européennes, 
+arrêtés et règlements officiels applicables aux travaux décrits à réaliser à la date de la remise des offres.   
+Dans tous les cas, l’Entrepreneur ne pourra prétendre à la méconnaissance d’un texte entrant dans 
+l’élaboration du présent programme.  
+A la fin des travaux, l'Entrepreneur est tenu de fournir une attestation de conformité de ses ouvrages aux 
+normes et règlements en vigueur. 
+L'Entrepreneur aura également l’obligation de mettre en conformité ses ouvrages avec les observations et 
+les mises au point de l'organisme de contrôle choisi par la Maîtrise d'Ouvrage.  
+Nota : 
+La liste des documents énumérés ci-dessous n'est pas exhaustive.  
+En particulier, toutes les instructions et règles émanant de services ou organismes officiels font partie des 
+documents à prendre en considération. 
+Les travaux objet du présent Corps d'état seront exécutés conformément aux clauses et conditions 
+générales des documents ci-après en vigueur à la date de remise des offres. 
+ 
+2.1.1  NORMES - TEXTES REGLEMENTAIRES 
+2.1.1.1  NORMES 
+-  DTU 53.1 (NF P62-202) (avril 2001) – Revêtements de sol textiles 
+-  NF DTU 53.2 P1-1 (avril 2007) : Travaux de bâtiment - Revêtements de sol PVC collés - Partie 1-1 : 
+Cahier des clauses techniques (Indice de classement : P62-203-1-1) 
+-  NF DTU 53.2 P1-2 (avril 2007) : Travaux de bâtiment - Revêtements de sols PVC collés - Partie 1-2 : 
+Critères généraux de choix des matériaux (CGM) (Indice de classement : P62-203-1-2) 
+-  NF DTU 53.2 P2 (avril 2007) : Travaux de bâtiment - Revêtements de sol PVC collés - Partie 2 : Cahier 
+des clauses spéciales (Indice de classement : P62-203-2) 
+-  NF - XP P05-011 (octobre 2005) : Revêtements de sol - Classement des locaux en fonction de leur 
+résistance à la glissance (Indice de classement : P05-011) 
+ 
+QAI 1-1-1 Émissions de CMR : Les produits de construction
+
+Chunk 12 (BM25):
+La qualité des matériaux sera conforme aux prescriptions des D.T.U. et Normes citées ci-avant. 
+Avant toute commande, l'Entrepreneur présentera des échantillons à l'approbation du Maître d'Œuvre 
+d'Exécution. 
+Les échantillons acceptés seront conservés au bureau de Chantier. Ils seront estampillés à la marque des 
+usines de fabrication. 
+Les échantillons mis en œuvre seront rigoureusement identiques aux échantillons agréés. 
+Toute substitution constatée sur le chantier sera sanctionnée par un ordre de dépose avec repose de 
+matériaux conformes aux échantillons, aux frais de l'Entreprise. 
+Document établi par CODIBAT  page 6/14 
+CCTP-09-Carrelage-Faience.pdf - Page 6/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Dans les domaines où ils existent et dans des conditions permettant une mise en concurrence objective, 
+des matériaux, produits ou équipements dont les caractéristiques d’aptitude à l’emploi ont été évaluées 
+par un tiers indépendant doivent être utilisés systématiquement. C'est-à-dire : 
+-  Des  matériaux,  produits  ou  équipements  contrôlés  périodiquement  et  certifiés  conformes  aux 
+normes, par un organisme certificateur accrédité établi dans l’Espace Economique Européen. Le site 
+d’AFOCERT (Association Française des Organismes de Certification des Produits de Construction), 
+www.afocert.fr, renseigne sur les certifications de produits de construction existantes en France 
+-  Des produits intégrés à un procédé de construction innovant bénéficiant d’un Avis Technique ou d’un 
+Document Technique d’Application (DTA), ou d’une Appréciation Technique d’expérimentation (ATex) 
+ou  d’un  Pass  innovation  (voir  http://evaluation.cstb.fr/).  A  défaut,  les  matériaux,  produits  ou 
+équipement doivent justifier de caractéristiques de performance équivalentes. La justification de 
+l’équivalence est à fournir par le fabricant concerné. Les matériaux, produits ou équipements doivent 
+bénéficier d’un certificat de conformité et/ou avis technique à jour (leur validité peut être vérifiée sur 
+la liste des produits certifiés/évalués mise à disposition du public par l’organisme concerné). 
+ 
+Les entreprises devront être en mesure de proposer au Maître d’ouvrage, des produits disposant de 
+Fiches de Déclaration Environnementales et Sanitaires (FDES) conformes à la norme NF P01-010 ou de 
+Profils Environnementaux de Produits (PEP) conformes aux normes ISO 14025 et ISO 14040. 
+NF Habitat : l’entreprise veillera à ce que les produits de construction et de revêtements intérieurs soient à 
+minima étiquetés A, au sens de l’arrêté du 19 avril 2011. 
+La durabilité naturelle ou conférée du bois (normes NF EN 350-2 et NF EN 351-1) est adaptée à la classe 
+d’emploi (déterminée dans la norme NF EN 335). 
+En cas de traitement des produits bois, ce dernier est réalisé par un produit biocide en phase aqueuse 
+conforme à la directive 98/8/CE et le bois traité est labellisé CTB-B+ (ou équivalent) ; ou le bois est traité en 
+usine avec un produit labellisé CTB-P+ ou équivalent. 
+NF Habitat HQE, la totalité des produits qui entrent dans le champ d’application du décret n°2011-321 du 
+23 mars 2011 sont étiquetés A+ au sens de l’arrêté du 19 avril 2011. 
+ 
+2.2.2  COLLES 
+Les colles employées devront avoir fait l'objet d'un avis technique du C.S.T.B. et seront utilisées suivant 
+prescriptions du fabricant. 
+ 
+2.2.3  PRODUITS D'ETANCHEITE 
+Système de Protection à l’Eau sous Carrelage (SPEC) possédant l’avis technique du CSTB. 
+Système d’Etanchéité Liquide conforme aux Règles Professionnelles APSEL-CSFE. 
+ 
+2.2.4  PERCEMENTS ET RESERVATIONS DANS LE BETON 
+Ces ouvrages seront réalisés par l'entreprise de « Gros Œuvre » à l'aide des plans et indications fournis par 
+le présent Corps d’état. 
+Ces documents devront être préalablement soumis pour approbation à la maîtrise d'œuvre dans les 
+délais suffisants. 
+Ces documents, dûment approuv
+
+Chunk 13 (BM25):
+/CN, sur l’ensemble de son cycle de vie.  
+ Etiquette sanitaire (classe A et A+) : s’il entre dans le champ d’application de l’arrêté du 19 avril 2011 
+relatif à l’étiquetage des produits de construction ou de revêtement de mur ou de sol et des peintures et 
+vernis sur leurs émissions de polluants volatils, le produit est classé A ou A+ au sens de cet arrêté.  
+ Gestion durable des forêts (PEFC, FSC) : dans le cas où le produit ou mobilier est composé de bois, il 
+dispose d’une preuve attestant la gestion durable des forêts dont le bois est issu. Les marques de 
+certification forestière attestant que les approvisionnements sont issus de forêts gérées durablement 
+(forêts éco certifiées) constituent des modes de preuve (exemple PEFC, FSC). 
+Respect de la règlementation sur les biocides : dans le cas de produits contenant des biocides, le 
+respect de la règlementation européenne concernant la mise sur le marché de ces produits est exigé 
+(directive 98/8/CE). 
+ 
+2.3.2  ETUDE DU DOSSIER 
+L'entreprise est réputée s'être engagée dans son Marché en toute connaissance de cause. En 
+particulier, lui sont parfaitement connus le terrain et ses sujétions propres, les contraintes relatives 
+aux constructions voisines, les modalités d'accès par la voirie, les possibilités et difficultés de 
+circulation et de stationnement, les sujétions des règlements administratifs en vigueur se rapportant 
+à la sécurité sur le domaine public. 
+Elle ne pourra jamais arguer que des erreurs ou omissions puissent la dispenser d'exécuter tous les 
+travaux de sa profession ou fassent l'objet d'une demande de suppléments sur ses prix. 
+ 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE 
+Les revêtements de sols devront être au minimum de classement UPEC et glissance (XP P 05-010) 
+suivants: 
+o  Circulations et escaliers revêtus de sols souples (≥25 logements): U3 -P2-E1-C0  s
+o  Pièces sèches : U2 -P2-E1-C0  s
+o  SdB, SdE, WC : U2 -P2-E2-C1 PN6 / R10  s
+o  Cuisines : U3-P3-E2-C2 PC10 / R10 
+ 
+Lw supérieur ou égal à 20 dB. 
+Document établi par CODIBAT  page 8/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 8/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Les procès-verbaux de classement UPEC seront à transmettre. 
+ 
+2.3.4  DOCUMENTS D’EXECUTION 
+Avant exécution des travaux, l’entreprise devra transmettre un dossier d’exécution complet de ses 
+ouvrages pour validation par la maîtrise d’œuvre et le bureau de contrôle. 
+Ce dossier comprendra notamment :  
+o  Les  fiches  techniques,  les  avis  techniques  en  cours  de  validité,  les  procès-verbaux  de 
+classement feu et acoustique, en cours de validité de tous les composants 
+o  Des plans de repérage de chaque niveau, des différents complexes mis en œuvre, avec 
+légende complète 
+Document établi par CODIBAT  page 9/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 9/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  LOGEMENTS 
+3.1.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image présente un diagramme composé de quatre sections rectangulaires empilées verticalement. Chaque section est de couleur
+
+Chunk 14 (BM25):
+ais.  
+Les appareils de mesure doivent être agréés au préalable par des agents techniques chargés de la 
+réception.  
+Toutes les précautions seront prises pour assurer la protection intérieure des gaines contre les poussières 
+pendant les travaux.  
+Toutes les gaines seront nettoyées et désinfectées pour la réception. 
+ 
+Document établi par CODIBAT  page 12/14 
+CCTP-09-Carrelage-Faience.pdf - Page 12/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.3.1  ESSAIS ACOUSTIQUES 
+Vérification des niveaux sonores par rapport aux valeurs indiquées au cahier des charges. 
+ 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS  
+Tous les instruments et appareils nécessités par les divers essais et accessibilités seront fournis par 
+l'entrepreneur du présent Corps d’état et à ses frais, y compris tous les matériels et accessoires pour les 
+accès.  
+Il devra également fournir toute la main d'œuvre adéquate et à la demande. 
+ 
+4.3.3  SANCTIONS 
+Dans le cas où l'entrepreneur ne pourrait tenir les garanties de bonne construction ou si les essais 
+n'étaient pas satisfaisants, l'entrepreneur sera tenu d'effectuer dans le plus court délai, tous 
+remplacements, modifications, réparation ou adjonctions nécessaires sans entraver la marche des 
+installations.  
+Après exécution complète des travaux imposés, il sera procédé aux nouveaux essais nécessaires.  
+Si ceux-ci ne sont pas encore satisfaisants, les ouvrages pourront être refusés en tout ou partie, en 
+particulier dans le cas où ne seraient pas observées les clauses concernant la bonne construction, le bon 
+fonctionnement et la puissance de production. 
+ 
+4.4  GARANTIE  
+La période de garantie commence le jour de la réception globale de l'opération. 
+Pendant la période de garantie, l'entrepreneur est tenu de remplacer, à ses frais, tous les éléments qui 
+seraient reconnus défectueux et de prendre à sa charge les travaux connexes, consécutifs des autres 
+corps d'état.  
+Les remplacements devront s'effectuer dans un délai de 5 jours à partir d'une lettre lui notifiant ces 
+travaux.  
+Dans le cas d'urgence, ce délai est réduit à l'instantané 
+Elle sera prononcée par le Maître d'Ouvrage lors d'une réception unique tous corps d'état, qui marquera 
+sa prise en charge des ouvrages.  
+L'entrepreneur demeurera responsable de tous les accidents qui pourront résulter de la fabrication, de la 
+combinaison ou de l'installation de ses matériels, ainsi que des dommages et intérêts qui pourraient être 
+réclamés par suite de ces accidents.  
+S'il survient, pendant le délai de garantie, une avarie dont la réparation incombe à l'entrepreneur, un 
+procès-verbal circonstancié sera dressé et lui sera notifié.  
+S'il négligeait de faire la réparation dans le délai fixé, l'avarie serait réparée d'office à ses frais.  
+Aucune réparation de fortune ne sera tolérée et l'appareil complet sera échangé sous garantie et la 
+garantie sera prolongée, pour cet appareil, d'une durée égale à celle d'origine.  
+Les garanties pour le matériel fourni par l'entrepreneur sont celles fixées par les normes en vigueur et par 
+les conditions syndicales de vente des constructeurs.  
+La garantie ne s'applique pas au cas où l'avarie serait causée par une négligence, un défaut d'entretien 
+(sous réserve que l'entreprise ait donné à la Maîtrise d'Ouvrage, un guide d'usage et d'entretien précis), 
+d'utilisation irrationnelle ou défectueuse et de cas de force majeure, ni aux détériorations causées par des 
+tiers (dans ce cas, l'entreprise devra apporter la preuve de son absence de responsabilité). 
+ 
+Document établi par CODIBAT  page 13/14 
+CCTP-09-Carrelage-Faience.pdf - Page 13/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE CONSTRUCTION 
+Pour toute sa fourniture, l'entreprise devra garantir la bonne qualité des matériaux et matériels et leur 
+conform
+
+Chunk 15 (BM25):
+mesure nécessaires à la réalisation des vérifications et des essais.  
+Les appareils de mesure doivent être agréés au préalable par des agents techniques chargés de la 
+réception.  
+Toutes les précautions seront prises pour assurer la protection intérieure des gaines contre les poussières 
+pendant les travaux.  
+Toutes les gaines seront nettoyées et désinfectées pour la réception. 
+Document établi par CODIBAT  page 15/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 15/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.3.1  ESSAIS ACOUSTIQUES 
+Vérification des niveaux sonores par rapport aux valeurs indiquées au cahier des charges. 
+ 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS  
+Tous les instruments et appareils nécessités par les divers essais et accessibilités seront fournis par 
+l'entrepreneur du présent Corps d’état et à ses frais, y compris tous les matériels et accessoires pour 
+les accès.  
+Il devra également fournir toute la main d'œuvre adéquate et à la demande. 
+ 
+4.3.3  SANCTIONS 
+Dans le cas où l'entrepreneur ne pourrait tenir les garanties de bonne construction ou si les essais 
+n'étaient  pas  satisfaisants,  l'entrepreneur  sera  tenu  d'effectuer  dans  le  plus  court  délai,  tous 
+remplacements, modifications, réparation ou adjonctions nécessaires sans entraver la marche des 
+installations.  
+Après exécution complète des travaux imposés, il sera procédé aux nouveaux essais nécessaires.  
+Si ceux-ci ne sont pas encore satisfaisants, les ouvrages pourront être refusés en tout ou partie, en 
+particulier dans le cas où ne seraient pas observées les clauses concernant la bonne construction, le 
+bon fonctionnement et la puissance de production. 
+ 
+4.4  GARANTIE  
+La période de garantie commence le jour de la réception globale de l'opération. 
+Pendant la période de garantie, l'entrepreneur est tenu de remplacer, à ses frais, tous les éléments qui 
+seraient reconnus défectueux et de prendre à sa charge les travaux connexes, consécutifs des autres 
+corps d'état.  
+Les remplacements devront s'effectuer dans un délai de 5 jours à partir d'une lettre lui notifiant ces 
+travaux.  
+Dans le cas d'urgence, ce délai est réduit à l'instantané 
+Elle sera prononcée par le Maître d'Ouvrage lors d'une réception unique tous corps d'état, qui 
+marquera sa prise en charge des ouvrages.  
+L'entrepreneur demeurera responsable de tous les accidents qui pourront résulter de la fabrication, 
+de la combinaison ou de l'installation de ses matériels, ainsi que des dommages et intérêts qui 
+pourraient être réclamés par suite de ces accidents.  
+S'il survient, pendant le délai de garantie, une avarie dont la réparation incombe à l'entrepreneur, un 
+procès-verbal circonstancié sera dressé et lui sera notifié.  
+S'il négligeait de faire la réparation dans le délai fixé, l'avarie serait réparée d'office à ses frais.  
+Aucune réparation de fortune ne sera tolérée et l'appareil complet sera échangé sous garantie et la 
+garantie sera prolongée, pour cet appareil, d'une durée égale à celle d'origine.  
+Les garanties pour le matériel fourni par l'entrepreneur sont celles fixées par les normes en vigueur 
+et par les conditions syndicales de vente des constructeurs.  
+La garantie ne s'applique pas au cas où l'avarie serait causée par une négligence, un défaut d'entretien 
+(sous réserve que l'entreprise ait donné à la Maîtrise d'Ouvrage, un guide d'usage et d'entretien 
+précis), d'utilisation irrationnelle ou défectueuse et de cas de force majeure, ni aux détériorations 
+causées par des tiers (dans ce cas, l'entreprise devra apporter la preuve de son absence de 
+responsabilité). 
+Document établi par CODIBAT  page 16/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 16/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+GARANTIE DE BONNE
+
+Chunk 16 (BM25):
+alignement des joints sera tel qu'une règle de 2 mètres posée au droit des joints ne fasse pas apparaître 
+de différence supérieure à 2mm. Les alignements seront toujours perpendiculaires ou parallèles aux 
+façades des pièces. 
+ 
+2.1.2  ENTAILLES, PERCEMENTS, RACCORDS, DECOUPES 
+Les  entailles,  percements,  coupes  et  raccords  à  exécuter  dans  les  revêtements  de  sols  souples, 
+nécessaires à l'exécution des travaux d'autres corps d'état seront à la charge du présent Corps d’état. 
+Les découpes seront franches. Les dalles ou lés à bords coupés épaufrées seront refusées. 
+ 
+2.1.3  CALEPINS - SURFACES PROTOTYPES 
+L'Entreprise sera tenue de présenter au Maître d'Œuvre d'Exécution les études de calepins et surfaces 
+prototypes  préalables  qui  seront  jugées  nécessaires  par  ce  dernier.  Ces  surfaces  témoins  seront 
+conservées jusqu'à la fin du chantier. 
+ 
+2.1.4  PROTECTIONS - NETTOYAGES 
+Protection avant pose. 
+L'Entrepreneur sera tenu d'assurer et mettre en place les protections nécessaires aux ouvrages déjà 
+réalisés et pouvant subir des dégradations du fait de son intervention. 
+A savoir d'une façon générale : 
+-  Protection des façades dans le cas de montage de matériaux par treuils extérieurs 
+-  Protection des pieds d'huisseries et menuiseries extérieures, etc. 
+-  Protection des appareils sanitaires 
+Document établi par CODIBAT  page 6/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 6/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+2.2  CHOIX DES MATERIAUX 
+2.2.1  IMPACTS ENVIRONNEMENTAUX DES MATERIAUX 
+La qualité des matériaux sera conforme aux prescriptions des D.T.U. et Normes citées ci-avant. 
+Avant toute commande, l'Entrepreneur présentera des échantillons à l'approbation du Maître d'Œuvre 
+d'Exécution. 
+Les échantillons acceptés seront conservés au bureau de Chantier. Ils seront estampillés à la marque des 
+usines de fabrication. 
+Les échantillons mis en œuvre seront rigoureusement identiques aux échantillons agréés. 
+Toute substitution constatée sur le chantier sera sanctionnée par un ordre de dépose avec repose de 
+matériaux conformes aux  échantillons, aux frais de l'Entreprise. 
+Dans les domaines où ils existent et dans des conditions permettant une mise en concurrence objective, 
+des matériaux, produits ou équipements dont les caractéristiques d’aptitude à l’emploi ont été évaluées 
+par un tiers indépendant doivent être utilisés systématiquement. C'est-à-dire : 
+-  Des  matériaux,  produits  ou  équipements  contrôlés  périodiquement  et  certifiés  conformes  aux 
+normes, par un organisme certificateur accrédité établi dans l’Espace Economique Européen. Le site 
+d’AFOCERT (Association Française des Organismes de Certification des Produits de Construction), 
+www.afocert.fr, renseigne sur les certifications de produits de construction existantes en France 
+-  Des produits intégrés à un procédé de construction innovant bénéficiant d’un Avis Technique ou d’un 
+Document Technique d’Application (DTA), ou d’une Appréciation Technique d’expérimentation (ATex) 
+ou  d’un  Pass  innovation  (voir  http://evaluation.cstb.fr/).  A  défaut,  les  matériaux,  produits  ou 
+équipement doivent justifier de caractéristiques de performance équivalentes. La justification de 
+l’équivalence est à fournir par le fabricant concerné. Les matériaux, produits ou équipements doivent 
+bénéficier d’un certificat de conformité et/ou avis technique à jour (leur validité peut être vérifiée sur 
+la liste des produits certifiés/évalués mise à disposition du public par l’organisme concerné). 
+ 
+Les entreprises devront être en mesure de proposer au Maître d’ouvrage, des produits disposant de 
+Fiches de Déclaration Environnementales et Sanitaires (FDES) conformes à la norme NF P01-010 ou de 
+Profils Environnementaux de Produits (PEP) conformes aux normes ISO 14025 et ISO 14040. 
+NF Habitat : l’entreprise veillera à ce que les produits de construction
+
+Chunk 17 (BM25):
+23 mars 2011 sont étiquetés A+ au sens de l’arrêté du 19 avril 2011. 
+ 
+2.2.2  COLLES 
+Les colles employées devront avoir fait l'objet d'un avis technique du C.S.T.B. et seront utilisées suivant 
+prescriptions du fabricant. 
+ 
+2.2.3  PRODUITS D'ETANCHEITE 
+Système de Protection à l’Eau sous Carrelage (SPEC) possédant l’avis technique du CSTB. 
+Système d’Etanchéité Liquide conforme aux Règles Professionnelles APSEL-CSFE. 
+ 
+2.2.4  PERCEMENTS ET RESERVATIONS DANS LE BETON 
+Ces ouvrages seront réalisés par l'entreprise de « Gros Œuvre » à l'aide des plans et indications fournis par 
+le présent Corps d’état. 
+Ces documents devront être préalablement soumis pour approbation à la maîtrise d'œuvre dans les 
+délais suffisants. 
+Ces documents, dûment approuvés, devront parvenir à l'entreprise de Gros-œuvre au moins un mois 
+avant tout début d'exécution. 
+Document établi par CODIBAT  page 7/14 
+CCTP-09-Carrelage-Faience.pdf - Page 7/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+2.3  SPECIFICATIONS PARTICULIERES 
+2.3.1  ETUDE DU DOSSIER 
+L'entreprise est censée s'être engagée dans son Marché en toute connaissance de cause. En 
+particulier, lui sont parfaitement connus le terrain et ses sujétions propres, les contraintes relatives 
+aux constructions voisines, les modalités d'accès par la voirie, les possibilités et difficultés de 
+circulation et de stationnement, les sujétions des règlements administratifs en vigueur se rapportant 
+à la sécurité sur le domaine public. 
+Elle ne pourra jamais arguer que des erreurs ou omissions puissent la dispenser d'exécuter tous les 
+travaux de sa profession ou fassent l'objet d'une demande de suppléments sur ses prix. 
+ 
+2.3.2  CLASSEMENT UPEC 
+Les revêtements de sols devront être au minimum de classement UPEC et glissance (XP P 05-010) 
+suivants, mais respecteront les exigences du Maitre d’Ouvrage si supérieures: 
+o  Hall et circulations à RdC (≥25 logements): U4-P3-E2-C1 PC10 / R10 
+o  Local entretien : U4-P3-E3-C2 PC10 / R10 
+o  Local OM : U4-P4-E3-C2 PC10 / R10 
+o  Cuisines : U3-P3-E2-C2 PC10 / R10 
+o  Pièces SdB ou SdE : U2 -P2-E2-C1 PN6 / R10  s
+ 
+2.3.3  DOCUMENTS D’EXECUTION 
+Avant exécution des travaux, l’entreprise devra transmettre un dossier d’exécution complet de ses 
+ouvrages pour validation par la maîtrise d’œuvre et le bureau de contrôle 
+Ce dossier comprendra notamment :  
+o  Les  fiches  techniques,  les  avis  techniques  en  cours  de  validité,  les  procès-verbaux  de 
+classement feu et acoustique, en cours de validité de tous les composants 
+o  Des plans de repérage de chaque niveau, des différents complexes mis en œuvre, avec 
+légende complète 
+Document établi par CODIBAT  page 8/14 
+CCTP-09-Carrelage-Faience.pdf - Page 8/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  MURS LOGEMENTS 
+3.1.1  SYSTEME DE PROTECTION  SOUS CARRELAGE (SPEC) 
+Mise en œuvre d’un système de protection à l’eau sous carrelage (SPEC) de type CERMITANCHE sans 
+armature de chez CERMIX ou équivalent pour les murs, au droit des bacs à douches et des baignoires, 
+en parements plaques de plâtre des SdB ou SdE. 
+ 
+3.1.2  FAÏENCES  
+D’une manière générale, l’entreprise devra respecter les recommandations minimales afin d’obtenir 
+la certification NF Habitat à savoir : 
+ 
+Pour les Salles de Bain et Salle d’Eau : FL.1.5.3.1 
+Les parois murales, au pourtour des équip
+
+Chunk 18 (BM25):
+Architecte dans les conditions effectives 
+d'exécution des travaux sur des surfaces témoins conservées jusqu'à la fin des travaux. 
+ 
+2.1.4  CONDITION D’EXECUTION 
+2.1.4.1  RECONNAISSANCE PREALABLE DES SUBJECTILES – RECEPTION DES SUPPORTS 
+Avant tout commencement d'exécution, l'Entrepreneur procédera à un examen des subjectiles tant pour 
+en tirer tous renseignements utiles à la bonne marche du travail, que pour vérifier leur état et présenter 
+ses réserves éventuelles, (par exemple au sujet de l'humidité, de l'alcalinité ou de tout autre particularité 
+des subjectiles). 
+Cette réception sera faite en présence des Entreprises ayant réalisé les supports (Gros-Œuvre, Plâtrerie, 
+Menuiseries, etc.). 
+Les réserves éventuelles seront consignées dans un procès-verbal établi contradictoirement. 
+Après levée des réserves par les corps d'état, l'Entrepreneur de Peinture ne pourra formuler aucune 
+réserve, sauf pour "vice caché". 
+ 
+2.1.4.2  PRECAUTIONS A PRENDRE POUR LA PROTECTION DES OUVRAGES NON PEINTS 
+D'une façon générale l'Entrepreneur devra prendre toutes les précautions qui s'imposent pour assurer la 
+protection des surfaces qui pourraient être tachées, attaquées, etc. par les travaux de peinture. 
+Par exemple, tous les ouvrages livrés "finis" par les autres corps d'état seront protégés par un bâchage ou 
+recouverts de papier adhésif, tels que : 
+o  Robinetteries 
+o  Appareils sanitaires 
+o  Carrelage, revêtement de sol 
+o  Vitrage 
+o  Habillages 
+o  Etc. 
+Dans le cas d'accident, malfaçons, etc., entraînant la dégradation des ouvrages non peints, ceux-ci seront 
+changés ou remis en état par l'entreprise du présent Corps d’état aux frais des entreprises des corps 
+d'état fautifs. 
+ 
+2.1.4.3  REGLES GENERALES POUR L’EMPLOI DES MATERIAUX 
+Impacts environnementaux des matériaux: 
+La qualité des matériaux sera conforme aux prescriptions des D.T.U. et Normes citées ci-avant. 
+Avant toute commande, l'Entrepreneur présentera des échantillons à l'approbation du Maître d'Œuvre 
+d'Exécution. 
+Document établi par CODIBAT  page 8/25 
+CCTP-11-Peint-Revet mur.pdf - Page 8/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Les échantillons acceptés seront conservés au bureau de Chantier. Ils seront estampillés à la marque des 
+usines de fabrication. 
+Les échantillons mis en œuvre seront rigoureusement identiques aux échantillons agréés. 
+Toute substitution constatée sur le chantier sera sanctionnée par un ordre de dépose avec repose de 
+matériaux conformes aux  échantillons, aux frais de l'Entreprise. 
+Dans les domaines où ils existent et dans des conditions permettant une mise en concurrence objective, 
+des matériaux, produits ou équipements dont les caractéristiques d’aptitude à l’emploi ont été évaluées 
+par un tiers indépendant doivent être utilisés systématiquement. C'est-à-dire : 
+-  Des  matériaux,  produits  ou  équipements  contrôlés  périodiquement  et  certifiés  conformes  aux 
+normes, par un organisme certificateur accrédité établi dans l’Espace Economique Européen. Le site 
+d’AFOCERT (Association Française des Organismes de Certification des Produits de Construction), 
+www.afocert.fr, renseigne sur les certifications de produits de construction existantes en France 
+-  Des produits intégrés à un procédé de construction innovant bénéficiant d’un Avis Technique ou d’un 
+Document Technique d’Application (DTA), ou d’une Appréciation Technique d’expérimentation (ATex) 
+ou  d’un  Pass  innovation  (voir  http://evaluation.cstb.fr/).  A  défaut,  les  matériaux,  produits  ou 
+équipement doivent justifier de caractéristiques de performance équivalentes. La justification de 
+l’équivalence est à fournir par le fabricant concerné. Les matériaux, produits ou équipements doivent 
+bénéficier d’un certificat de conformité et/ou avis technique à jour (leur validité peut être vérifiée sur 
+la liste des produits certifiés/évalués mise à disposition du public par l’organisme concerné). 
+ 
+Les entreprises devront être en
+
+Chunk 19 (BM25):
+restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Localisation 
+o  Dans les locaux OM des bâtiments 
+ 
+3.4  NETTOYAGE ET PROTECTION 
+Tous les nettoyages de mise en service seront dus par l'Entrepreneur du présent Corps d’état et 
+réalisés conformément aux spécifications du D.T.U. 59.1 "Cahier des clauses spéciales – article 3.1". 
+Les nettoyages n'excluent pas les protections complémentaires de certains ouvrages qui devront être 
+assurées à la demande du Maître d'Œuvre, sans l'octroi d'aucune plus-value sur le prix forfaitaire du 
+marché. 
+D'une manière générale, l'Entrepreneur du présent Corps d’état devra, en quittant le local après son 
+intervention, le laisser dans un état de propreté absolue. 
+L'Entrepreneur devra le grattage et le lavage de tous les sols par un produit adapté n'attaquant ni les 
+matériaux, ni les joints. 
+L'Entrepreneur devra tenir compte, que le ponçage ne permet pas d'effacer les tâches de peinture à 
+base de corps gras et devra protéger les sols en conséquence. 
+Les teintes des peintures seront exécutées à la demande et sans limitations suivant échantillons 
+sélectionnés par l’architecte en cours de chantier. 
+ 
+L’entreprise devra le nettoyage fin, des logements, des locaux annexes et des parties communes, 
+avant les OPR et avant la livraison finale. 
+Document établi par CODIBAT  page 22/25 
+CCTP-11-Peint-Revet mur.pdf - Page 22/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE 
+4.1  GENERALITES 
+Les contrôles seront effectués au fur et à mesure de l'avancement des travaux. 
+Les essais et contrôles sont à la charge de l'entrepreneur du présent corps d'état qui fournira les procès-
+verbaux de chaque essai.  
+Tous les essais et contrôles seront conduits conformément aux prescriptions du CCTG. 
+Il est rappelé l'obligation, pour l'entrepreneur, de procéder, pendant la période d'exécution des travaux, 
+aux vérifications technique qui leur incombent aux termes de la loi du 4 Janvier 1978. 
+En particulier, l'entrepreneur devra, dans son offre, définir le programme de contrôle interne en précisant 
+les dispositions prévues sur chantier pour en assurer le respect. 
+ 
+4.2  CONTROLES  
+En cours et en fin de travaux, il sera procédé à des contrôles quantitatifs et qualitatifs des fournitures et 
+mises en œuvre par rapport aux pièces du marché de l'entreprise. 
+Si les résultats constatés ne sont pas satisfaisants, l'entrepreneur sera tenu de commencer dans le délai 
+de huit jours, tous les remplacements, modifications, réparations ou adjonctions nécessaires, le tout à ses 
+frais.  
+Après exécution de ces ouvrages, il sera procédé à de nouveaux contrôles. 
+Si ces derniers ne sont pas encore satisfaisants, les ouvrages pourront être refusés en tout ou partie 
+suivant dire d'un expert choisi, d'un commun accord par les deux parties.  
+Dans ce cas, l'entrepreneur supportera, par ailleurs, les dépenses de toutes natures résultant de la 
+mauvaise qualité de ses ouvrages.  
+Tous les contrôles pourront être différés tant qu'une part quelconque des fournitures ou travaux ne sera 
+pas acceptée ; les conséquences en découlant restent à la charge de l'entreprise.  
+Toute défectuosité constatée sera immédiatement réparée par l'entrepreneur.  
+Les résultats feront l'objet d'un rapport détaillé signé par les représentants de l'entrepreneur et de 
+l'entreprise.  
+Toutes les manœuvres seront effectuées par le personnel de l'entrepreneur, sous sa responsabilité, 
+chaque contrôle pouvant être répété deux ou plusieurs fois. 
+ 
+4.3  ESSAIS 
+Les essais porteront sur le fonctionnement de tous les équipements phoniques posés par le présent 
+corps d'état avec fourniture de procès-verbaux. 
+L'entrepreneur doit mettre à la disposition de la Maîtrise d'Ouvrage et de la Maîtrise d'Œuvre tout le 
+personnel et les appareils de mesure nécessaires à la réalisation des vérifications et des essais.  
+Les appareils de mesure doivent être agréés au préalable par des agents techniques chargés
+
+Chunk 20 (BM25):
+ux ne sera 
+pas acceptée ; les conséquences en découlant restent à la charge de l'entreprise.  
+Toute défectuosité constatée sera immédiatement réparée par l'entrepreneur.  
+Les résultats feront l'objet d'un rapport détaillé signé par les représentants de l'entrepreneur et de 
+l'entreprise.  
+Toutes les manœuvres seront effectuées par le personnel de l'entrepreneur, sous sa responsabilité, 
+chaque contrôle pouvant être répété deux ou plusieurs fois. 
+ 
+4.3  ESSAIS 
+Les essais porteront sur le fonctionnement de tous les équipements phoniques posés par le présent 
+corps d'état avec fourniture de procès-verbaux. 
+L'entrepreneur doit mettre à la disposition de la Maîtrise d'Ouvrage et de la Maîtrise d'Œuvre tout le 
+personnel et les appareils de mesure nécessaires à la réalisation des vérifications et des essais.  
+Les appareils de mesure doivent être agréés au préalable par des agents techniques chargés de la 
+réception.  
+Toutes les précautions seront prises pour assurer la protection intérieure des gaines contre les poussières 
+pendant les travaux.  
+Toutes les gaines seront nettoyées et désinfectées pour la réception. 
+ 
+Document établi par CODIBAT  page 23/25 
+CCTP-11-Peint-Revet mur.pdf - Page 23/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.3.1  ESSAIS ACOUSTIQUES 
+Vérification des niveaux sonores par rapport aux valeurs indiquées au cahier des charges. 
+ 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS  
+Tous les instruments et appareils nécessités par les divers essais et accessibilités seront fournis par 
+l'entrepreneur du présent Corps d’état et à ses frais, y compris tous les matériels et accessoires pour 
+les accès.  
+Il devra également fournir toute la main d'œuvre adéquate et à la demande. 
+ 
+4.3.3  SANCTIONS 
+Dans le cas où l'entrepreneur ne pourrait tenir les garanties de bonne construction ou si les essais 
+n'étaient pas satisfaisants, l'entrepreneur sera tenu d'effectuer dans le plus court délai, tous 
+remplacements, modifications, réparation ou adjonctions nécessaires sans entraver la marche des 
+installations.  
+Après exécution complète des travaux imposés, il sera procédé aux nouveaux essais nécessaires.  
+Si ceux-ci ne sont pas encore satisfaisants, les ouvrages pourront être refusés en tout ou partie, en 
+particulier dans le cas où ne seraient pas observées les clauses concernant la bonne construction, le 
+bon fonctionnement et la puissance de production. 
+ 
+4.4  GARANTIE  
+La période de garantie commence le jour de la réception globale de l'opération. 
+Pendant la période de garantie, l'entrepreneur est tenu de remplacer, à ses frais, tous les éléments qui 
+seraient reconnus défectueux et de prendre à sa charge les travaux connexes, consécutifs des autres 
+corps d'état.  
+Les remplacements devront s'effectuer dans un délai de 5 jours à partir d'une lettre lui notifiant ces 
+travaux.  
+Dans le cas d'urgence, ce délai est réduit à l'instantané 
+Elle sera prononcée par le Maître d'Ouvrage lors d'une réception unique tous corps d'état, qui 
+marquera sa prise en charge des ouvrages.  
+L'entrepreneur demeurera responsable de tous les accidents qui pourront résulter de la fabrication, de 
+la combinaison ou de l'installation de ses matériels, ainsi que des dommages et intérêts qui pourraient 
+être réclamés par suite de ces accidents.  
+S'il survient, pendant le délai de garantie, une avarie dont la réparation incombe à l'entrepreneur, un 
+procès-verbal circonstancié sera dressé et lui sera notifié.  
+S'il négligeait de faire la réparation dans le délai fixé, l'avarie serait réparée d'office à ses frais.  
+Aucune réparation de fortune ne sera tolérée et l'appareil complet sera échangé sous garantie et la 
+garantie sera prolongée, pour cet appareil, d'une durée égale à celle d'origine.  
+Les garanties pour le matériel fourni par l'entrepreneur sont celles fixées par les normes en vigueur et 
+par les conditions syndicales de vente des constructeurs.  
+La garantie ne s'applique pas au cas où l'avarie serait causée par une négligence, un défaut d'entretien 
+(sous réserve que
+

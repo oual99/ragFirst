@@ -1,0 +1,1487 @@
+Chunk 1 (BM25):
+CE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  LOGEMENTS 
+3.1.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image présente un diagramme composé de quatre sections rectangulaires empilées verticalement. Chaque section est de couleur bleue et contient un texte blanc. Voici la description de chaque section de haut en bas :
+
+1. **Combinaisons** : Cette section est située en haut du diagramme. Elle semble indiquer une catégorie ou un groupe d'éléments liés aux combinaisons dans le contexte du bâtiment.
+
+2. **Doublages intérieurs des façades** : La deuxième section mentionne les doublages intérieurs, qui sont généralement des couches ajoutées aux façades pour améliorer l'isolation thermique ou acoustique.
+
+3. **Planchers entre logements** : La troisième section fait référence aux planchers qui séparent différents logements, soulignant l'importance de l'isolation et de la structure entre les unités d'habitation.
+
+4. **Revêtements de sol** : La dernière section concerne les revêtements de sol, qui incluent les matériaux utilisés pour couvrir et finir les sols dans les bâtiments.
+
+Chaque section semble représenter un aspect différent de la construction ou de l'aménagement intérieur, probablement dans le cadre d'un projet de bâtiment.] [IMAGE: L'image montre un tableau technique utilisé dans le domaine du bâtiment et des travaux publics (BTP). Ce tableau est divisé en plusieurs sections et lignes, chacune contenant des spécifications techniques.
+
+1. **En-tête** : La première ligne contient le numéro "1.4", qui semble être une référence ou un identifiant pour cette section du document.
+
+2. **Première section** : 
+   - "ITI Th-A"
+   - "ITI Th-A 80+"
+   Ces termes font probablement référence à des types d'isolation thermique intérieure (ITI) avec des spécifications particulières.
+
+3. **Deuxième section** : 
+   - "Béton ≥ 20 cm"
+   Cela indique une épaisseur minimale de béton de 20 centimètres.
+
+4. **Troisième section** : Cette section liste différents types de revêtements de sol avec leurs performances acoustiques, exprimées en termes de réduction de bruit (ΔLw) :
+   - "Chape ΔLw ≥ 18 dB"
+   - "Sol souple ΔLw ≥ 18 dB"
+   - "Carrelage ΔLw ≥ 18 dB"
+   - "Parquet ΔLw ≥ 18 dB"
+   - "Chape Th-A ΔLw ≥ 19 dB"
+
+Chaque ligne de cette section spécifie un type de matériau ou de revêtement de sol avec une exigence minimale de réduction acoustique, mesurée en décibels (dB). Ces valeurs indiquent l'efficacité du matériau à atténuer le bruit.]
+ 
+ 
+3.1.2  RAGREAGE 
+Suivant nécessité si la surface de la dalle ou de la chape n’était pas conforme. 
+Préparation du sol : reconnaissance du support (porosité et humidité). 
+Préparation du support (nettoyage, traitement éventuel des fissures, et humidification éventuelle). 
+Application du primaire (suivant indication de l’avis technique). 
+Application de l’enduit de ragréage P3. 
+L’avis technique de l’enduit de ragréage devra être transmis avant toute exécution pour validation par 
+la Maîtrise d’Œuvre et le Bureau de Contrôle. 
+ 
+Localisation 
+o  Toutes pièces destinées à recevoir un revêtement de sol souple 
+ 
+3.1.3  REVETEMENTS PVC 
+3.1.3.1  PIECES SECHES 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoustique imprimé en lés soudés 2 m 
+de large, du type TRANSIT 2S2 de chez GERFLOR ou équivalent : 
+o  Multi couche armaturée sur sous couche mousse 
+o  Traitement GERNET ULTRA 
+o  Résistance à l’abrasion : Groupe T 
+o  Classement UPEC : U2 P2 E2/3 C2  s
+
+Chunk 2 (BM25):
+page 11/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 11/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.1.4  JOINT DE FINITION 
+L’entreprise devra un joint pompe de finition de couleur similaire ou proche du revêtement de sol 
+entre les plinthes et le revêtement de sol. 
+ 
+3.2  PARTIES COMMUNES 
+3.2.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image montre un diagramme vertical composé de quatre sections rectangulaires empilées. Chaque section est de couleur bleue et contient un texte blanc indiquant un élément spécifique lié à la construction ou au bâtiment :
+
+1. **Combinations** : La première section en haut du diagramme.
+2. **Doublages intérieurs des façades** : La deuxième section, située juste en dessous de la première.
+3. **Planchers entre logements** : La troisième section, située sous la deuxième.
+4. **Revêtements de sol** : La quatrième et dernière section en bas du diagramme.
+
+Chaque section semble représenter un aspect différent de la construction ou de l'aménagement intérieur. Les sections sont de tailles égales et ne semblent pas indiquer de relations spécifiques entre elles, mais plutôt lister des éléments distincts.] [IMAGE: L'image montre un tableau technique utilisé dans le domaine du bâtiment et des travaux publics (BTP). Voici une description détaillée :
+
+1. **Titre de la colonne** : "1.4"
+   
+2. **Première section** :
+   - "ITI Th-A"
+   - "ITI Th-A 80+"
+
+3. **Deuxième section** :
+   - "Béton ≥ 20 cm"
+
+4. **Troisième section** (liste d'éléments avec des exigences acoustiques) :
+   - "Chape ΔLw ≥ 18 dB"
+   - "Sol souple ΔLw ≥ 18 dB"
+   - "Carrelage ΔLw ≥ 18 dB"
+   - "Parquet ΔLw ≥ 18 dB"
+   - "Chape Th-A ΔLw ≥ 19 dB"
+
+**Description technique** :
+- Les sections semblent indiquer des spécifications pour l'isolation thermique et acoustique.
+- "ITI Th-A" et "ITI Th-A 80+" pourraient se référer à des types d'isolation thermique intérieure.
+- La mention "Béton ≥ 20 cm" spécifie une épaisseur minimale de béton.
+- Les éléments listés avec "ΔLw" se rapportent à l'affaiblissement acoustique, mesuré en décibels (dB), indiquant une performance minimale requise pour chaque type de revêtement ou chape.]
+ 
+ 
+3.2.2  RAGREAGE 
+Suivant nécessité si la surface de la dalle ou de la chape n’était pas conforme. 
+Préparation du sol : reconnaissance du support (porosité et humidité). 
+Préparation du support (nettoyage, traitement éventuel des fissures, et humidification éventuelle). 
+Application du primaire (suivant indication de l’avis technique). 
+Application de l’enduit de ragréage P3. 
+L’avis technique de l’enduit de ragréage devra être transmis avant toute exécution pour validation par 
+la Maîtrise d’Œuvre et le Bureau de Contrôle. 
+ 
+Localisation :  
+o  D’une manière générale, l’ensemble des surfaces devant recevoir un revêtement de sol souple 
+décrit ci-après 
+ 
+3.2.3  REVETEMENTS DE SOLS DES CIRCULATIONS 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoustique imprimé en lés soudés 2 m 
+de large, du type TARALAY IMPRESSION CONFORT 43 type CERENTO BARI de chez GERFLOR ou 
+équivalent : 
+o  Multi couche armaturée sur sous couche mousse 
+o  Traitement BIOSTATIC (traitement hygiène fongistatique et bactériostatique) 
+Document établi par CODIBAT  page 12/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 12/17
+
+Chunk 3 (BM25):
+é des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+En fonction de la classification UPEC des locaux du CSTB et de la nature du support l’Entreprise devra utiliser les 
+méthodologies de mise en œuvre qu’implique le classement E.  
+  E1 : joints traités à froid ou soudés à chaud sur support bois   
+  E2 : joints traités à froid ou soudés à chaud sur support béton   
+  E3 : joints traités à froid ou soudés à chaud + remontée en plinthes ou étanchéité en rives.   
+En pratique on retiendra : joints traités en locaux E1, et joints soudés à chaud en parties communes et locaux 
+d’autres classements. 
+ 
+1.2.1  TRAVAUX EN LOGEMENTS  
+-  Ragréage des sols 
+-  Fourniture et pose de revêtement linoléum en lés dans l’ensemble des pièces sèches et humides des 
+logements 
+ 
+1.2.2  TRAVAUX EN PARTIES COMMUNES 
+-  Ragréage des sols 
+-  Revêtements de sols type PVC en lès thermo-soudés des circulations palières des étages 
+-  Bandes podotactiles sur chaque marche et dalles podotactiles sur paliers d’étages compris les 
+escaliers au sous-sol 
+Document établi par CODIBAT  page 3/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 3/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+2.  SPECIFICATIONS TECHNIQUES 
+2.1  SPECIFICATIONS GENERALES – TEXTES REGLEMENTAIRES 
+Dans son marché, l’Entrepreneur devra tenir compte que les ouvrages de Revêtements de sols souples, 
+seront conformes aux règles de l’Art.  
+Ils seront obligatoirement soumis aux règlements locaux de la ville et de toutes les collectivités 
+intervenants sur le territoire, au respect des lois, décrets, normes françaises, normes européennes, 
+arrêtés et règlements officiels applicables aux travaux décrits à réaliser à la date de la remise des offres.   
+Dans tous les cas, l’Entrepreneur ne pourra prétendre à la méconnaissance d’un texte entrant dans 
+l’élaboration du présent programme.  
+A la fin des travaux, l'Entrepreneur est tenu de fournir une attestation de conformité de ses ouvrages aux 
+normes et règlements en vigueur. 
+L'Entrepreneur aura également l’obligation de mettre en conformité ses ouvrages avec les observations et 
+les mises au point de l'organisme de contrôle choisi par la Maîtrise d'Ouvrage.  
+Nota : 
+La liste des documents énumérés ci-dessous n'est pas exhaustive.  
+En particulier, toutes les instructions et règles émanant de services ou organismes officiels font partie des 
+documents à prendre en considération. 
+Les travaux objet du présent Corps d'état seront exécutés conformément aux clauses et conditions 
+générales des documents ci-après en vigueur à la date de remise des offres. 
+ 
+2.1.1  NORMES - TEXTES REGLEMENTAIRES 
+2.1.1.1  NORMES 
+-  DTU 53.1 (NF P62-202) (avril 2001) – Revêtements de sol textiles 
+-  NF DTU 53.2 P1-1 (avril 2007) : Travaux de bâtiment - Revêtements de sol PVC collés - Partie 1-1 : 
+Cahier des clauses techniques (Indice de classement : P62-203-1-1) 
+-  NF DTU 53.2 P1-2 (avril 2007) : Travaux de bâtiment - Revêtements de sols PVC collés - Partie 1-2 : 
+Critères généraux de choix des matériaux (CGM) (Indice de classement : P62-203-1-2) 
+-  NF DTU 53.2 P2 (avril 2007) : Travaux de bâtiment - Revêtements de sol PVC collés - Partie 2 : Cahier 
+des clauses spéciales (Indice de classement : P62-203-2) 
+-  NF - XP P05-011 (octobre 2005) : Revêtements de sol - Classement des locaux en fonction de leur 
+résistance à la glissance (Indice de classement : P05-011) 
+ 
+QAI 1-1-1 Émissions de CMR : Les produits de construction
+
+Chunk 4 (BM25):
+................................................................................... 8 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE .................................................................................................. 8 
+2.3.4  DOCUMENTS D’EXECUTION ...................................................................................................................................... 9 
+3.  DESCRIPTION DES TRAVAUX ......................................................................................................... 10 
+3.1  LOGEMENTS ........................................................................................................................................................... 10 
+3.1.1  NF HABITAT HQE ...................................................................................................................................................... 10 
+3.1.2  RAGREAGE ................................................................................................................................................................ 10 
+3.1.3  REVETEMENTS PVC .................................................................................................................................................. 10 
+3.1.4  JOINT DE FINITION................................................................................................................................................... 12 
+3.2  PARTIES COMMUNES............................................................................................................................................. 12 
+3.2.1  NF HABITAT HQE ...................................................................................................................................................... 12 
+3.2.2  RAGREAGE ................................................................................................................................................................ 12 
+3.2.3  REVETEMENTS DE SOLS DES CIRCULATIONS ......................................................................................................... 12 
+3.2.4  BARRES DE SEUIL ..................................................................................................................................................... 13 
+3.2.5  BANDES ET DALLES PODOTACTILES ....................................................................................................................... 13 
+3.2.6  TAPIS D’ENTREE ........................................................................................................................................................ 14 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE ........................................................... 15 
+4.1  GENERALITES .......................................................................................................................................................... 15 
+4.2  CONTROLES ............................................................................................................................................................ 15 
+4.3  ESSAIS ...................................................................................................................................................................... 15 
+4.3.1  ESSAIS ACOUSTIQUES ............................................................................................................................................. 16 
+4.3.2  FRAIS ENTRAINES PAR LES ESSAIS .......................................................................................................................... 16 
+4.3.3  SANCTIONS .............................................................................................................................................................. 16 
+4.4  GARANTIE ................................................................................................................................................................ 16 
+4.5  DOSSIER DES OUVRAGES EXECUTES ................................................................................................................... 17 
+Document établi par CODIBAT  page 2/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 2/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+ 
+1.  PRESCRIPTIONS PARTICULIERES 
+ 
+Ce chapitre est complémentaire aux chapitres spécifiques à chaque corps d’état, étant entendu que l’ensemble 
+forme un tout indissociable, complémentaire l’un de l’autre. 
+1.1  PRESENTATION DU PROJET 
+L’opération a pour objet l'exécution complète et parfaite des travaux de tous les corps d'état nécessaires à la 
+construction d’un ensemble immobilier de 102 logements, d’une crèche et d’un restaurant club sénior. 
+ 
+L'entreprise s’engage à respecter l’ensemble des dispositions et exigences du dossier, et notamment : 
+-  Certification NF HABITAT HQE 
+-  Label RT 2012-10% 
+-  Besoin bioclimatique Bbio est inférieur ou égal au Bbio max 
+La consommation conventionnelle d'énergie primaire Cep ≤ Cep max avec 
+Cep max = 50 x Mctype x (Mcgéo + Mcalt + Mcsurf + McGES) 
+-  Production d’ECS par PAC assurant un apport de 30% d’EnR 
+-  La perméabilité à l'air Q4  max est de 0,60 m³/(h.m²)  pa-surf
+-  Respect des exigences pour permettre la certification NF Habitat HQE niveau d’entrée 
+-  Charte chantier à faibles nuisances 
+Par ailleurs, il est rappelé que le maître d’ouvrage a demandé une performance supérieure en matière 
+thermique à la labellisation recherchée, ce qui explique les dispositions techniques demandées. 
+De même, le maître d’ouvrage a demandé des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+En fonction de la classification UPEC des locaux du CSTB et de la nature du support l’Entreprise devra utiliser les 
+méthodologies de mise en œuvre qu’implique le classement E.  
+  E1 : joints traités à froid ou soudés à chaud sur support bois   
+  E2 : joints traités à froid ou soudés à chaud sur support béton   
+  E3 : joints traités à froid ou soudés à chaud + remontée en plinthes ou étanchéité en rives.   
+En pratique on retiendra : joints traités en locaux E1, et joints soudés à chaud en parties communes et locaux 
+d’autres classements. 
+ 
+1.2.1  TRAVAUX EN LOGEMENTS  
+-  Ragréage des sols 
+-  Fourniture et
+
+Chunk 5 (BM25):
+3.5.2  MURS 
+Après préparation, mise en œuvre en 2 couches d'une peinture projetée vinylique, état de finition C. 
+ 
+Localisation : 
+o  Toutes les circulations, tous les SAS au R-1 
+ 
+3.3.5.3  PARTIES METALLIQUES 
+Préparation suivant article ci avant, puis application de 2 couches de peinture acrylique type 
+ZOLPAFER de chez ZOLPAN ou équivalent, aspect brillant, état de finition A, sur huisseries des portes 
+et portes ascenseur. 
+ 
+Localisation : 
+o  Toutes les circulations, tous les SAS au R-1 
+o  Façades ascenseur 
+ 
+3.3.5.4  OUVRAGE DE MENUISERIES 
+Préparation selon article ci avant, mise en œuvre de 2 couches de peinture acrylique aspect satiné 
+brillant, état de finition B, sur les portes et façades des gaines palières aux 2 faces, et sur les plinthes 
+Concerne : 
+o  Les blocs-portes (aux 2 faces), à tous les niveaux 
+o  Les moulures et encadrements 
+ 
+Localisation : 
+o  Toutes les circulations, tous les SAS au R-1 
+ 
+3.3.5.5  SOLS 
+Mise en œuvre après préparation d’une peinture anti-poussière polyuréthane mono-composant, 
+aspect satinée après grenaillage. Une couleur par bâtiment pourra être demandée, au choix de 
+l’architecte. 
+Remontée formant plinthes de 10 cm. 
+ 
+Localisation :  
+o  Toutes les circulations, tous les SAS et escaliers au R-1 
+ 
+3.3.6  PARKING : PEINTURE DE SOL – SIGNALETIQUE HORIZONTALE INTERIEURE 
+Les murs englobant les escaliers et ascenseurs recevront une couche de peinture vinylique 
+permettant une identification aisée des sorties vers les cages d’escaliers. 
+Document établi par CODIBAT  page 19/25 
+CCTP-11-Peint-Revet mur.pdf - Page 19/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Peinture de sol du parking en R-1 comme suit : 
+o  Grenaillage de tous les sous-sols 
+o  Elimination de la laitance ou de la pollution éventuelle par ponçage ou neutralisation acide, 
+dépoussiérage soigné 
+o  Détourage à la ponceuse diamant des pieds de voiles, de poteaux et zones inaccessibles à la 
+grenailleuse sauf parties cuvelées 
+o  Aspiration très soignée 
+o  Application d’un primaire type ASW 06 (250gr/M²) de chez JANVIC 
+o  Application d’une première couche de peinture époxy bi-composant réacté avec des 
+polyamides en milieu aqueux (microporeuse) (250gr/m²) de type ASW 04 de chez JANVIC 
+suivant prescription du fabricant ou techniquement équivalent. 
+o  Application en finition d’une deuxième couche (250gr/m²) de peinture époxy de type ASW 04 
+de chez JANVIC ou techniquement équivalent additionnée de 2% de poudre antidérapante 
+type CR13 de chez JANVIC ou équivalent. 
+o  Les hauteurs des relevés seront de 60 cm dans les parkings 
+o  Les rampes ne seront pas peintes 
+ 
+Il sera prévu la délimitation et le marquage au sol par peinture routière, possédant un écolabel 
+européen: 
+o  Des places de stationnement 
+[ICÔNE: Petite icône]
+o  Réalisation de la signalisation réglementaire des places « handicapés », avec logos au sol   
+o  Réalisation de la signalisation des places pour véhicules électriques, avec logos au sol et mural  
+[ICÔNE: Petite icône]
+ 
+o  De la limite entre les cheminements véhicules et piétons 
+o  Des cheminements et fléchages sens de circulations piétons et véhicules 
+ 
+Il sera prévu le marquage au mur ou sous poutre de la hauteur de passage libre pour les véhicules. 
+Peinture polyuréthane mono-composante, satinée tendu avec brillance 15-20, application 250g/m² au 
+minimum. 
+ 
+3.3.7  SIGNALETIQUE 
+La signalétique sera conforme à l’identité visuelle du Maitre d’Ouvrage ou fera l’objet d’un projet propre à 
+l’opération, proposé par la Maîtrise d’Œuvre et soumis à la Maîtrise d’Ouvrage. 
+ 
+3.3.7.1  PANNEA
+
+Chunk 6 (BM25):
+-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  MURS LOGEMENTS 
+3.1.1  SYSTEME DE PROTECTION  SOUS CARRELAGE (SPEC) 
+Mise en œuvre d’un système de protection à l’eau sous carrelage (SPEC) de type CERMITANCHE sans 
+armature de chez CERMIX ou équivalent pour les murs, au droit des bacs à douches et des baignoires, 
+en parements plaques de plâtre des SdB ou SdE. 
+ 
+3.1.2  FAÏENCES  
+D’une manière générale, l’entreprise devra respecter les recommandations minimales afin d’obtenir 
+la certification NF Habitat à savoir : 
+ 
+Pour les Salles de Bain et Salle d’Eau : FL.1.5.3.1 
+Les parois murales, au pourtour des équipements sanitaires, sont recouvertes par un revêtement cité 
+dans la liste des revêtements spéciaux et dont la hauteur est au moins : 
+o  égale à la hauteur d'huisserie au pourtour de la baignoire et ou douche 
+o  supérieure ou égale à 0,30 m au pourtour d'un lavabo/vasque supérieure ou égale à 0,20 m au 
+pourtour du lave-mains 
+Les parois concernées correspondent à toutes les parois verticales situées à moins de 0,4 m à 
+l'arrière et sur les côtés d'un appareil sanitaire en partant de l'axe de la robinetterie. Dans ce cas : 
+o  Le revêtement doit recouvrir au minimum tout le linéaire correspondant à l'appareil, y compris 
+les tablettes en prolongement de celui-ci (ou le meuble en cas de meuble-lavabo) 
+o  Il doit recouvrir aussi la partie murale en jonction entre un revêtement situé à l'arrière d'un 
+appareil et celui situé latéralement au même appareil 
+ 
+Pour les cuisines : FL.1.4.2.1 
+Les parois murales, au pourtour de l'évier, sont recouvertes par un revêtement cité dans la liste des 
+revêtements spéciaux et dont la hauteur est à minima de 0,40 m. 
+Les parois concernées correspondent à toutes les parois verticales situées à moins de 0,40 m à 
+l'arrière et sur les côtés de l'évier en partant de l'axe de la robinetterie. Dans ce cas : 
+o  Le revêtement doit recouvrir au minimum tout le linéaire correspondant à l'évier, y compris les 
+tablettes en prolongement de celui-ci (ou le meuble en cas de meuble-évier) 
+o  Il doit recouvrir aussi la partie murale en jonction entre un revêtement situé à l’arrière d’un 
+appareil et celui situé latéralement au même appareil 
+ 
+Ces recommandations devront être associées aux programmes du Maitre d’Ouvrage, à savoir : 
+ 
+1.  Salle de bain, salle d’eau, WC 
+Fourniture et pose collée verticale de faïences 25x40cm type TRAMA de chez SALONI ou équivalent. 
+Couleur unie, listel assorti VITREO ou TRAMA. 
+Hauteur d’huisserie au droit des baignoires et 2,00m au départ du fond du receveur de douche avec 
+un rang en dépassement. 
+30 cm (voir remq A115, quid miroir et luminaire ? Hauteur d’huisserie) au droit du lavabo ou vasque, 
+retours éventuels, 2 carreaux en retombée de part et d’autre. 
+Dans les WC au droit des lave-mains 25 cm y compris sur murs en retour. 
+Document établi par CODIBAT  page 9/14 
+CCTP-09-Carrelage-Faience.pdf - Page 9/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Habillage du tablier de baignoire y compris trappe et du socle du receveur de douche (si nécessaire), y 
+compris paillasse si nécessaire. 
+ 
+Joint couleur au choix de l’architecte. 
+ 
+Localisation : 
+o  Dans l’ensemble des Salles de Bain, Salles d’Eau et WC des logements des bâtiments 
+o  Sanitaire loge 
+ 
+2.  Cuisine 
+Fourniture et pose collée de faïences 20x20cm type EMOCION de chez SALONI ou équivalent. 
+Couleur blanche. 
+Posée sur 60 cm de hauteur, sur toute la longueur des appare
+
+Chunk 7 (BM25):
+des fissures, et humidification éventuelle). 
+Application du primaire (suivant indication de l’avis technique). 
+Application de l’enduit de ragréage P3. 
+L’avis technique de l’enduit de ragréage devra être transmis avant toute exécution pour validation par 
+la Maîtrise d’Œuvre et le Bureau de Contrôle. 
+ 
+Localisation 
+o  Toutes pièces destinées à recevoir un revêtement de sol souple 
+ 
+3.1.3  REVETEMENTS PVC 
+3.1.3.1  PIECES SECHES 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoustique imprimé en lés soudés 2 m 
+de large, du type TRANSIT 2S2 de chez GERFLOR ou équivalent : 
+o  Multi couche armaturée sur sous couche mousse 
+o  Traitement GERNET ULTRA 
+o  Résistance à l’abrasion : Groupe T 
+o  Classement UPEC : U2 P2 E2/3 C2  s 
+Document établi par CODIBAT  page 10/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 10/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+o  Efficacité acoustique certifiée : ΔLw = 20 dB 
+o  Réaction au feu : Cfl-s1 
+ 
+Plusieurs coloris pourront être retenus au choix de l’Architecte dans la gamme du fabricant pour 
+différencier les pièces. 
+ 
+Localisation 
+o  Toutes les pièces sèches y compris placards et dégagements attenants 
+ 
+3.1.3.2  SALLES DE BAINS – SALLES D’EAU - WC 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoustique imprimé en lés 2 m de 
+large, du type TRANSIT CONTROLE 2S2 de chez GERFLOR ou équivalent : 
+o  Multi couche armaturée sur sous couche mousse 
+o  Epaisseur total 2,75mm 
+o  Protection de surface GERNET CONTROLE 
+o  Résistance à l’abrasion : Groupe T 
+o  Classement UPEC : U2  P2 E2/3 C2  s
+o  Efficacité acoustique certifiée : ΔLw = 20 dB 
+o  Réaction au feu : Cfl-s1 
+ 
+Plusieurs coloris pourront être retenus au choix de l’Architecte dans la gamme du fabricant (compris 
+aspect bois) pour différencier les pièces. 
+ 
+Localisation 
+o  Toutes les SdB et SdE, tous les WC, compris placards et dégagements attenants 
+ 
+3.1.3.3  CUISINES 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoustique imprimé en lés 2 m de 
+large, du type TRANSIT PLUS CONTROLE 2S3 de chez GERFLOR ou équivalent : 
+o  Multi couche armaturée sur sous couche mousse 
+o  Epaisseur total 2,80mm 
+o  Protection de surface GERNET CONTROLE 
+o  Résistance à l’abrasion : Groupe T 
+o  Classement UPEC : U2  P2 E2/3 C2  s
+o  Efficacité acoustique certifiée : ΔLw = 20 dB 
+o  Réaction au feu : Cfl-s1 
+ 
+Plusieurs coloris pourront être retenus au choix de l’Architecte dans la gamme du fabricant (compris 
+aspect bois) pour différencier les pièces. 
+ 
+Localisation 
+o  Toutes les cuisines, compris placards et dégagements attenants 
+ 
+Document établi par CODIBAT  page 11/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 11/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.1.4  JOINT DE FINITION 
+L’entreprise devra un joint pompe de finition de couleur similaire ou proche du revêtement de sol 
+entre les plinthes et le revêtement de sol. 
+ 
+3.2  PARTIES COMMUNES 
+3.2.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14
+
+Chunk 8 (BM25):
+réage P3. 
+L’avis technique de l’enduit de ragréage devra être transmis avant toute exécution pour validation par 
+la Maîtrise d’Œuvre et le Bureau de Contrôle. 
+ 
+Localisation :  
+o  D’une manière générale, l’ensemble des surfaces devant recevoir un revêtement de sol souple 
+décrit ci-après 
+ 
+3.2.3  REVETEMENTS DE SOLS DES CIRCULATIONS 
+Fourniture et pose collée en plein d’un revêtement de sol PVC acoustique imprimé en lés soudés 2 m 
+de large, du type TARALAY IMPRESSION CONFORT 43 type CERENTO BARI de chez GERFLOR ou 
+équivalent : 
+o  Multi couche armaturée sur sous couche mousse 
+o  Traitement BIOSTATIC (traitement hygiène fongistatique et bactériostatique) 
+Document établi par CODIBAT  page 12/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 12/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+o  Protection de surface PROTECSOL 
+o  Produit garanti 7 ans 
+o  Résistance à l’abrasion : Groupe T 
+o  Classement UPEC : U4 P3 E2/3 C2 
+o  Efficacité acoustique certifiée : ΔLw = 19 dB 
+o  Réaction au feu : Bfl-s1 
+o  Propriétés électrostatiques : Antistatique – Classe 1 
+o  Joints soudés à froid 
+La mise en œuvre devra respecter scrupuleusement les recommandations du fabricant, notamment 
+ne pas employer dans un même local des rouleaux de lots différents, l’encollage doit avoir lieu 24 
+heures après le déroulage des lés. 
+Plusieurs coloris pourront être retenus au choix de l’Architecte dans la gamme du fabricant pour 
+différencier les niveaux ou créer des zones sur un même étage. 
+ 
+Localisation :  
+o  Ensemble des circulations d’étages du R+1 au niveau le plus haut des bâtiments 
+ 
+3.2.4  BARRES DE SEUIL 
+Profilés demi bombés en acier inoxydable de 25 à 30 mm de largeur, fixés par chevilles et vis inox, 
+entre feuillures d'huisserie. 
+Modèle à faire approuver par le Maître d'Œuvre. 
+Localisation :  
+o  A la jonction entre revêtements de natures différentes 
+ 
+3.2.5  BANDES ET DALLES PODOTACTILES 
+3.2.5.1  NEZ-DE-MARCHES 
+Fourniture et pose collée de bandes antidérapantes de couleur contrastée avec la couleur du sol, 
+conformément  à la norme NFP 98-351. 
+Pose sur chaque marche au niveau du nez de marche. 
+ 
+Localisation :  
+o  Tous niveaux des escaliers recouverts de peinture de sol sur l’ensemble des escaliers des 
+bâtiments 
+ 
+3.2.5.2  DALLES PODOTACTILES 
+Fourniture et pose collée de dalles podotactiles antidérapante, conforme à la norme NFP 98-351, 
+placée en haut des escaliers à une distance de 0,50 m de la première marche. 
+ 
+La couleur choisie contrastera avec la couleur du sol. 
+ 
+Localisation :  
+o  Tous niveaux sur l’ensemble des escaliers des bâtiments 
+ 
+Document établi par CODIBAT  page 13/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 13/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.2.6  TAPIS D’ENTREE 
+Fourniture et pose d'essuie pieds intérieur de type NUWAY TUFTIGUARD de chez FORBO ou similaire, 
+comprenant un tapis d'entrée composé de profilés composites caoutchouc / textile / aluminium. 
+Compris cadre inox et profile de recouvrement. 
+Le tapis sera scellé dans la réservation prévue au lot « Gros Œuvre ». 
+ 
+Localisation :  
+o  Sas d’entrée des bâtiments suivant plans de décoration architecte 
+Document établi par CODIBAT  page 14/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 14/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant
+
+Chunk 9 (BM25):
+commande, l'Entrepreneur présentera des échantillons à l'approbation du Maître d'Œuvre 
+d'Exécution. 
+Les échantillons acceptés seront conservés au bureau de Chantier. 
+Les échantillons mis en œuvre seront rigoureusement identiques aux échantillons agréés. 
+Ils seront estampillés à la marque des usines de fabrication. 
+Toute substitution constatée sur le chantier sera sanctionnée par un ordre de dépose avec repose de 
+matériaux conformes aux échantillons, aux frais de l'Entreprise. 
+ 
+2.1.1.5  PRESCRIPTIONS DE POSE DES REVETEMENTS CARRELES 
+Pose collée : Pose collée à l'aide d'un mortier colle mince spécial bénéficiant d'un Avis Technique C.S.T.B. 
+et choisi en fonction des supports et matériaux. 
+Avant pose, préparation des supports comprenant : 
+-  Sols béton avec chape : ragréage au mastic spécial 2 kg/m² moyen - (type "RAGRESOL" ou équivalent) 
+-  Murs béton : brossage des bétons, ragréage si nécessaire 
+-  Cloisons placostil et cloisons de doublage : brossage 
+ 
+Document établi par CODIBAT  page 5/14 
+CCTP-09-Carrelage-Faience.pdf - Page 5/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+2.1.1.6  TOLERANCE DE POSE - ASPECT FINAL 
+En plan : la surface du revêtement devra être parfaitement plane. Une règle rectiligne de 2 m. ne doit pas 
+indiquer d'écarts supérieurs à 3mm. 
+ 
+2.1.1.7  ALIGNEMENT DES JOINTS 
+L'alignement des joints sera tel qu'une règle de 2 m posée au droit des joints ne fasse pas apparaître de 
+différence supérieure à 2mm. Les alignements seront toujours perpendiculaires ou parallèles aux façades 
+des pièces. 
+ 
+2.1.2  ENTAILLES, PERCEMENTS, RACCORDS, DECOUPES 
+Les entailles, percements, coupes et raccords à exécuter dans les revêtements carrelés, nécessaires à 
+l'exécution des travaux d'autres corps d'état seront à la charge du présent Corps d’état. 
+Les découpes des dalles seront franches. Les dalles à bords coupés épaufrées seront refusées. 
+ 
+2.1.3  CALEPINS - SURFACES PROTOTYPES 
+L'Entreprise sera tenue de présenter au Maître d'Œuvre d'Exécution les études de calepins et surfaces 
+prototypes  préalables  qui  seront  jugées  nécessaires  par  ce  dernier.  Ces  surfaces  témoins  seront 
+conservées jusqu'à la fin du chantier. 
+ 
+2.1.4  PROTECTIONS - NETTOYAGES 
+Protection avant pose. 
+L'Entrepreneur sera tenu d'assurer et mettre en place les protections nécessaires aux ouvrages déjà 
+réalisés et pouvant subir des dégradations du fait de son intervention. 
+A savoir d'une façon générale : 
+-  Protection des façades dans le cas de montage de matériaux par treuils extérieurs 
+-  Protection des pieds d'huisseries et menuiseries extérieures, etc. 
+-  Protection des appareils sanitaires 
+Nettoyage des revêtements muraux. 
+Nettoyage exécuté immédiatement après le coulage des joints au chiffon sec et à la sciure. 
+ 
+2.2  CHOIX DES MATERIAUX 
+2.2.1  IMPACTS ENVIRONNEMENTAUX DES MATERIAUX 
+La qualité des matériaux sera conforme aux prescriptions des D.T.U. et Normes citées ci-avant. 
+Avant toute commande, l'Entrepreneur présentera des échantillons à l'approbation du Maître d'Œuvre 
+d'Exécution. 
+Les échantillons acceptés seront conservés au bureau de Chantier. Ils seront estampillés à la marque des 
+usines de fabrication. 
+Les échantillons mis en œuvre seront rigoureusement identiques aux échantillons agréés. 
+Toute substitution constatée sur le chantier sera sanctionnée par un ordre de dépose avec repose de 
+matériaux conformes aux échantillons, aux frais de l'Entreprise. 
+Document établi par CODIBAT  page 6/14 
+CCTP-09-Carrelage-Faience.pdf - Page 6/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133
+
+Chunk 10 (BM25):
+4. **Troisième section** : 
+   - "Chape ΔLw ≥ 18 dB"
+   - "Sol souple ΔLw ≥ 18 dB"
+   - "Carrelage ΔLw ≥ 18 dB"
+   - "Parquet ΔLw ≥ 18 dB"
+   - "Chape Th-A ΔLw ≥ 19 dB"
+   Ces éléments concernent les performances acoustiques des matériaux de revêtement de sol, avec ΔLw représentant l'amélioration de l'isolation acoustique aux bruits d'impact, mesurée en décibels (dB). Les valeurs indiquent les performances minimales requises.
+
+Chaque ligne du tableau spécifie des exigences techniques pour différents matériaux ou méthodes de construction, probablement dans le cadre de la conformité à des normes de construction ou d'isolation.]
+ 
+ 
+3.2.2  CHAPE ACOUSTIQUE 
+Due au lot « Gros Œuvre ».   
+ 
+Document établi par CODIBAT  page 10/14 
+CCTP-09-Carrelage-Faience.pdf - Page 10/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.2.3  SOL DES SAS, HALLS ET CIRCULATIONS A RDC, LOGE 
+Fourniture et pose collée carrelage grès cérame série CORE SHADE de chez FIANDRE, ou équivalent 
+Dimensions 60x30 cm et/ou 60x60 cm. 
+Classement UPEC : Hall et circulations à RdC : U4-P3-E2-C1 PC10 / R10 
+ 
+Teinte au choix de l’architecte dans la gamme compris plinthes 10cm assorties. 
+Y compris joint couleur au choix de l’architecte. 
+ 
+Localisation : 
+o  Suivant plans et détails de l’architecte, halls et circulations à RdC y compris palier bas escaliers  
+o  Sol ascenseurs 
+o  Loge 
+ 
+3.2.4  PROFIL D’ARRET 
+Fourniture et pose d’un profilé type SCHIENE de chez SCHLÜTER en transition entre le revêtement de 
+sol carrelé et un autre revêtement de sol, notamment entre les circulations et les paliers d’escaliers. 
+  [IMAGE: Cette image montre une coupe transversale d'une installation de revêtement de sol. Voici une description technique des éléments visibles :
+
+1. **Carrelage** : En haut à gauche, on voit un carreau de céramique ou de porcelaine. Il est posé sur une couche de mortier-colle.
+
+2. **Mortier-colle** : Sous le carreau, il y a une couche de mortier-colle appliquée en bandes parallèles. Elle sert à fixer le carreau au sol.
+
+3. **Profilé de finition** : À la jonction entre le carrelage et un autre type de revêtement, un profilé en métal est utilisé. Ce profilé protège le bord du carreau et assure une transition propre entre les deux surfaces.
+
+4. **Autre revêtement de sol** : À droite, il y a un autre type de revêtement, probablement une moquette ou un tapis. Il est posé directement sur le sol, adjacent au carrelage.
+
+5. **Sous-couche** : Sous la moquette, on peut supposer la présence d'une sous-couche, bien que non visible directement, pour améliorer le confort et l'isolation.
+
+Cette configuration est typique pour assurer une transition harmonieuse et durable entre différents types de revêtements de sol dans un bâtiment.]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.2.5  LOCAL OM 
+Système  d’étanchéité  liquide  sous  carrelage  (SEL)  de  type  CERMITANCHE  de  chez  CERMIX  ou 
+équivalent. 
+Fourniture et pose collée carrelage grès cérame porcelainé de chez FIANDRE ou équivalent 
+Dimensions 30x30cm. 
+Classement UPEC : U4-P4-E3-C2 PC10 / R10 
+ 
+Teinte claire au choix de l’architecte dans la gamme compris plinthes à gorges assorties. 
+Intégration du siphon de sol fourni par le corps d’état « Plomberie ». 
+Carrelage mural 20x20cm ou 30x30cm de chez FIANDRE sur les murs sur 180cm de hauteur. 
+Y compris joint couleur au choix de l’architecte. 
+ 
+Localisation : 
+o  Locaux OM 
+Document établi par CODIBAT  page 11/14 
+CCTP-09-Carrelage-Faience.pdf - Page 11/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY
+
+Chunk 11 (BM25):
+urs, paillasses, plinthes et plafonds, après préparation, mise en œuvre d’un enduit 
+gouttelettes type BAGAR 
+ 
+Localisation : 
+o  Escaliers du niveau le plus bas au dernier niveau des bâtiments 
+ 
+3.3.3.2  PARTIES METALLIQUES 
+Après préparation, mise en œuvre de 2 couches de peinture lessivable acrylique spéciale métaux type 
+ZOLPAFER de chez ZOLPAN ou équivalent, aspect brillant sur mains courantes et garde-corps des 
+escaliers. 
+Etat de finition A. 
+ 
+Localisation : 
+o  Escaliers du niveau le plus bas au dernier niveau des bâtiments 
+ 
+3.3.3.3  SOLS 
+Mise en œuvre après préparation d’une peinture anti-poussière polyuréthane mono-composant en 
+phase aqueuse, aspect satinée. 
+Le produit utilisé devra avoir un écolabel européen. 
+La première et la dernière contremarche de chaque volée seront contrastées, conformément à la 
+réglementation PMR. 
+Document établi par CODIBAT  page 17/25 
+CCTP-11-Peint-Revet mur.pdf - Page 17/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Remontée en plinthe sur 10cm. 
+ 
+Localisation : 
+o  Tous les escaliers des bâtiments, du RdC au dernier niveau, marches, contre marches et 
+paliers 
+ 
+3.3.4  LOCAUX COMMUNS ET TECHNIQUES 
+3.3.4.1  MURS 
+Après préparation des supports, exécution d’une couche de peinture vinylique de teinte blanche. 
+   
+Localisation :  
+o  Locaux techniques, vélos/poussettes, locaux OM au-delà du carrelage 
+ 
+3.3.4.2  PLAFONDS 
+Livrés bruts. 
+ 
+3.3.4.3  PARTIES METALLIQUES 
+Après préparation, mise en œuvre en 2 couches d'une peinture acrylique spéciale métaux type 
+ZOLPAFER de chez ZOLPAN ou équivalent, aspect brillant, état de finition B. 
+ 
+Localisation : 
+o  Locaux techniques, OM et vélos/poussettes 
+ 
+3.3.4.4  OUVRAGES DE MENUISERIES INTERIEURES 
+Après préparation, mise en œuvre de 2 couches d'une peinture acrylique aspect satiné aux 2 faces, 
+état de finition B. 
+ 
+Localisation : 
+o  Locaux techniques, OM et vélos/poussettes 
+ 
+3.3.4.5  SOLS 
+Mise en œuvre après préparation d’une peinture anti-poussière polyuréthane mono-composant en 
+phase aqueuse, aspect satinée après grenaillage. 
+Le produit utilisé devra avoir un écolabel européen. 
+Remontée formant plinthes de 20 cm. 
+ 
+Localisation :  
+o  Locaux techniques et vélos/poussettes 
+Document établi par CODIBAT  page 18/25 
+CCTP-11-Peint-Revet mur.pdf - Page 18/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.3.5  CIRCULATIONS, SAS AU SOUS-SOL 
+3.3.5.1  PLAFONDS 
+Après préparation, mise en œuvre en 2 couches d'une peinture projetée vinylique, état de finition C. 
+ 
+Localisation : 
+o  Toutes les circulations, tous les SAS au R-1 
+ 
+3.3.5.2  MURS 
+Après préparation, mise en œuvre en 2 couches d'une peinture projetée vinylique, état de finition C. 
+ 
+Localisation : 
+o  Toutes les circulations, tous les SAS au R-1 
+ 
+3.3.5.3  PARTIES METALLIQUES 
+Préparation suivant article ci avant, puis application de 2 couches de peinture acrylique type 
+ZOLPAFER de chez ZOLPAN ou équivalent, aspect brillant, état de finition A, sur huisseries des portes 
+et portes ascenseur. 
+ 
+Localisation : 
+o  Toutes les circulations, tous les SAS au R-1 
+o  Façades ascenseur 
+ 
+3.3.5.4  OUVRAGE DE MENUISERIES 
+Préparation selon article ci avant, mise en œuvre de 2 couches de peinture acrylique aspect satiné 
+brillant, état de finition B, sur les portes et façades des gaines palières aux 2 faces, et sur
+
+Chunk 12 (BM25):
+pl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.2.6  TAPIS D’ENTREE 
+Fourniture et pose d'essuie pieds intérieur de type NUWAY TUFTIGUARD de chez FORBO ou similaire, 
+comprenant un tapis d'entrée composé de profilés composites caoutchouc / textile / aluminium. 
+Compris cadre inox et profile de recouvrement. 
+Le tapis sera scellé dans la réservation prévue au lot « Gros Œuvre ». 
+ 
+Localisation :  
+o  Sas d’entrée des bâtiments suivant plans de décoration architecte 
+Document établi par CODIBAT  page 14/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 14/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE 
+4.1  GENERALITES   
+Les contrôles seront effectués au fur et à mesure de l'avancement des travaux. 
+Les essais et contrôles sont à la charge de l'entrepreneur du présent corps d'état qui fournira les procès-
+verbaux de chaque essai.  
+Tous les essais et contrôles seront conduits conformément aux prescriptions du CCTG. 
+Il est rappelé l'obligation, pour l'entrepreneur, de procéder, pendant la période d'exécution des travaux, 
+aux vérifications technique qui leur incombent aux termes de la loi du 4 Janvier 1978. 
+En particulier, l'entrepreneur devra, dans son offre, définir le programme de contrôle interne en précisant 
+les dispositions prévues sur chantier pour en assurer le respect. 
+ 
+4.2  CONTROLES  
+En cours et en fin de travaux, il sera procédé à des contrôles quantitatifs et qualitatifs des fournitures et 
+mises en œuvre par rapport aux pièces du marché de l'entreprise. 
+Si les résultats constatés ne sont pas satisfaisants, l'entrepreneur sera tenu de commencer dans le délai 
+de huit jours, tous les remplacements, modifications, réparations ou adjonctions nécessaires, le tout à ses 
+frais.  
+Après exécution de ces ouvrages, il sera procédé à de nouveaux contrôles. 
+Si ces derniers ne sont pas encore satisfaisants, les ouvrages pourront être refusés en tout ou partie 
+suivant dire d'un expert choisi, d'un commun accord par les deux parties.  
+Dans ce cas, l'entrepreneur supportera, par ailleurs, les dépenses de toutes natures résultant de la 
+mauvaise qualité de ses ouvrages.  
+Tous les contrôles pourront être différés tant qu'une part quelconque des fournitures ou travaux ne sera 
+pas acceptée ; les conséquences en découlant restent à la charge de l'entreprise.  
+Toute défectuosité constatée sera immédiatement réparée par l'entrepreneur.  
+Les résultats feront l'objet d'un rapport détaillé signé par les représentants de l'entrepreneur et de 
+l'entreprise.  
+Toutes les manœuvres seront effectuées par le personnel de l'entrepreneur, sous sa responsabilité, 
+chaque contrôle pouvant être répété deux ou plusieurs fois. 
+ 
+4.3  ESSAIS 
+Les essais porteront sur le fonctionnement de tous les équipements phoniques posés par le présent 
+corps d'état avec fourniture de procès-verbaux. 
+L'entrepreneur doit mettre à la disposition de la Maîtrise d'Ouvrage et de la Maîtrise d'Œuvre tout le 
+personnel et les appareils de mesure nécessaires à la réalisation des vérifications et des essais.  
+Les appareils de mesure doivent être agréés au préalable par des agents techniques chargés de la 
+réception.  
+Toutes les précautions seront prises pour assurer la protection intérieure des gaines contre les poussières 
+pendant les travaux.  
+Toutes les gaines seront nettoyées et désinfectées pour la réception. 
+Document établi par CODIBAT  page 15/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 15/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.3.1  ESSAIS ACOUSTIQUES 
+Vérification des niveaux sonores par rapport aux valeurs indiquées au cahier des charges. 
+ 
+4.3.2  FRAIS ENTRAINES PAR LES ESS
+
+Chunk 13 (BM25):
+La consommation conventionnelle d'énergie primaire Cep ≤ Cep max avec 
+Cep max = 50 x Mctype x (Mcgéo + Mcalt + Mcsurf + McGES) 
+-  Production d’ECS par PAC assurant un apport de 30% d’EnR 
+-  La perméabilité à l'air Q4  max est de 0,60 m³/(h.m²)  pa-surf
+-  Respect des exigences pour permettre la certification NF Habitat HQE niveau d’entrée 
+-  Charte chantier à faibles nuisances 
+Par ailleurs, il est rappelé que le maître d’ouvrage a demandé une performance supérieure en matière 
+thermique à la labellisation recherchée, ce qui explique les dispositions techniques demandées. 
+De même, le maître d’ouvrage a demandé des performances en matière d’acoustique intérieure 
+supérieures aux exigences réglementaires, ce qui explique également les dispositions techniques 
+demandées en la matière. 
+ 
+1.2  CONSISTANCE DES TRAVAUX 
+1.2.1  TRAVAUX EN LOGEMENTS ET LOGE 
+-  Plafonds :  
+  Pièces humides : 2 couches de peinture lessivable acrylique aspect satiné 
+  Pièces sèches : 2 couches de peinture lessivable acrylique aspect satiné 
+-  Murs 
+  Pièces humides : 2 couches de peinture lessivable acrylique aspect satiné 
+  Pièces sèches : 2 couches de peinture lessivable acrylique aspect satiné 
+-  Revêtements muraux et peinture en plafonds au droit des placards à l’identique des pièces dans 
+lesquelles ils se situent 
+-  Ouvrages de menuiseries intérieures : plinthes et trappes de visite des gaines techniques : 2 couches 
+de peinture lessivable acrylique aspect satiné 
+-  Parties métalliques : 2 couches de peinture lessivable acrylique aspect satiné 
+ 
+1.2.2  TRAVAUX EN PARTIES COMMUNES 
+-  Hall : 
+  Murs : peinture brillante 
+-  Circulations palières du rez-de-chaussée et des étages : 
+  Plafonds : peinture lessivable acrylique aspect mat 
+  Murs : peinture lessivable acrylique aspect brillant 
+  Parties métalliques : peinture lessivable acrylique aspect brillant 
+Document établi par CODIBAT  page 4/25 
+CCTP-11-Peint-Revet mur.pdf - Page 4/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+  Ouvrages de menuiseries intérieures : peinture lessivable acrylique brillant 
+-  Cages d’escalier : 
+  Plafonds, paillasse: enduit type BAGAR 
+  Fût d’escalier : peinture acrylique lessivable aspect satiné  
+  Murs : enduit type BAGAR 
+  Parties  métalliques :  garde-corps  et  mains  courantes :  peinture  lessivable  acrylique 
+brillant 
+  Peinture anti-poussières sur marches et contremarches, contremarches contrastantes 
+sur la première et dernière contremarche 
+Sol parking : sol peinture et marquage 
+-  Locaux communs et techniques : 
+  Murs et plafonds: 2 couches de peinture lessivable vinylique 
+  Huisseries métalliques : 2 couches peinture lessivable acrylique, aspect brillant 
+  Portes : peinture lessivable acrylique brillant 
+  Sols : peinture polyuréthane 
+ 
+1.2.3  SIGNALETIQUE 
+Panneaux de sécurité et consignes avec plans plastifiés sur cadre alu, avec localisation des issues de 
+secours, les extincteurs et les consignes de sécurité, selon la réglementation incendie. 
+Une signalisation permet d’identifier les différents bâtiments et les différents cheminements possibles : au 
+minimum à l’entrée du site, au niveau du parc de stationnement et chaque fois qu’un choix d’itinéraire est 
+donne a l’usager. 
+ 
+-  Signalisation intérieure : 
+Numérotation des boîtes aux lettres avec des plaques adhésives gravées. 
+Indication des locaux techniques et communs avec des plaques de type pictogramme. 
+Consignes de tri dans le local Ordures Ménagères avec des plaques de type pictogramme. 
+Porte coupe-feu des paliers d’étage avec étiquettes adhésives « Portes CF à maintenir fermée ».
+
+Chunk 14 (BM25):
+alisation de la signalisation réglementaire des places « handicapés », avec logos au sol   
+o  Réalisation de la signalisation des places pour véhicules électriques, avec logos au sol et mural  
+[ICÔNE: Petite icône]
+ 
+o  De la limite entre les cheminements véhicules et piétons 
+o  Des cheminements et fléchages sens de circulations piétons et véhicules 
+ 
+Il sera prévu le marquage au mur ou sous poutre de la hauteur de passage libre pour les véhicules. 
+Peinture polyuréthane mono-composante, satinée tendu avec brillance 15-20, application 250g/m² au 
+minimum. 
+ 
+3.3.7  SIGNALETIQUE 
+La signalétique sera conforme à l’identité visuelle du Maitre d’Ouvrage ou fera l’objet d’un projet propre à 
+l’opération, proposé par la Maîtrise d’Œuvre et soumis à la Maîtrise d’Ouvrage. 
+ 
+3.3.7.1  PANNEAUX GRAVES 
+Panneaux gravés en PVC de couleur ou inox gravé, au choix de l'architecte. 
+Dimensions 0,05 x 0,15 m environ. 
+Pose collée sur portes. 
+ 
+Localisation 
+o  Avec inscriptions correspondantes : 
+  Locaux communs 
+  Issues vers escaliers et ascenseur 
+  Locaux techniques (sans issue) 
+  Portes sur cage d'escalier (porte coupe-feu à maintenir fermée) et « accès rez-de-
+chaussée » – « accès étages » 
+Document établi par CODIBAT  page 20/25 
+CCTP-11-Peint-Revet mur.pdf - Page 20/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+  Panneaux réglementaires "issues de secours", … 
+  Porte de gaines techniques palières…. 
+  Numéro d’étages 
+  N° de logements sur portes palières 
+  N° sur porte des caves différent de celui des logements 
+ 
+3.3.7.2  NUMEROTATION DE RUE ET DES BATIMENTS 
+Lot « Revêtements de façades ». 
+ 
+3.3.7.3  NUMERO DE LOGEMENT 
+Fourniture et pose d’étiquettes PVC gravée 
+ 
+Localisation 
+o  A chaque porte de logement 
+ 
+3.3.7.4  LISTING DES OCCUPANTS 
+Equipement de tableaux nominatifs par étiquettes PVC gravées interchangeables, composant :  
+o  L'indication du bâtiment 
+o  Le nom 
+o  Le numéro du logement 
+o  L'étage 
+ 
+Localisation 
+o  Dans les halls 
+ 
+3.3.7.5  PANNEAUX DE SECURITE ET DE CONSIGNES 
+Fourniture et mise en œuvre des panneaux de sécurité réglementaires, comportant les inscriptions et 
+plans réglementaires. 
+ 
+Localisation 
+o  Au niveau de parkings 
+o  Dans les halls d’entrée 
+o  A Rez-de-chaussée des cages d’escaliers desservant les niveaux de superstructure 
+ 
+3.3.7.6  TRI SELECTIF 
+Fourniture et pose de panneaux d’indication de consignes de tri sélectif y compris le planning de 
+ramassage des encombrants, avec la signalétique avec pictogramme sur chacun des bacs (parois visibles) 
+et au mur au-dessus de chaque bac. 
+Document établi par CODIBAT  page 21/25 
+CCTP-11-Peint-Revet mur.pdf - Page 21/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Localisation 
+o  Dans les locaux OM des bâtiments 
+ 
+3.4  NETTOYAGE ET PROTECTION 
+Tous les nettoyages de mise en service seront dus par l'Entrepreneur du présent Corps d’état et 
+réalisés conformément aux spécifications du D.T.U. 59.1 "Cahier des clauses spéciales – article 3.1". 
+Les nettoyages n'excluent pas les protections complémentaires de certains ouvrages qui devront être 
+assurées à la demande du Maître d'Œuvre, sans l'octroi d'aucune plus-value sur le prix forfaitaire du 
+marché. 
+D'une manière générale, l'Entrepreneur du présent Corps d’état devra, en quittant le local après son 
+intervention, le laisser dans un état de propreté absolue. 
+L'Entrepreneur devra le grattage et le lavage de tous les sols par un produit adapté n'attaquant ni les 
+matériaux
+
+Chunk 15 (BM25):
+23 mars 2011 sont étiquetés A+ au sens de l’arrêté du 19 avril 2011. 
+ 
+2.2.2  COLLES 
+Les colles employées devront avoir fait l'objet d'un avis technique du C.S.T.B. et seront utilisées suivant 
+prescriptions du fabricant. 
+ 
+2.2.3  PRODUITS D'ETANCHEITE 
+Système de Protection à l’Eau sous Carrelage (SPEC) possédant l’avis technique du CSTB. 
+Système d’Etanchéité Liquide conforme aux Règles Professionnelles APSEL-CSFE. 
+ 
+2.2.4  PERCEMENTS ET RESERVATIONS DANS LE BETON 
+Ces ouvrages seront réalisés par l'entreprise de « Gros Œuvre » à l'aide des plans et indications fournis par 
+le présent Corps d’état. 
+Ces documents devront être préalablement soumis pour approbation à la maîtrise d'œuvre dans les 
+délais suffisants. 
+Ces documents, dûment approuvés, devront parvenir à l'entreprise de Gros-œuvre au moins un mois 
+avant tout début d'exécution. 
+Document établi par CODIBAT  page 7/14 
+CCTP-09-Carrelage-Faience.pdf - Page 7/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+2.3  SPECIFICATIONS PARTICULIERES 
+2.3.1  ETUDE DU DOSSIER 
+L'entreprise est censée s'être engagée dans son Marché en toute connaissance de cause. En 
+particulier, lui sont parfaitement connus le terrain et ses sujétions propres, les contraintes relatives 
+aux constructions voisines, les modalités d'accès par la voirie, les possibilités et difficultés de 
+circulation et de stationnement, les sujétions des règlements administratifs en vigueur se rapportant 
+à la sécurité sur le domaine public. 
+Elle ne pourra jamais arguer que des erreurs ou omissions puissent la dispenser d'exécuter tous les 
+travaux de sa profession ou fassent l'objet d'une demande de suppléments sur ses prix. 
+ 
+2.3.2  CLASSEMENT UPEC 
+Les revêtements de sols devront être au minimum de classement UPEC et glissance (XP P 05-010) 
+suivants, mais respecteront les exigences du Maitre d’Ouvrage si supérieures: 
+o  Hall et circulations à RdC (≥25 logements): U4-P3-E2-C1 PC10 / R10 
+o  Local entretien : U4-P3-E3-C2 PC10 / R10 
+o  Local OM : U4-P4-E3-C2 PC10 / R10 
+o  Cuisines : U3-P3-E2-C2 PC10 / R10 
+o  Pièces SdB ou SdE : U2 -P2-E2-C1 PN6 / R10  s
+ 
+2.3.3  DOCUMENTS D’EXECUTION 
+Avant exécution des travaux, l’entreprise devra transmettre un dossier d’exécution complet de ses 
+ouvrages pour validation par la maîtrise d’œuvre et le bureau de contrôle 
+Ce dossier comprendra notamment :  
+o  Les  fiches  techniques,  les  avis  techniques  en  cours  de  validité,  les  procès-verbaux  de 
+classement feu et acoustique, en cours de validité de tous les composants 
+o  Des plans de repérage de chaque niveau, des différents complexes mis en œuvre, avec 
+légende complète 
+Document établi par CODIBAT  page 8/14 
+CCTP-09-Carrelage-Faience.pdf - Page 8/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  MURS LOGEMENTS 
+3.1.1  SYSTEME DE PROTECTION  SOUS CARRELAGE (SPEC) 
+Mise en œuvre d’un système de protection à l’eau sous carrelage (SPEC) de type CERMITANCHE sans 
+armature de chez CERMIX ou équivalent pour les murs, au droit des bacs à douches et des baignoires, 
+en parements plaques de plâtre des SdB ou SdE. 
+ 
+3.1.2  FAÏENCES  
+D’une manière générale, l’entreprise devra respecter les recommandations minimales afin d’obtenir 
+la certification NF Habitat à savoir : 
+ 
+Pour les Salles de Bain et Salle d’Eau : FL.1.5.3.1 
+Les parois murales, au pourtour des équip
+
+Chunk 16 (BM25):
+restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Localisation 
+o  Dans les locaux OM des bâtiments 
+ 
+3.4  NETTOYAGE ET PROTECTION 
+Tous les nettoyages de mise en service seront dus par l'Entrepreneur du présent Corps d’état et 
+réalisés conformément aux spécifications du D.T.U. 59.1 "Cahier des clauses spéciales – article 3.1". 
+Les nettoyages n'excluent pas les protections complémentaires de certains ouvrages qui devront être 
+assurées à la demande du Maître d'Œuvre, sans l'octroi d'aucune plus-value sur le prix forfaitaire du 
+marché. 
+D'une manière générale, l'Entrepreneur du présent Corps d’état devra, en quittant le local après son 
+intervention, le laisser dans un état de propreté absolue. 
+L'Entrepreneur devra le grattage et le lavage de tous les sols par un produit adapté n'attaquant ni les 
+matériaux, ni les joints. 
+L'Entrepreneur devra tenir compte, que le ponçage ne permet pas d'effacer les tâches de peinture à 
+base de corps gras et devra protéger les sols en conséquence. 
+Les teintes des peintures seront exécutées à la demande et sans limitations suivant échantillons 
+sélectionnés par l’architecte en cours de chantier. 
+ 
+L’entreprise devra le nettoyage fin, des logements, des locaux annexes et des parties communes, 
+avant les OPR et avant la livraison finale. 
+Document établi par CODIBAT  page 22/25 
+CCTP-11-Peint-Revet mur.pdf - Page 22/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+4.  CONTROLES – ESSAIS – RECEPTION – GARANTIES – DOE 
+4.1  GENERALITES 
+Les contrôles seront effectués au fur et à mesure de l'avancement des travaux. 
+Les essais et contrôles sont à la charge de l'entrepreneur du présent corps d'état qui fournira les procès-
+verbaux de chaque essai.  
+Tous les essais et contrôles seront conduits conformément aux prescriptions du CCTG. 
+Il est rappelé l'obligation, pour l'entrepreneur, de procéder, pendant la période d'exécution des travaux, 
+aux vérifications technique qui leur incombent aux termes de la loi du 4 Janvier 1978. 
+En particulier, l'entrepreneur devra, dans son offre, définir le programme de contrôle interne en précisant 
+les dispositions prévues sur chantier pour en assurer le respect. 
+ 
+4.2  CONTROLES  
+En cours et en fin de travaux, il sera procédé à des contrôles quantitatifs et qualitatifs des fournitures et 
+mises en œuvre par rapport aux pièces du marché de l'entreprise. 
+Si les résultats constatés ne sont pas satisfaisants, l'entrepreneur sera tenu de commencer dans le délai 
+de huit jours, tous les remplacements, modifications, réparations ou adjonctions nécessaires, le tout à ses 
+frais.  
+Après exécution de ces ouvrages, il sera procédé à de nouveaux contrôles. 
+Si ces derniers ne sont pas encore satisfaisants, les ouvrages pourront être refusés en tout ou partie 
+suivant dire d'un expert choisi, d'un commun accord par les deux parties.  
+Dans ce cas, l'entrepreneur supportera, par ailleurs, les dépenses de toutes natures résultant de la 
+mauvaise qualité de ses ouvrages.  
+Tous les contrôles pourront être différés tant qu'une part quelconque des fournitures ou travaux ne sera 
+pas acceptée ; les conséquences en découlant restent à la charge de l'entreprise.  
+Toute défectuosité constatée sera immédiatement réparée par l'entrepreneur.  
+Les résultats feront l'objet d'un rapport détaillé signé par les représentants de l'entrepreneur et de 
+l'entreprise.  
+Toutes les manœuvres seront effectuées par le personnel de l'entrepreneur, sous sa responsabilité, 
+chaque contrôle pouvant être répété deux ou plusieurs fois. 
+ 
+4.3  ESSAIS 
+Les essais porteront sur le fonctionnement de tous les équipements phoniques posés par le présent 
+corps d'état avec fourniture de procès-verbaux. 
+L'entrepreneur doit mettre à la disposition de la Maîtrise d'Ouvrage et de la Maîtrise d'Œuvre tout le 
+personnel et les appareils de mesure nécessaires à la réalisation des vérifications et des essais.  
+Les appareils de mesure doivent être agréés au préalable par des agents techniques chargés
+
+Chunk 17 (BM25):
+en retour. 
+Document établi par CODIBAT  page 9/14 
+CCTP-09-Carrelage-Faience.pdf - Page 9/14 SEINE OUEST HABITAT  1184-DCE-CCTP-09-Carrelage-Faience-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Habillage du tablier de baignoire y compris trappe et du socle du receveur de douche (si nécessaire), y 
+compris paillasse si nécessaire. 
+ 
+Joint couleur au choix de l’architecte. 
+ 
+Localisation : 
+o  Dans l’ensemble des Salles de Bain, Salles d’Eau et WC des logements des bâtiments 
+o  Sanitaire loge 
+ 
+2.  Cuisine 
+Fourniture et pose collée de faïences 20x20cm type EMOCION de chez SALONI ou équivalent. 
+Couleur blanche. 
+Posée sur 60 cm de hauteur, sur toute la longueur des appareils (cuisson et évier), y compris retour 
+éventuel, suivant plans architecte. 
+ 
+Localisation : 
+o  Dans l’ensemble des cuisines des logements des bâtiments 
+ 
+3.2  PARTIES COMMUNES 
+3.2.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image montre un diagramme composé de quatre sections empilées verticalement, chacune étant un rectangle de couleur bleue avec du texte blanc. Voici la description de chaque section de haut en bas :
+
+1. **Combinations** : La première section en haut est étiquetée "Combinaisons". Elle semble indiquer un aspect lié à l'assemblage ou à la combinaison de différents éléments dans le domaine du bâtiment.
+
+2. **Doublages intérieurs des façades** : La deuxième section est intitulée "Doublages intérieurs des façades", ce qui fait référence à l'isolation ou au revêtement intérieur des murs extérieurs d'un bâtiment.
+
+3. **Planchers entre logements** : La troisième section porte le label "Planchers entre logements", indiquant les structures de plancher qui séparent différents logements ou unités résidentielles.
+
+4. **Revêtements de sol** : La dernière section en bas est marquée "Revêtements de sol", se référant aux matériaux ou techniques utilisés pour couvrir le sol à l'intérieur d'un bâtiment.
+
+Chaque section semble représenter un aspect différent de la construction ou de l'aménagement intérieur dans le secteur du bâtiment et des travaux publics (BTP).] [IMAGE: L'image montre un tableau technique lié au domaine du bâtiment et des travaux publics (BTP). Voici une description détaillée :
+
+1. **En-tête** : La cellule supérieure du tableau est numérotée "1.4", indiquant probablement une section ou un chapitre spécifique du document.
+
+2. **Première section** : 
+   - "ITI Th-A"
+   - "ITI Th-A 80+"
+   Ces termes semblent faire référence à des types d'isolation thermique intérieure (ITI) ou des spécifications associées.
+
+3. **Deuxième section** :
+   - "Béton ≥ 20 cm"
+   Cela indique une épaisseur minimale de 20 cm pour une structure en béton.
+
+4. **Troisième section** : 
+   - "Chape ΔLw ≥ 18 dB"
+   - "Sol souple ΔLw ≥ 18 dB"
+   - "Carrelage ΔLw ≥ 18 dB"
+   - "Parquet ΔLw ≥ 18 dB"
+   - "Chape Th-A ΔLw ≥ 19 dB"
+   Ces éléments concernent les performances acoustiques des matériaux de revêtement de sol, avec ΔLw représentant l'amélioration de l'isolation acoustique aux bruits d'impact, mesurée en décibels (dB). Les valeurs indiquent les performances minimales requises.
+
+Chaque ligne du tableau spécifie des exigences techniques pour différents matériaux ou méthodes de construction, probablement dans le cadre de la conformité à des normes de construction ou d'isolation.]
+ 
+ 
+3.2.2  CHAPE ACOUSTIQUE 
+Due au lot « Gros Œuvre ».   
+ 
+Document établi par CODIBAT  page 10/14 
+CCTP-09-Carrelage-Faience.pdf - Page 10/
+
+Chunk 18 (BM25):
+site 
+d’AFOCERT (Association Française des Organismes de Certification des Produits de Construction), 
+www.afocert.fr, renseigne sur les certifications de produits de construction existantes en France 
+-  Des produits intégrés à un procédé de construction innovant bénéficiant d’un Avis Technique ou d’un 
+Document Technique d’Application (DTA), ou d’une Appréciation Technique d’expérimentation (ATex) 
+ou  d’un  Pass  innovation  (voir  http://evaluation.cstb.fr/).  A  défaut,  les  matériaux,  produits  ou 
+équipement doivent justifier de caractéristiques de performance équivalentes. La justification de 
+l’équivalence est à fournir par le fabricant concerné. Les matériaux, produits ou équipements doivent 
+bénéficier d’un certificat de conformité et/ou avis technique à jour (leur validité peut être vérifiée sur 
+la liste des produits certifiés/évalués mise à disposition du public par l’organisme concerné). 
+ 
+Les entreprises devront être en mesure de proposer au Maître d’ouvrage, des produits disposant de 
+Fiches de Déclaration Environnementales et Sanitaires (FDES) conformes à la norme NF P01-010 ou de 
+Profils Environnementaux de Produits (PEP) conformes aux normes ISO 14025 et ISO 14040. 
+ 
+NF Habitat : l’entreprise veillera à ce que les produits de construction et de revêtements intérieurs soient à 
+minima étiquetés A, au sens de l’arrêté du 19 avril 2011 (QAI 1.2.2. 
+ 
+La durabilité naturelle ou conférée du bois (normes NF EN 350-2 et NF EN 351-1) est adaptée à la classe 
+d’emploi (déterminée dans la norme NF EN 335) (NF Habitat QAI 1.2.7). 
+ 
+En cas de traitement des produits bois, ce dernier est réalisé par un produit biocide en phase aqueuse 
+conforme à la directive 98/8/CE et le bois traité est labellisé CTB-B+ (ou équivalent) ; ou le bois est traité en 
+usine avec un produit labellisé CTB-P+ ou équivalent (NF Habitat QAI 1.2.9). 
+ 
+NF Habitat HQE, la totalité des produits qui entrent dans le champ d’application du décret n°2011-321 du 
+23 mars 2011 sont étiquetés A+ au sens de l’arrêté du 19 avril 2011 (NF Habitat QAI 1.2.3). 
+ 
+Les peintures ainsi que les produits pour rebouchages et enduits devront être choisis en fonction de 
+l'exposition des surfaces : extérieure et intérieure, exposition en atmosphère agressive, etc., les peintures 
+pour extérieur notamment devront résister aux intempéries.   
+Les peintures ainsi que les produits pour rebouchages et les enduits devront être compatibles avec le 
+subjectile à recouvrir et compatibles entre eux. 
+Les peintures des pièces humides devront être du type anti cryptogamique. 
+Les travaux ne devront être exécutés que sur des subjectiles parfaitement secs. 
+Avant l'application de toute couche, la surface qui la reçoit devra être débarrassée des souillures, 
+poussières, tâches de graisse, etc. 
+Les peintures et vernis devront, avant et en cours d'emploi, être maintenus en parfaite homogénéité par 
+brassage et éventuellement par tamisage. 
+L'application des peintures sera faite à la brosse ou au rouleau, l'application par pulvérisation ou tout 
+autre procédé mécanique devra faire l'objet d'un accord préalable de l'Architecte. 
+Document établi par CODIBAT  page 9/25 
+CCTP-11-Peint-Revet mur.pdf - Page 9/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Outre les opérations normalement prévues, la surface de chaque couche sera légèrement poncée avant 
+l'application de la couche suivante. 
+Le film définitif d'une peinture lisse devra présenter un aspect uniforme sans grain, ni trait. 
+Le ton définitif devra être tout à fait régulier et conforme à celui de la surface témoin. 
+Les reprises seront soignées. 
+L'application des peintures ne devra donner lieu à aucune surépaisseur anormale dans les feuillures des 
+menuiseries. 
+ 
+2.2  SPECIFICATIONS PARTICULIERES 
+2.2.1  ETUDE DU DOSSIER 
+L'entreprise est réputée s'être engagée dans son Marché en toute connaissance de cause. En particulier, 
+lui sont parfaitement conn
+
+Chunk 19 (BM25):
+, l'Entrepreneur devra procéder à ses frais aux réfections 
+nécessaires.  
+La réception ne pourra être prononcée qu'après nettoyage complet du chantier. 
+En outre, le peintre devra vérifier et s'assurer après achèvement de ses travaux du bon fonctionnement 
+de toutes les parties mobiles : paumelles, pivots, gâches, pênes, etc. Toutes les portes déposées seront 
+reposées en prenant soin de ne pas les intervertir ou endommager. 
+ 
+2.2.3.3  GARANTIE 
+Pendant la période de garantie, les peintures qui auront éprouvé une altération provenant de malfaçons 
+ou de la mauvaise qualité de la matière employée, seront refaites d'une ou plusieurs couches, aux frais du 
+présent Corps d’état. 
+Document établi par CODIBAT  page 11/25 
+CCTP-11-Peint-Revet mur.pdf - Page 11/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  PREPARATION DES SUPPORTS 
+Ces ouvrages seront réalisés conformément aux prescriptions techniques du D.T.U. 59.1. 
+3.1.1  PREPARATION DES SUPPORTS EN BETON 
+Les supports en béton armé seront livrés bruts de décoffrage pour parements soignés, suivant les 
+tolérances, le cas échéant suivant besoin, un ragréage dû au titre du corps d’état « Fondations - Gros 
+Œuvre – Maçonnerie ». 
+Les travaux comprennent les bouchages, ponçages, reprises nécessaires à une finition très soignée des 
+ouvrages en travaux intérieurs. 
+Le présent Corps d’état doit la réception des supports, et le notifiera par des fiches d’autocontrôle validant 
+les supports, à transmettre au fur et à mesure à la maîtrise d’œuvre. 
+ 
+3.1.1.1  PREPARATION DES MURS EN BETON 
+Complément aux reprises des arêtes et cueillies exécutées par le gros-œuvre. 
+Egrenage. 
+Epoussetage. 
+Dégrossissage. 
+Enduit de surfaçage pelliculaire, 2 passes. 
+ 
+3.1.1.2  PREPARATION DES PLAFONDS EN BETON 
+Complément aux reprises cueillies exécutées par le gros-œuvre. 
+Egrenage. 
+Epoussetage. 
+Enduit de surfaçage pelliculaire, 2 passes. 
+ 
+3.1.2  PREPARATION DES SUPPORTS EN PLATRE 
+3.1.2.1  PREPARATION DES CLOISONS SECHES OU DE DOUBLAGE 
+Le ratissage sur le joint sera réalisé par le Corps d’état « Cloisons - Doublages - Faux plafonds ». 
+ 
+3.1.2.2  PREPARATION DES CLOISONS EN CARREAUX DE PLATRE ET ENDUIT PLATRE 
+Egrenage. 
+Rebouchage, ponçage, époussetage. 
+Ratissage. 
+Une couche d'enduit complémentaire sur l'ensemble des carreaux de plâtre. 
+ 
+Document établi par CODIBAT  page 12/25 
+CCTP-11-Peint-Revet mur.pdf - Page 12/25 SEINE OUEST HABITAT  1184-DCE-CCTP-11-Peint-Revet mur-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.1.3  PREPARATION DES OUVRAGES BOIS 
+Le traitement des produits bois, doit être réalisé par un produit biocide en phase aqueuse conforme à la 
+directive 98/8/CE et le bois traité est labellisé CTB-B+ (ou équivalent), ou le bois est traité en usine avec un 
+produit labellisé CTB-P+, ou équivalent. 
+Brossage, rebouchage, une couche d'enduit. 
+Impression des ouvrages en bois. 
+L'entreprise devra l'impression des bois en contact direct avec le gros œuvre, avant leur pose, posés par le 
+Corps d’état « Menuiserie ». 
+ 
+3.1.4  PREPARATION DES OUVRAGES METALLIQUES 
+Brossage. 
+Epoussetage. 
+Révision de la couche antirouille. 
+Dégraissage si métal brut. 
+ 
+3.2  TRAVAUX EN LOGEMENTS ET LOGE 
+3.2.1  PLAFONDS ET MURS 
+3.2.1.1  PIECES HUMIDES 
+Plafonds et murs 
+Après préparation des supports, 2 couches de peinture lessivable ac
+
+Chunk 20 (BM25):
+/CN, sur l’ensemble de son cycle de vie.  
+ Etiquette sanitaire (classe A et A+) : s’il entre dans le champ d’application de l’arrêté du 19 avril 2011 
+relatif à l’étiquetage des produits de construction ou de revêtement de mur ou de sol et des peintures et 
+vernis sur leurs émissions de polluants volatils, le produit est classé A ou A+ au sens de cet arrêté.  
+ Gestion durable des forêts (PEFC, FSC) : dans le cas où le produit ou mobilier est composé de bois, il 
+dispose d’une preuve attestant la gestion durable des forêts dont le bois est issu. Les marques de 
+certification forestière attestant que les approvisionnements sont issus de forêts gérées durablement 
+(forêts éco certifiées) constituent des modes de preuve (exemple PEFC, FSC). 
+Respect de la règlementation sur les biocides : dans le cas de produits contenant des biocides, le 
+respect de la règlementation européenne concernant la mise sur le marché de ces produits est exigé 
+(directive 98/8/CE). 
+ 
+2.3.2  ETUDE DU DOSSIER 
+L'entreprise est réputée s'être engagée dans son Marché en toute connaissance de cause. En 
+particulier, lui sont parfaitement connus le terrain et ses sujétions propres, les contraintes relatives 
+aux constructions voisines, les modalités d'accès par la voirie, les possibilités et difficultés de 
+circulation et de stationnement, les sujétions des règlements administratifs en vigueur se rapportant 
+à la sécurité sur le domaine public. 
+Elle ne pourra jamais arguer que des erreurs ou omissions puissent la dispenser d'exécuter tous les 
+travaux de sa profession ou fassent l'objet d'une demande de suppléments sur ses prix. 
+ 
+2.3.3  CLASSEMENT UPEC ET ISOLEMENT ACOUSTIQUE 
+Les revêtements de sols devront être au minimum de classement UPEC et glissance (XP P 05-010) 
+suivants: 
+o  Circulations et escaliers revêtus de sols souples (≥25 logements): U3 -P2-E1-C0  s
+o  Pièces sèches : U2 -P2-E1-C0  s
+o  SdB, SdE, WC : U2 -P2-E2-C1 PN6 / R10  s
+o  Cuisines : U3-P3-E2-C2 PC10 / R10 
+ 
+Lw supérieur ou égal à 20 dB. 
+Document établi par CODIBAT  page 8/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 8/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+Les procès-verbaux de classement UPEC seront à transmettre. 
+ 
+2.3.4  DOCUMENTS D’EXECUTION 
+Avant exécution des travaux, l’entreprise devra transmettre un dossier d’exécution complet de ses 
+ouvrages pour validation par la maîtrise d’œuvre et le bureau de contrôle. 
+Ce dossier comprendra notamment :  
+o  Les  fiches  techniques,  les  avis  techniques  en  cours  de  validité,  les  procès-verbaux  de 
+classement feu et acoustique, en cours de validité de tous les composants 
+o  Des plans de repérage de chaque niveau, des différents complexes mis en œuvre, avec 
+légende complète 
+Document établi par CODIBAT  page 9/17 
+CCTP-10-Reve·t de sols soupl.pdf - Page 9/17 SEINE OUEST HABITAT  1184-DCE-CCTP-10-Revêt de sols soupl-201807.doc 
+Construction de logements, crèche, restaurant 
+131-133 avenue de Verdun 
+92130 ISSY LES MOULINEAUX 
+ 
+3.  DESCRIPTION DES TRAVAUX 
+3.1  LOGEMENTS 
+3.1.1  NF HABITAT HQE 
+Les procédés mis en œuvre devront permettre l’obtention de la certification NF Habitat HQE et 
+notamment au niveau des exigences acoustiques aux bruits de chocs : L'nT,w inférieur ou égal à 55 
+dB (QA 3.2 et 3.3, QA 3.12, 3.13, 3.14, 3.15 et 3.16 de l’applicatif NF500-10 V2.2). 
+Solutions techniques possibles : Art.5.4 du Référentiel Qualitel Acoustique - 01/2017 : 
+ 
+[IMAGE: L'image présente un diagramme composé de quatre sections rectangulaires empilées verticalement. Chaque section est de couleur
+

@@ -161,6 +161,10 @@ class ConversationalRAGEngine:
             "    - Utilise des titres (avec ##) pour les différentes sections de ta réponse.\n"
             "    - Utilise des listes à puces (•) ou numérotées pour les éléments, les étapes ou les comparaisons afin d'améliorer la lisibilité."
             
+            "8. COUVERTURE : Identifie tous les SOUS‑THÈMES techniques que les documents abordent en rapport avec la question de l’utilisateur\n"
+            "(ex. préparation du support, type de matériau, mise en œuvre, essais, finitions, maintenance…).\n"
+            "- Regroupe les informations par sous‑thème.\n"
+            "- Si un sous‑thème apparaît dans au moins un document, il doitfigurer dans la réponse.\n"
             
             # "6. STYLE DE RÉPONSE:\n"
             # "   - Sois concis et direct\n"
@@ -204,7 +208,8 @@ class ConversationalRAGEngine:
             "   - CORRECT: 'charge de 1000 KN/m² (01_Gros-Oeuvre_VSS.pdf, Page 9)'\n"
             "   - CORRECT: 'charge de 1000 KN/m² (01_Gros-Oeuvre_VSS.pdf, Page 9), (05_CCP_11.pdf, Page 25) '\n"
             "   - INCORRECT: 'charge de 1000 KN/m² (Document 1, Page 9)'\n"
-            "   - INCORRECT: 'charge de 1000 KN/m² (Source 1, Page 9)'"
+            "   - INCORRECT: 'charge de 1000 KN/m² (Source 1, Page 9)'\n"
+           "9. Avant de rédiger, élabore mentalement (raisonnement interne) un PLAN des sous‑thèmes que tu vas couvrir, puis rédige la réponse en suivant ce plan.  N’affiche pas le plan, seulement le résultat."
         )
 
         return "\n\n".join(prompt_parts)
